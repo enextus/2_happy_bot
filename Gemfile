@@ -35,6 +35,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'telegram-bot-ruby'
 
+gem 'sidekiq'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -43,7 +45,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'pry'
   gem 'dotenv'
-  gem 'sidekiq'
+
 end
 
 group :development do
