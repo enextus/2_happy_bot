@@ -8,7 +8,7 @@ class UsersController < ApplicationController
 
 TOKEN = ENV['TOKEN']
   # time until last write to the db
-  DELAY_TIME = 5
+  DELAY_TIME = 50
 
   ANSWERS = [
         # positive
@@ -36,17 +36,21 @@ TOKEN = ENV['TOKEN']
         'Перспективы не очень хорошие',
         'Весьма сомнительно'
       ].freeze
-  # check the 5 minutes interval until the last saving in the DB from each user
+
+  # check the DELAY_TIME minutes interval
+  # until the last saving by each user in the DB
   def check_interval(first_name)
-  # s prowerkoj est li zapis v db
-    if (last_save = User.where(first_name: first_name)).empty?
-    # po def. vernet false - poetomu unless - i 4to hotim true
-     return unless last_save.last.created_at  Time.zone.now
-     true
-   end
+
+    last_save = User.where(first_name: first_name)
+
+    if last_save.empty?
+      return true
+    else
+      Time.zone.now - last_save.last.created_at > DELAY_TIME
+    end
   end
 
-  # et_iz API telegram zabiraet
+  # get the message from telegram API
   def get_user_message
 
     Telegram::Bot::Client.run(TOKEN) do |bot|
@@ -92,50 +96,34 @@ MSG
             # db record to user_id by date and by score at each day
             # rails g migration add_user_user_vote
             # message.as_json['message']['chat']['first_name']
-            # message.as_json['data']
-            # message.as_json['message']['text']
             # message.as_json['message']['date']
+            # message.as_json['data']
 
             # short write for our varianles
             data = message.as_json['data']
-            # => 3
 
             data_content = message.as_json['message']
 
             first_name = data_content['chat']['first_name']
-            # => "eduardberlin"
 
             date = data_content['date']
-            # => 1520343095
 
             telegram_id = data_content['chat']['id']
-            # => 379288866
 
             message_id = data_content['message_id']
 
-            text = data_content['text']
+            # binding.pry
 
-            binding.pry
-
-            check_interval(first_name)
-
-            # => "Eduardberlin, пожалуйста,\n
-            # оцени следующее утверждение:...
-
-
-
-            # Time.at(date)
-            # Date.new(2009,11,26).to_time.to_i
-
-            # write in to DB
-            User.create(
-              first_name: first_name,
-              data: data,
-              date: date,
-              telegram_id: telegram_id,
-              message_id: message_id,
-              text: text
-            )
+            if check_interval(first_name)
+              # write in to DB
+              User.create(
+                first_name: first_name,
+                data: data,
+                date: date,
+                telegram_id: telegram_id,
+                message_id: message_id
+              )
+            end
 
             bot.api.send_message(chat_id: message.from.id, text: @thanks_msg)
           else
