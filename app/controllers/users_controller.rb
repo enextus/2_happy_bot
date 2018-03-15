@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
+# Telegram bot with a happiness measurement tool.
 class UsersController < ApplicationController
-  #
   require 'dotenv'
   Dotenv.load
 
@@ -9,7 +11,7 @@ class UsersController < ApplicationController
   TOKEN = ENV['TOKEN']
 
   # Delay time time until last write to the db
-  DELAY = 50
+  DELAY = 30
 
   # check interval after last saving by each user in the DB
   def check_interval(first_name)
@@ -17,87 +19,83 @@ class UsersController < ApplicationController
     Time.zone.now - last_saved.last.created_at > DELAY
   end
 
+  # add worker to the queue
+  def report
+    ReportWorker.perform_async("01-03-2018", "10-12-2018" )
+  end
+
   # get the message from telegram API
-  def get_user_message
+  def getting_user_message
     Telegram::Bot::Client.run(TOKEN) do |bot|
       bot.listen do |message|
+        # parsing of data hash
+        def getting_msg
+          return if Message.where(name: 'welcome_msg').empty?
+          Message.select(:name, :description).to_hash
+        end
 
-        @welcome_msg = <<MSG
-          Привет #{message.from.first_name.capitalize}!
-MSG
+        def getting_btn
+          return if Button.where(name: '0_btn').empty?
+          Button.all
+        end
 
-        @desc_msg = <<MSG
-          Эта шкала субъективного счастья
-          измеряет эмоциональное переживание
-          индивидом собственной жизни как целого,
-          отражающее общий уровень психологического благополучия в данный момент.
-MSG
+        # messages user name string shortener
+        m_name = message.from.first_name.capitalize
 
-        @thanks_msg = <<MSG
-          Спасибо за твой ответ\nДо следующего сеанса,
-          #{message.from.first_name.capitalize}!
-MSG
+        # messages user name string shortener
+        msg_dat = message.as_json['message']
 
-        @warning_msg = <<MSG
-          Спасибо #{message.from.first_name.capitalize},
-          но твой ответ уже принят, до следующего сеанса!
-MSG
 
-        @bye_msg = <<MSG
-          До следующего сеанса, #{message.from.first_name.capitalize}
-MSG
-
-        @req_msg = <<MSG
-          #{message.from.first_name.capitalize}, пожалуйста,
-          оцени следующее утверждение: "В данный момент я счастлив.",
-          сделав соответствующий выбор, нажатием кнопки ниже."
-MSG
+        # binding.pry
 
         case message
         when Telegram::Bot::Types::CallbackQuery
           # Here you can handle your callbacks from inline buttons
-          if (-3..3).cover?(message.data.to_i)
-            data_cont = message.as_json['message']
-            if check_interval(data_cont['chat']['first_name'])
-
-              binding.pry
-
-              User.create(
-                first_name: data_cont['chat']['first_name'],
-                data: message.as_json['data'],
-                date: data_cont['date'],
-                telegram_id: data_cont['chat']['id'],
-                message_id: data_cont['message_id']
-              )
-            end
-            bot.api.send_message(chat_id: message.from.id, text: @thanks_msg)
+          return false unless message.data.to_i
+          if check_interval(msg_dat['chat']['first_name'])
+            User.create(user_params(message))
+            report
+            bot.api.send_message(chat_id: message.from.id, text: getting_msg['thanks_msg'] + m_name)
           else
-            bot.api.send_message(chat_id: message.from.id, text: @warning_msg)
+            bot.api.send_message(chat_id: message.from.id, text: m_name + getting_msg['warning_msg'])
           end
         when Telegram::Bot::Types::Message
           case message.text
           when '/start'
-            bot.api.send_message(chat_id: message.chat.id, text: @welcome_msg)
-            bot.api.send_message(chat_id: message.chat.id, text: @desc_msg)
-            kb = [
-              Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Совершенно не согласен ', callback_data: 3),
-              Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Не согласен', callback_data: 2),
-              Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Немного не согласен', callback_data: 1),
-              Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Неопределенно (и согласен, и не согласен)', callback_data: 0),
-              Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Немного согласен', callback_data: -1),
-              Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Согласен', callback_data: -2),
-              Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Совершенно согласен', callback_data: -3)
-            ]
+            bot.api.send_message(chat_id: message.chat.id, text: getting_msg['welcome_msg'] + m_name)
+            bot.api.send_message(chat_id: message.chat.id, text: getting_msg['desc_msg'])
+            # buttons array
+            kb = getting_btn.map do |button|
+            Telegram::Bot::Types::InlineKeyboardButton.new(text: button.description, callback_data: button.button_value)
+            end
             markup = Telegram::Bot::Types::InlineKeyboardMarkup.new(inline_keyboard: kb)
-            bot.api.send_message(chat_id: message.chat.id, text: @req_msg, reply_markup: markup)
+            bot.api.send_message(chat_id: message.chat.id, text: m_name + getting_msg['req_msg'], reply_markup: markup)
           when '/stop'
-            bot.api.send_message(chat_id: message.chat.id, text: @bye_msg)
+            bot.api.send_message(chat_id: message.chat.id, text: getting_msg['bye_msg'] + m_name)
           else
-            bot.api.send_message(chat_id: message.chat.id, text: ANSWERS.sample)
+            answer = User.class_variable_get :@@answers
+            bot.api.send_message(chat_id: message.chat.id, text: answer.sample)
           end
         end
       end
     end
   end
-  # pos_iz API tool otdaet
+    # "strong params"
+
+    private
+
+  def generate_report
+    sleep 27
+  end
+
+  def user_params(message)
+    msg = message.as_json
+    {
+      first_name: msg['message']['chat']['first_name'],
+      data: msg['data'],
+      date: msg['message']['date'],
+      chat_id: msg['message']['chat']['id'],
+      message_id: msg['message']['message_id']
+    }
+  end
 end

@@ -1,0 +1,3207 @@
+Running via Spring preloader in process 21382
+Running via Spring preloader in process 21495
+Running via Spring preloader in process 21610
+Running via Spring preloader in process 21720
+Running via Spring preloader in process 21839
+Running via Spring preloader in process 21944
+Running via Spring preloader in process 22056
+Running via Spring preloader in process 22158
+Running via Spring preloader in process 22292
+Running via Spring preloader in process 22579
+Running via Spring preloader in process 22831
+Running via Spring preloader in process 22937
+Running via Spring preloader in process 23049
+Running via Spring preloader in process 23162
+Running via Spring preloader in process 23272
+Running via Spring preloader in process 23854
+Running via Spring preloader in process 24026
+Running via Spring preloader in process 24130
+Running via Spring preloader in process 24248
+Running via Spring preloader in process 24524
+Running via Spring preloader in process 24750
+Running via Spring preloader in process 24890
+Running via Spring preloader in process 25001
+Running via Spring preloader in process 25110
+Running via Spring preloader in process 25222
+Running via Spring preloader in process 25398
+Running via Spring preloader in process 25529
+Running via Spring preloader in process 25643
+Running via Spring preloader in process 25749
+Running via Spring preloader in process 26069
+Running via Spring preloader in process 26177
+Running via Spring preloader in process 26298
+Running via Spring preloader in process 26404
+Running via Spring preloader in process 26634
+Running via Spring preloader in process 26802
+Running via Spring preloader in process 26899
+Running via Spring preloader in process 27002
+Running via Spring preloader in process 27100
+Running via Spring preloader in process 27214
+Running via Spring preloader in process 27324
+Running via Spring preloader in process 27426
+Running via Spring preloader in process 27541
+Running via Spring preloader in process 27874
+Running via Spring preloader in process 28277
+Running via Spring preloader in process 28427
+Running via Spring preloader in process 28664
+Running via Spring preloader in process 28669
+Running via Spring preloader in process 28775
+Running via Spring preloader in process 28957
+Running via Spring preloader in process 28962
+Running via Spring preloader in process 29068
+Running via Spring preloader in process 29616
+Running via Spring preloader in process 29775
+Running via Spring preloader in process 29780
+Running via Spring preloader in process 29894
+Running via Spring preloader in process 30058
+Running via Spring preloader in process 30063
+Running via Spring preloader in process 30167
+Running via Spring preloader in process 30331
+Running via Spring preloader in process 30336
+Running via Spring preloader in process 30438
+Running via Spring preloader in process 30612
+Running via Spring preloader in process 30617
+Running via Spring preloader in process 30784
+Running via Spring preloader in process 30789
+Running via Spring preloader in process 30962
+Running via Spring preloader in process 30967
+Running via Spring preloader in process 31064
+Running via Spring preloader in process 31232
+Running via Spring preloader in process 31237
+Running via Spring preloader in process 31336
+Running via Spring preloader in process 31503
+Running via Spring preloader in process 31508
+Running via Spring preloader in process 31609
+Running via Spring preloader in process 31774
+Running via Spring preloader in process 31779
+Running via Spring preloader in process 31882
+Running via Spring preloader in process 32043
+Running via Spring preloader in process 32048
+Running via Spring preloader in process 32154
+Running via Spring preloader in process 32317
+Running via Spring preloader in process 32322
+Running via Spring preloader in process 32453
+Running via Spring preloader in process 324
+Running via Spring preloader in process 329
+Running via Spring preloader in process 453
+Running via Spring preloader in process 684
+Running via Spring preloader in process 690
+Running via Spring preloader in process 695
+Running via Spring preloader in process 850
+Running via Spring preloader in process 1015
+Running via Spring preloader in process 1020
+Running via Spring preloader in process 1176
+Running via Spring preloader in process 1388
+Running via Spring preloader in process 1393
+Running via Spring preloader in process 1512
+Running via Spring preloader in process 1716
+Running via Spring preloader in process 1721
+Running via Spring preloader in process 1906
+Running via Spring preloader in process 2399
+Running via Spring preloader in process 2405
+Running via Spring preloader in process 2513
+Running via Spring preloader in process 13160
+Running via Spring preloader in process 13165
+Running via Spring preloader in process 13377
+Running via Spring preloader in process 13582
+Running via Spring preloader in process 13587
+Running via Spring preloader in process 13687
+Running via Spring preloader in process 13938
+Running via Spring preloader in process 13943
+Running via Spring preloader in process 14153
+Running via Spring preloader in process 14158
+Running via Spring preloader in process 14352
+Running via Spring preloader in process 14357
+Running via Spring preloader in process 15082
+bundler: failed to load command: bin/rails (bin/rails)
+Bundler::Dsl::DSLError: 
+[!] There was an error parsing `Gemfile`: syntax error, unexpected '>' - gem loofah ~> 2.2.1
+            ^
+/home/enextus/projects/happy_bot/Gemfile:40: unexpected fraction part after numeric literal
+gem loofah ~> 2.2.1
+              ^~~. Bundler cannot continue.
+
+ #  from /home/enextus/projects/happy_bot/Gemfile:40
+ #  -------------------------------------------
+ #  
+ >  gem loofah ~> 2.2.1
+ #  
+ #  -------------------------------------------
+
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/dsl.rb:47:in `instance_eval'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/dsl.rb:47:in `eval_gemfile'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/dsl.rb:12:in `evaluate'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/definition.rb:35:in `build'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler.rb:135:in `definition'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler.rb:101:in `setup'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/setup.rb:20:in `<top (required)>'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+bundler: failed to load command: bin/rails (bin/rails)
+Bundler::Dsl::DSLError: 
+[!] There was an error parsing `Gemfile`: syntax error, unexpected '>' - gem loofah ~> 2.2.1
+            ^
+/home/enextus/projects/happy_bot/Gemfile:40: unexpected fraction part after numeric literal
+gem loofah ~> 2.2.1
+              ^~~. Bundler cannot continue.
+
+ #  from /home/enextus/projects/happy_bot/Gemfile:40
+ #  -------------------------------------------
+ #  
+ >  gem loofah ~> 2.2.1
+ #  
+ #  -------------------------------------------
+
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/dsl.rb:47:in `instance_eval'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/dsl.rb:47:in `eval_gemfile'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/dsl.rb:12:in `evaluate'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/definition.rb:35:in `build'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler.rb:135:in `definition'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler.rb:101:in `setup'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/setup.rb:20:in `<top (required)>'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+bundler: failed to load command: bin/rails (bin/rails)
+Bundler::GemNotFound: You have requested:
+  loofah ~> 2.2.1
+
+The bundle currently has loofah locked at 2.2.0.
+Try running `bundle update loofah`
+
+If you are updating multiple gems in your Gemfile at once,
+try passing them all to `bundle update`
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/resolver.rb:289:in `block in verify_gemfile_dependencies_are_found!'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/resolver.rb:257:in `each'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/resolver.rb:257:in `verify_gemfile_dependencies_are_found!'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/resolver.rb:48:in `start'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/resolver.rb:22:in `resolve'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/definition.rb:257:in `resolve'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/definition.rb:170:in `specs'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/definition.rb:237:in `specs_for'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/definition.rb:226:in `requested_specs'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/runtime.rb:108:in `block in definition_method'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/runtime.rb:20:in `setup'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler.rb:107:in `setup'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/setup.rb:20:in `<top (required)>'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+Running via Spring preloader in process 15788
+Running via Spring preloader in process 15793
+Running via Spring preloader in process 15953
+Running via Spring preloader in process 16138
+Running via Spring preloader in process 16143
+Running via Spring preloader in process 16259
+Running via Spring preloader in process 16445
+Running via Spring preloader in process 16450
+Running via Spring preloader in process 16560
+Running via Spring preloader in process 16760
+Running via Spring preloader in process 16765
+Running via Spring preloader in process 16962
+Running via Spring preloader in process 17139
+Running via Spring preloader in process 17144
+Running via Spring preloader in process 17265
+Running via Spring preloader in process 17556
+Running via Spring preloader in process 17561
+Running via Spring preloader in process 17566
+Running via Spring preloader in process 17692
+Running via Spring preloader in process 17879
+Running via Spring preloader in process 17884
+Running via Spring preloader in process 18015
+Running via Spring preloader in process 18196
+Running via Spring preloader in process 18201
+Running via Spring preloader in process 18414
+Running via Spring preloader in process 18615
+Running via Spring preloader in process 18621
+Running via Spring preloader in process 19079
+Running via Spring preloader in process 19240
+Running via Spring preloader in process 19245
+Running via Spring preloader in process 19344
+Running via Spring preloader in process 19640
+Running via Spring preloader in process 19645
+Running via Spring preloader in process 19746
+Running via Spring preloader in process 19904
+Running via Spring preloader in process 19909
+Running via Spring preloader in process 20024
+Running via Spring preloader in process 20181
+Running via Spring preloader in process 20186
+Running via Spring preloader in process 20351
+Running via Spring preloader in process 20356
+Running via Spring preloader in process 20542
+Running via Spring preloader in process 20547
+Running via Spring preloader in process 20653
+Running via Spring preloader in process 20813
+Running via Spring preloader in process 20818
+Running via Spring preloader in process 20917
+Running via Spring preloader in process 21080
+Running via Spring preloader in process 21085
+Running via Spring preloader in process 13087
+Running via Spring preloader in process 13092
+Running via Spring preloader in process 13359
+Running via Spring preloader in process 13364
+Running via Spring preloader in process 13651
+Running via Spring preloader in process 13656
+Running via Spring preloader in process 13804
+Running via Spring preloader in process 14085
+Running via Spring preloader in process 14090
+Running via Spring preloader in process 14218
+Running via Spring preloader in process 14656
+Running via Spring preloader in process 14661
+Running via Spring preloader in process 14764
+Running via Spring preloader in process 15085
+Running via Spring preloader in process 15090
+Running via Spring preloader in process 15215
+Running via Spring preloader in process 16361
+Running via Spring preloader in process 16366
+Running via Spring preloader in process 16588
+Running via Spring preloader in process 16593
+Running via Spring preloader in process 16774
+Running via Spring preloader in process 16952
+Running via Spring preloader in process 16957
+Running via Spring preloader in process 17060
+Running via Spring preloader in process 17237
+Running via Spring preloader in process 17242
+Running via Spring preloader in process 17349
+Running via Spring preloader in process 17513
+Running via Spring preloader in process 17518
+Running via Spring preloader in process 17616
+Running via Spring preloader in process 17824
+Running via Spring preloader in process 17829
+Running via Spring preloader in process 17951
+Running via Spring preloader in process 18112
+Running via Spring preloader in process 18117
+Running via Spring preloader in process 18901
+Running via Spring preloader in process 18906
+Running via Spring preloader in process 19061
+Running via Spring preloader in process 19066
+Running via Spring preloader in process 19224
+Running via Spring preloader in process 19398
+Running via Spring preloader in process 19403
+Running via Spring preloader in process 19863
+Running via Spring preloader in process 20063
+Running via Spring preloader in process 20068
+Running via Spring preloader in process 20246
+Running via Spring preloader in process 20473
+Running via Spring preloader in process 20478
+Running via Spring preloader in process 20615
+Running via Spring preloader in process 20807
+Running via Spring preloader in process 20813
+Running via Spring preloader in process 20946
+Running via Spring preloader in process 21139
+Running via Spring preloader in process 21144
+Running via Spring preloader in process 21279
+Running via Spring preloader in process 21485
+Running via Spring preloader in process 21490
+Running via Spring preloader in process 21626
+Running via Spring preloader in process 21940
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 21945
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 21950
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 22088
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 22695
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 22700
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 22907
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 23144
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 23149
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 23311
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 23565
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 23570
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 23775
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 24050
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 24055
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 24254
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 24436
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 24441
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 24586
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 24764
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 24769
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 24873
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 25071
+Running via Spring preloader in process 25076
+Running via Spring preloader in process 25306
+Running via Spring preloader in process 25311
+Running via Spring preloader in process 26967
+Running via Spring preloader in process 27116
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 27223
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 27336
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 27478
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 27696
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 27889
+Running via Spring preloader in process 28032
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28145
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28287
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28398
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28536
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28645
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28787
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28964
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 29067
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 29179
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 29327
+Running via Spring preloader in process 29437
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 29614
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 29726
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 29866
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 29976
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 30145
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 30295
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 30553
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 30723
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 30877
+Running via Spring preloader in process 30992
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 31175
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 31388
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 31497
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 31610
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 31718
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 31828
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 31943
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 32053
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 32158
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 32271
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 32413
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 32523
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 32668
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 314
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 460
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 611
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 810
+Running via Spring preloader in process 928
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 1114
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 1242
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 1461
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 1577
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 1679
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 1791
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 1906
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 2069
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 2491
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 2654
+Running via Spring preloader in process 2763
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 3021
+Running via Spring preloader in process 1850
+Running via Spring preloader in process 1855
+Running via Spring preloader in process 1955
+Running via Spring preloader in process 2053
+Running via Spring preloader in process 2211
+Running via Spring preloader in process 2216
+Running via Spring preloader in process 3375
+Running via Spring preloader in process 3973
+Running via Spring preloader in process 4510
+Running via Spring preloader in process 4515
+Running via Spring preloader in process 4676
+Running via Spring preloader in process 4786
+Running via Spring preloader in process 4950
+Running via Spring preloader in process 4955
+Running via Spring preloader in process 5055
+Running via Spring preloader in process 5158
+Running via Spring preloader in process 5326
+Running via Spring preloader in process 5331
+Running via Spring preloader in process 5434
+Running via Spring preloader in process 5533
+Running via Spring preloader in process 5705
+Running via Spring preloader in process 5710
+Running via Spring preloader in process 5813
+Running via Spring preloader in process 5917
+Running via Spring preloader in process 6083
+Running via Spring preloader in process 6088
+Running via Spring preloader in process 6184
+Running via Spring preloader in process 6285
+Running via Spring preloader in process 6447
+Running via Spring preloader in process 6452
+Running via Spring preloader in process 6555
+Running via Spring preloader in process 6656
+Running via Spring preloader in process 6821
+Running via Spring preloader in process 6826
+Running via Spring preloader in process 6935
+Running via Spring preloader in process 7040
+Running via Spring preloader in process 7201
+Running via Spring preloader in process 7206
+Running via Spring preloader in process 7316
+Running via Spring preloader in process 7411
+Running via Spring preloader in process 7578
+Running via Spring preloader in process 7583
+Running via Spring preloader in process 7685
+Running via Spring preloader in process 7791
+Running via Spring preloader in process 7953
+Running via Spring preloader in process 7958
+Running via Spring preloader in process 8325
+Running via Spring preloader in process 8514
+Running via Spring preloader in process 8697
+Running via Spring preloader in process 8702
+Running via Spring preloader in process 9039
+Running via Spring preloader in process 9158
+Running via Spring preloader in process 9395
+Running via Spring preloader in process 9400
+Running via Spring preloader in process 9508
+Running via Spring preloader in process 9609
+Running via Spring preloader in process 9777
+Running via Spring preloader in process 9782
+Running via Spring preloader in process 9884
+Running via Spring preloader in process 9987
+Running via Spring preloader in process 10156
+Running via Spring preloader in process 10161
+Running via Spring preloader in process 10259
+Running via Spring preloader in process 10362
+Running via Spring preloader in process 10541
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 10546
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 10655
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 10783
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 10975
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 10980
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 11280
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 11408
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 11993
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 11998
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 12137
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 12272
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 12457
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 12462
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 12584
+Running via Spring preloader in process 12747
+Running via Spring preloader in process 13000
+Running via Spring preloader in process 13005
+Running via Spring preloader in process 13243
+Running via Spring preloader in process 13378
+Running via Spring preloader in process 13545
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 13550
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 13739
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 13917
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 14302
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 14307
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 14469
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 14635
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 15394
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 15399
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 15524
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 15757
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 15989
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 15994
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 16129
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 16242
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 16450
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 16455
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 16561
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 16677
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 16863
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 16868
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 16970
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 17077
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 17258
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 17263
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 17374
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 17495
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 17672
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 17677
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 17791
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 17906
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 18074
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 18079
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 18190
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 18297
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 18473
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 18478
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 18597
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 18714
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 18895
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 18900
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 19048
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 19178
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 19345
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 19350
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 19457
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 19811
+Running via Spring preloader in process 19816
+Running via Spring preloader in process 19957
+Running via Spring preloader in process 20174
+Running via Spring preloader in process 20179
+Running via Spring preloader in process 20285
+Running via Spring preloader in process 20463
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 20468
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::WorkerNew
+Running via Spring preloader in process 20596
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 20823
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 20828
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::WorkerNew
+Running via Spring preloader in process 20951
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 21132
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 21137
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::WorkerNew
+Running via Spring preloader in process 21262
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 21462
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 21467
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::WorkerNew
+Running via Spring preloader in process 21594
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 21767
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::WorkerNew
+Running via Spring preloader in process 21772
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 21883
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 22062
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 22067
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::WorkerNew
+Running via Spring preloader in process 22195
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 22371
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::WorkerNew
+Running via Spring preloader in process 22376
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 22582
+Running via Spring preloader in process 22792
+Running via Spring preloader in process 22797
+Running via Spring preloader in process 22907
+Running via Spring preloader in process 23108
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 23113
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 23307
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 23480
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 23485
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 23596
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 23832
+Running via Spring preloader in process 23838
+Running via Spring preloader in process 23957
+Running via Spring preloader in process 24179
+Running via Spring preloader in process 24185
+Running via Spring preloader in process 24312
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 24533
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 24538
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 24742
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 24935
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 24940
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25049
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25218
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25223
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25332
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25508
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25513
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25619
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25813
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25818
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25927
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 26096
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 26101
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 26220
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 26395
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 26400
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 26519
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 26691
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 26697
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 26817
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 27009
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 27014
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 27168
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 27493
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 27498
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 27647
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 27819
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 27824
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 27934
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28114
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28119
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28234
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28404
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28409
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28516
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28689
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28694
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28802
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28980
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 28985
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 29095
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 29278
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 29283
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 29388
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 29566
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 29571
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 29677
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 29846
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 29851
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 29959
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 30129
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 30134
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 30245
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 30419
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 30424
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 30536
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 30705
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 30710
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 30819
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 30992
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 30997
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 31107
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 31275
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 31280
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 31385
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 31556
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 31561
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 31670
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 31845
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 31850
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 31963
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 32127
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 32132
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 32237
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 32406
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 32411
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 32515
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 32694
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 32699
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 345
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 537
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 543
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 671
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 846
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 851
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 1035
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 1222
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 1227
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 1487
+Running via Spring preloader in process 1757
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 1762
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 2005
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 2232
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 2237
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 2409
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 2706
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 2718
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 2906
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 3104
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 3109
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 3310
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 3501
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 3506
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 3651
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 3853
+Running via Spring preloader in process 3859
+Running via Spring preloader in process 3963
+Running via Spring preloader in process 4168
+Running via Spring preloader in process 4174
+Running via Spring preloader in process 4308
+Running via Spring preloader in process 4566
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 4571
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 4864
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 5100
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 5105
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 5238
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 5419
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 5424
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 5558
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 5795
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 5800
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 6036
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 6241
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 6246
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 6349
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 6532
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 6537
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 6654
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 6827
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 6832
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 6934
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 7104
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 7109
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:477:in `load': /home/enextus/projects/happy_bot/app/controllers/users_controller.rb:92: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:477:in `block in load_file'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:662:in `new_constants_in'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:476:in `load_file'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:374:in `block in require_or_load'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:36:in `block in load_interlock'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies/interlock.rb:12:in `block in loading'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/concurrency/share_lock.rb:149:in `exclusive'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies/interlock.rb:11:in `loading'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:36:in `load_interlock'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:357:in `require_or_load'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:335:in `depend_on'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:251:in `require_dependency'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:476:in `block (2 levels) in eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:475:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:475:in `block in eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:473:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:473:in `eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:354:in `eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application/finisher.rb:67:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application/finisher.rb:67:in `block in <module:Finisher>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:30:in `run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:59:in `block in run_initializers'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:228:in `block in tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:431:in `each_strongly_connected_component_from'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:349:in `block in each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `call'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:226:in `tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:205:in `tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:58:in `run_initializers'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application.rb:353:in `initialize!'
+	from /home/enextus/projects/happy_bot/config/environment.rb:5:in `<top (required)>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:102:in `require'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:102:in `preload'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:153:in `serve'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:141:in `block in run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:135:in `loop'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:135:in `run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from -e:1:in `<main>'
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:477:in `load': /home/enextus/projects/happy_bot/app/controllers/users_controller.rb:92: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:477:in `block in load_file'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:662:in `new_constants_in'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:476:in `load_file'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:374:in `block in require_or_load'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:36:in `block in load_interlock'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies/interlock.rb:12:in `block in loading'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/concurrency/share_lock.rb:149:in `exclusive'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies/interlock.rb:11:in `loading'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:36:in `load_interlock'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:357:in `require_or_load'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:335:in `depend_on'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:251:in `require_dependency'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:476:in `block (2 levels) in eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:475:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:475:in `block in eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:473:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:473:in `eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:354:in `eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application/finisher.rb:67:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application/finisher.rb:67:in `block in <module:Finisher>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:30:in `run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:59:in `block in run_initializers'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:228:in `block in tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:431:in `each_strongly_connected_component_from'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:349:in `block in each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `call'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:226:in `tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:205:in `tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:58:in `run_initializers'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application.rb:353:in `initialize!'
+	from /home/enextus/projects/happy_bot/config/environment.rb:5:in `<top (required)>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:102:in `require'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:102:in `preload'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:153:in `serve'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:141:in `block in run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:135:in `loop'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:135:in `run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from -e:1:in `<main>'
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:477:in `load': /home/enextus/projects/happy_bot/app/controllers/users_controller.rb:92: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:477:in `block in load_file'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:662:in `new_constants_in'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:476:in `load_file'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:374:in `block in require_or_load'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:36:in `block in load_interlock'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies/interlock.rb:12:in `block in loading'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/concurrency/share_lock.rb:149:in `exclusive'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies/interlock.rb:11:in `loading'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:36:in `load_interlock'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:357:in `require_or_load'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:335:in `depend_on'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:251:in `require_dependency'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:476:in `block (2 levels) in eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:475:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:475:in `block in eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:473:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:473:in `eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:354:in `eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application/finisher.rb:67:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application/finisher.rb:67:in `block in <module:Finisher>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:30:in `run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:59:in `block in run_initializers'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:228:in `block in tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:431:in `each_strongly_connected_component_from'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:349:in `block in each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `call'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:226:in `tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:205:in `tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:58:in `run_initializers'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application.rb:353:in `initialize!'
+	from /home/enextus/projects/happy_bot/config/environment.rb:5:in `<top (required)>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:102:in `require'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:102:in `preload'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:153:in `serve'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:141:in `block in run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:135:in `loop'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:135:in `run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from -e:1:in `<main>'
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:477:in `load': /home/enextus/projects/happy_bot/app/controllers/users_controller.rb:92: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:477:in `block in load_file'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:662:in `new_constants_in'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:476:in `load_file'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:374:in `block in require_or_load'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:36:in `block in load_interlock'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies/interlock.rb:12:in `block in loading'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/concurrency/share_lock.rb:149:in `exclusive'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies/interlock.rb:11:in `loading'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:36:in `load_interlock'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:357:in `require_or_load'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:335:in `depend_on'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:251:in `require_dependency'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:476:in `block (2 levels) in eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:475:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:475:in `block in eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:473:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:473:in `eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:354:in `eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application/finisher.rb:67:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application/finisher.rb:67:in `block in <module:Finisher>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:30:in `run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:59:in `block in run_initializers'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:228:in `block in tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:431:in `each_strongly_connected_component_from'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:349:in `block in each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `call'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:226:in `tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:205:in `tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:58:in `run_initializers'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application.rb:353:in `initialize!'
+	from /home/enextus/projects/happy_bot/config/environment.rb:5:in `<top (required)>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:102:in `require'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:102:in `preload'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:153:in `serve'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:141:in `block in run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:135:in `loop'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:135:in `run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from -e:1:in `<main>'
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:477:in `load': /home/enextus/projects/happy_bot/app/controllers/users_controller.rb:92: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:477:in `block in load_file'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:662:in `new_constants_in'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:476:in `load_file'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:374:in `block in require_or_load'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:36:in `block in load_interlock'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies/interlock.rb:12:in `block in loading'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/concurrency/share_lock.rb:149:in `exclusive'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies/interlock.rb:11:in `loading'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:36:in `load_interlock'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:357:in `require_or_load'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:335:in `depend_on'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:251:in `require_dependency'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:476:in `block (2 levels) in eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:475:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:475:in `block in eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:473:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:473:in `eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:354:in `eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application/finisher.rb:67:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application/finisher.rb:67:in `block in <module:Finisher>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:30:in `run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:59:in `block in run_initializers'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:228:in `block in tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:431:in `each_strongly_connected_component_from'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:349:in `block in each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `call'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:226:in `tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:205:in `tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:58:in `run_initializers'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application.rb:353:in `initialize!'
+	from /home/enextus/projects/happy_bot/config/environment.rb:5:in `<top (required)>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:102:in `require'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:102:in `preload'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:153:in `serve'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:141:in `block in run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:135:in `loop'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:135:in `run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from -e:1:in `<main>'
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:477:in `load': /home/enextus/projects/happy_bot/app/controllers/users_controller.rb:92: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:477:in `block in load_file'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:662:in `new_constants_in'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:476:in `load_file'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:374:in `block in require_or_load'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:36:in `block in load_interlock'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies/interlock.rb:12:in `block in loading'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/concurrency/share_lock.rb:149:in `exclusive'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies/interlock.rb:11:in `loading'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:36:in `load_interlock'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:357:in `require_or_load'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:335:in `depend_on'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:251:in `require_dependency'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:476:in `block (2 levels) in eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:475:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:475:in `block in eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:473:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:473:in `eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:354:in `eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application/finisher.rb:67:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application/finisher.rb:67:in `block in <module:Finisher>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:30:in `run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:59:in `block in run_initializers'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:228:in `block in tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:431:in `each_strongly_connected_component_from'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:349:in `block in each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `call'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:226:in `tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:205:in `tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:58:in `run_initializers'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application.rb:353:in `initialize!'
+	from /home/enextus/projects/happy_bot/config/environment.rb:5:in `<top (required)>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:102:in `require'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:102:in `preload'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:153:in `serve'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:141:in `block in run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:135:in `loop'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:135:in `run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from -e:1:in `<main>'
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:477:in `load': /home/enextus/projects/happy_bot/app/controllers/users_controller.rb:92: syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:477:in `block in load_file'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:662:in `new_constants_in'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:476:in `load_file'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:374:in `block in require_or_load'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:36:in `block in load_interlock'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies/interlock.rb:12:in `block in loading'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/concurrency/share_lock.rb:149:in `exclusive'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies/interlock.rb:11:in `loading'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:36:in `load_interlock'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:357:in `require_or_load'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:335:in `depend_on'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/activesupport-5.1.5/lib/active_support/dependencies.rb:251:in `require_dependency'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:476:in `block (2 levels) in eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:475:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:475:in `block in eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:473:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:473:in `eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/engine.rb:354:in `eager_load!'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application/finisher.rb:67:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application/finisher.rb:67:in `block in <module:Finisher>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:30:in `instance_exec'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:30:in `run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:59:in `block in run_initializers'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:228:in `block in tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:431:in `each_strongly_connected_component_from'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:349:in `block in each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `call'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:347:in `each_strongly_connected_component'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:226:in `tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/tsort.rb:205:in `tsort_each'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/initializable.rb:58:in `run_initializers'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.1.5/lib/rails/application.rb:353:in `initialize!'
+	from /home/enextus/projects/happy_bot/config/environment.rb:5:in `<top (required)>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:102:in `require'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:102:in `preload'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:153:in `serve'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:141:in `block in run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:135:in `loop'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:135:in `run'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/spring-2.0.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+	from -e:1:in `<main>'
+Running via Spring preloader in process 8353
+Running via Spring preloader in process 8358
+Running via Spring preloader in process 8479
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 8654
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 8659
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 8780
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 8950
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 8955
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 9067
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 9241
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 9246
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 2722
+Running via Spring preloader in process 2727
+Running via Spring preloader in process 3137
+Running via Spring preloader in process 3911
+Running via Spring preloader in process 3916
+Running via Spring preloader in process 4010
+Running via Spring preloader in process 4182
+Running via Spring preloader in process 4187
+Running via Spring preloader in process 4288
+Running via Spring preloader in process 4445
+Running via Spring preloader in process 4450
+Running via Spring preloader in process 4546
+Running via Spring preloader in process 4703
+Running via Spring preloader in process 4708
+Running via Spring preloader in process 4807
+Running via Spring preloader in process 4983
+Running via Spring preloader in process 4988
+Running via Spring preloader in process 5497
+Running via Spring preloader in process 5877
+Running via Spring preloader in process 5882
+Running via Spring preloader in process 6088
+Running via Spring preloader in process 6258
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::HardWorker
+Running via Spring preloader in process 6263
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 6416
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 6673
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 6780
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 6883
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 6988
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 7565
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 7756
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 7889
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 8021
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 8146
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 8266
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 8476
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 8593
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 8721
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 8852
+Running via Spring preloader in process 8974
+Running via Spring preloader in process 9086
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 9197
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 9311
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 9433
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 9560
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 9669
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 9776
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 9878
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 9982
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 10089
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 10195
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 10306
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 10418
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 10521
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 10722
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 10832
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 10939
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 11065
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 11174
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 11291
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 11404
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 11516
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 11625
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 11729
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 11848
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 11962
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 12071
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 12184
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 12291
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 12413
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 12518
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 12634
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 12778
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 13017
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 13149
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 13340
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 13447
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 13547
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 13662
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 13765
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 13885
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 13986
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 14095
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 14199
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 14310
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 14415
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 14517
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 14623
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 14731
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 14841
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 14998
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 15101
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 15252
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 15353
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 15619
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 15788
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 15957
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 16063
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 16168
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 16268
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 16374
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 16474
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 16584
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 16700
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 16804
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 16907
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 17020
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 17116
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 17222
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 17329
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 17431
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 17547
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 17647
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 17753
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 17864
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 17964
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 18066
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 18172
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 18277
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 18376
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 18485
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 18582
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 18686
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 18788
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 18899
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 18997
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 19104
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 19211
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 19311
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 19415
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 19518
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 19619
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 19729
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 19835
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 20412
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 20574
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 20874
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 21031
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 21206
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 21540
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 21660
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 21795
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 21908
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 22024
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 22134
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 22239
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 22358
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 22470
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 22578
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 22737
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 22850
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 22972
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 23144
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 23311
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 23416
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 23519
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 23624
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 23724
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 23831
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 23933
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 24094
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 24336
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 24495
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 24602
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 24813
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25068
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25198
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25322
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25460
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25605
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25723
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25835
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 25953
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 26067
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 26275
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 26421
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 26529
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 26633
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 26739
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 26877
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 26988
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 27084
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 27190
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 27292
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 27439
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 27545
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 27692
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 27831
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 28071
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 28375
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 28500
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 28761
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 28937
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 29127
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 29263
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 29379
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 29488
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 29604
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 29719
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 29929
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 30105
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 30399
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 30592
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 30746
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 30859
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 30983
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 31088
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 31196
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 31336
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 31528
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 31629
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 31763
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 31875
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 32083
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 32217
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportWorker
+Running via Spring preloader in process 32467
+Running via Spring preloader in process 32605
+Running via Spring preloader in process 361
