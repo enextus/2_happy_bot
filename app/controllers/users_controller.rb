@@ -40,13 +40,10 @@ class UsersController < ApplicationController
         end
 
         # messages user name string shortener
-        m_name = message.from.first_name.capitalize
+        m_name = message.from.first_name.capitalize!
 
         # messages user name string shortener
         msg_dat = message.as_json['message']
-
-
-        # binding.pry
 
         case message
         when Telegram::Bot::Types::CallbackQuery
@@ -54,15 +51,16 @@ class UsersController < ApplicationController
           return false unless message.data.to_i
           if check_interval(msg_dat['chat']['first_name'])
             User.create(user_params(message))
-            report
-            bot.api.send_message(chat_id: message.from.id, text: getting_msg['thanks_msg'] + m_name)
+            # worker start
+            # report
+            bot.api.send_message(chat_id: message.from.id, text: m_name + getting_msg['thanks_msg'])
           else
             bot.api.send_message(chat_id: message.from.id, text: m_name + getting_msg['warning_msg'])
           end
         when Telegram::Bot::Types::Message
           case message.text
           when '/start'
-            bot.api.send_message(chat_id: message.chat.id, text: getting_msg['welcome_msg'] + m_name)
+            bot.api.send_message(chat_id: message.chat.id, text: m_name + getting_msg['welcome_msg'])
             bot.api.send_message(chat_id: message.chat.id, text: getting_msg['desc_msg'])
             # buttons array
             kb = getting_btn.map do |button|
@@ -71,10 +69,10 @@ class UsersController < ApplicationController
             markup = Telegram::Bot::Types::InlineKeyboardMarkup.new(inline_keyboard: kb)
             bot.api.send_message(chat_id: message.chat.id, text: m_name + getting_msg['req_msg'], reply_markup: markup)
           when '/stop'
-            bot.api.send_message(chat_id: message.chat.id, text: getting_msg['bye_msg'] + m_name)
+            bot.api.send_message(chat_id: message.chat.id, text: m_name + getting_msg['bye_msg'])
           else
             answer = User.class_variable_get :@@answers
-            bot.api.send_message(chat_id: message.chat.id, text: answer.sample)
+            bot.api.send_message(chat_id: message.chat.id, text: m_name + answer.sample)
           end
         end
       end
