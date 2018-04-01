@@ -15,7 +15,7 @@ class UsersController < ApplicationController
 
   # check interval after last saving by each user in the DB
   def check_interval(first_name)
-    return true if (last_saved = User.where(first_name: first_name)).empty?
+    return true if (last_saved = User.where(login: first_name)).empty?
     Time.zone.now - last_saved.last.created_at > DELAY
   end
 
@@ -60,6 +60,9 @@ class UsersController < ApplicationController
         when Telegram::Bot::Types::Message
           case message.text
           when '/start'
+
+                      binding.pry
+
             bot.api.send_message(chat_id: message.chat.id, text: m_name + getting_msg['welcome_msg'])
             bot.api.send_message(chat_id: message.chat.id, text: getting_msg['desc_msg'])
             # buttons array
@@ -89,7 +92,7 @@ class UsersController < ApplicationController
   def user_params(message)
     msg = message.as_json
     {
-      first_name: msg['message']['chat']['first_name'],
+      login: msg['message']['chat']['first_name'],
       data: msg['data'],
       date: msg['message']['date'],
       chat_id: msg['message']['chat']['id'],
