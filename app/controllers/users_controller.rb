@@ -42,11 +42,11 @@ class UsersController < ApplicationController
         case message
         when Telegram::Bot::Types::CallbackQuery
           return unless message.data.to_i
-
-
-
           if check_interval(message.as_json['message']['chat']['first_name'])
-            Statebutton.create!(user_params(message))
+            current_user = User.find_or_create_by(login: message.as_json['message']['chat']['first_name'])
+            current_chat = Chat.find_or_create_by(login: message.as_json['message']['chat']['first_name'], chat_id: message.as_json['message']['chat'])
+            current_chat.statebuttons.create(data: msg['data'], date: msg['message']['date'], message_id: msg['message']['message_id'])
+            # Statebutton.create!(user_reply(message))
             bot.api.send_message(chat_id: message.from.id, text: m_name + getting_msg['thanks_msg'])
           else
             bot.api.send_message(chat_id: message.from.id, text: m_name + getting_msg['warning_msg'])
@@ -62,10 +62,6 @@ class UsersController < ApplicationController
             end
             markup = Telegram::Bot::Types::InlineKeyboardMarkup.new(inline_keyboard: kb)
             bot.api.send_message(chat_id: message.chat.id, text: m_name + getting_msg['req_msg'], reply_markup: markup)
-
-
-          binding.pry
-
           when '/stop'
             bot.api.send_message(chat_id: message.chat.id, text: m_name + getting_msg['bye_msg'])
           else
@@ -84,7 +80,7 @@ class UsersController < ApplicationController
     sleep 27
   end
 
-  def user_params(message)
+  def user_reply(message)
     msg = message.as_json
     {
       data: msg['data'],
