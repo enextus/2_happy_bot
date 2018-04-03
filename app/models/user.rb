@@ -1,6 +1,8 @@
 class User < ApplicationRecord
   has_one :chat, dependent: :destroy
 
+  
+
   @@answers = [
   # positive
   ', это бесспорно. ',

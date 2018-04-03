@@ -6,7 +6,6 @@ class UsersController < ApplicationController
   Dotenv.load
 
   require 'sidekiq'
-  # HardWorker.perform_async('bob', 5)
 
   TOKEN = ENV['TOKEN']
 
@@ -15,8 +14,8 @@ class UsersController < ApplicationController
 
   # check interval after last saving by each user in the DB
   def check_interval(first_name)
-    return true if (last_saved = User.where(login: first_name)).empty?
-    Time.zone.now - last_saved.last.created_at > DELAY
+    return true if (saved = User.where(login: first_name)).empty?
+    Time.zone.now - saved.last.created_at > DELAY
   end
 
   # add worker to the queue
@@ -28,7 +27,6 @@ class UsersController < ApplicationController
   def getting_user_message
     Telegram::Bot::Client.run(TOKEN) do |bot|
       bot.listen do |message|
-        # parsing of data hash
         def getting_msg
           return if Message.where(name: 'welcome_msg').empty?
           Message.select(:name, :description).to_hash
@@ -40,19 +38,15 @@ class UsersController < ApplicationController
         end
 
         # messages user name string shortener
-        m_name = message.from.first_name.capitalize!
-
-        # messages user name string shortener
-        msg_dat = message.as_json['message']
-
+        m_name = message.from.first_name.capitalize
         case message
         when Telegram::Bot::Types::CallbackQuery
-          # Here you can handle your callbacks from inline buttons
-          return false unless message.data.to_i
-          if check_interval(msg_dat['chat']['first_name'])
-            User.create(user_params(message))
-            # worker start
-            # report
+          return unless message.data.to_i
+
+
+
+          if check_interval(message.as_json['message']['chat']['first_name'])
+            Statebutton.create!(user_params(message))
             bot.api.send_message(chat_id: message.from.id, text: m_name + getting_msg['thanks_msg'])
           else
             bot.api.send_message(chat_id: message.from.id, text: m_name + getting_msg['warning_msg'])
@@ -60,9 +54,6 @@ class UsersController < ApplicationController
         when Telegram::Bot::Types::Message
           case message.text
           when '/start'
-
-                      binding.pry
-
             bot.api.send_message(chat_id: message.chat.id, text: m_name + getting_msg['welcome_msg'])
             bot.api.send_message(chat_id: message.chat.id, text: getting_msg['desc_msg'])
             # buttons array
@@ -71,6 +62,10 @@ class UsersController < ApplicationController
             end
             markup = Telegram::Bot::Types::InlineKeyboardMarkup.new(inline_keyboard: kb)
             bot.api.send_message(chat_id: message.chat.id, text: m_name + getting_msg['req_msg'], reply_markup: markup)
+
+
+          binding.pry
+
           when '/stop'
             bot.api.send_message(chat_id: message.chat.id, text: m_name + getting_msg['bye_msg'])
           else
@@ -81,7 +76,7 @@ class UsersController < ApplicationController
       end
     end
   end
-    # "strong params"
+  # "strong params"
 
     private
 
@@ -92,10 +87,9 @@ class UsersController < ApplicationController
   def user_params(message)
     msg = message.as_json
     {
-      login: msg['message']['chat']['first_name'],
       data: msg['data'],
-      date: msg['message']['date'],
       chat_id: msg['message']['chat']['id'],
+      date: msg['message']['date'],
       message_id: msg['message']['message_id']
     }
   end
