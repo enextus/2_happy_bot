@@ -43,9 +43,20 @@ class UsersController < ApplicationController
         when Telegram::Bot::Types::CallbackQuery
           return unless message.data.to_i
           if check_interval(message.as_json['message']['chat']['first_name'])
+
+
+binding.pry
+
             current_user = User.find_or_create_by(login: message.as_json['message']['chat']['first_name'])
-            current_chat = Chat.find_or_create_by(login: message.as_json['message']['chat']['first_name'], chat_id: message.as_json['message']['chat'])
-            current_chat.statebuttons.create(data: msg['data'], date: msg['message']['date'], message_id: msg['message']['message_id'])
+            current_chat = Chat.find_or_create_by(chat_id: message.as_json['message']['chat']['id'])
+            current_chat.statebuttons.create(
+              data: message.as_json['data'],
+              date: message.as_json['message']['date'],
+              message_id: message.as_json['message']['message_id']
+              )
+
+
+
             # Statebutton.create!(user_reply(message))
             bot.api.send_message(chat_id: message.from.id, text: m_name + getting_msg['thanks_msg'])
           else
