@@ -1,8 +1,6 @@
 class User < ApplicationRecord
   has_one :chat, dependent: :destroy
 
-  
-
   @@answers = [
   # positive
   ', это бесспорно. ',
@@ -30,7 +28,7 @@ class User < ApplicationRecord
   ', весьма сомнительно.'
 ].freeze
 
-def answers
-  @@answers
-end
+  def answers
+    @@answers
+  end
 end

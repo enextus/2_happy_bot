@@ -13,9 +13,9 @@ class UsersController < ApplicationController
   DELAY = 30
 
   # check interval after last saving by each user in the DB
-  def check_interval(first_name)
-    return true if (saved = User.where(login: first_name)).empty?
-    Time.zone.now - saved.last.created_at > DELAY
+  def timer(login)
+    return true if (user = User.find_by(login: login)).nil?
+    Time.zone.now - user.chat.statebuttons.last.created_at > DELAY
   end
 
   # add worker to the queue
@@ -42,22 +42,10 @@ class UsersController < ApplicationController
         case message
         when Telegram::Bot::Types::CallbackQuery
           return unless message.data.to_i
-          if check_interval(message.as_json['message']['chat']['first_name'])
-
-
-binding.pry
-
-            current_user = User.find_or_create_by(login: message.as_json['message']['chat']['first_name'])
-            current_chat = Chat.find_or_create_by(chat_id: message.as_json['message']['chat']['id'])
-            current_chat.statebuttons.create(
-              data: message.as_json['data'],
-              date: message.as_json['message']['date'],
-              message_id: message.as_json['message']['message_id']
-              )
-
-
-
-            # Statebutton.create!(user_reply(message))
+          if timer(message.as_json['message']['chat']['first_name'])
+            user = User.find_or_create_by(login: message.as_json['message']['chat']['first_name'])
+            chat = Chat.find_or_create_by(user_id: user.id, chat_id: message.as_json['message']['chat']['id'])
+            chat.statebuttons.create(chat_id: chat.id, data: message.as_json['data'], date: message.as_json['message']['date'], message_id: message.as_json['message']['message_id'])
             bot.api.send_message(chat_id: message.from.id, text: m_name + getting_msg['thanks_msg'])
           else
             bot.api.send_message(chat_id: message.from.id, text: m_name + getting_msg['warning_msg'])
