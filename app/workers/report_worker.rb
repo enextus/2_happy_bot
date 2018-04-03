@@ -28,10 +28,14 @@ class ReportWorker
           Button.all
         end
 
-        User.all.each do |user|
+        user = User.all.each do |login|
 
-          bot.api.send_message(chat_id: user.chat_id, text: user.first_name.to_s + getting_msg['welcome_msg'].to_s)
-          bot.api.send_message(chat_id: user.chat_id, text: getting_msg['desc_msg'])
+          # user = User.find_by(login: login)
+          # user.chat.statebuttons.last.created_at
+          #
+binding.pry
+          bot.api.send_message(chat_id: user.chat.chat_id, text: user.login.to_s + getting_msg['welcome_msg'].to_s)
+          bot.api.send_message(chat_id: user.chat.chat_id, text: getting_msg['desc_msg'])
 
             # buttons array
             kb = getting_btn.map do |button|
@@ -39,7 +43,7 @@ class ReportWorker
             end
 
           markup = Telegram::Bot::Types::InlineKeyboardMarkup.new(inline_keyboard: kb)
-          bot.api.send_message(chat_id: user.chat_id, text: user.first_name + getting_msg['req_msg'], reply_markup: markup)
+          bot.api.send_message(chat_id: user.chat.chat_id, text: user.login + getting_msg['req_msg'], reply_markup: markup)
         end
       end
   end
