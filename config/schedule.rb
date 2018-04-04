@@ -23,14 +23,13 @@ set :chronic_options, hours24: true
 # adds ">> cron.log 2> error.log" to all commands
 set :output, {:error => 'error.log', :standard => 'cron.log'}
 
-
 # By default this would run the job every day at 3am
 # every 1.day, at: '3:00' do
   # runner "HardWorker.perform_async "like a dog", 3"
 # end
 
-every 1.minute do
-  runner "ReportWorker.perform_async '28.03.2018 my HAPPYBOT', 1", :output => 'cron.log'
+every 15.minute do
+  runner "ReportWorker.perform_async '04.04.2018 happy_bot worker', 2", :output => 'cron.log'
 end
 
 # every 2.minute do
