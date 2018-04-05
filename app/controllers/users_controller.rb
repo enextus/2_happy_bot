@@ -43,9 +43,9 @@ class UsersController < ApplicationController
         when Telegram::Bot::Types::CallbackQuery
           return unless message.data.to_i
           if timer(message.as_json['message']['chat']['first_name'])
-            user = User.find_or_create_by(login: message.as_json['message']['chat']['first_name'])
-            chat = Chat.find_or_create_by(user_id: user.id, chat_id: message.as_json['message']['chat']['id'])
-            chat.statebuttons.create(chat_id: chat.id, data: message.as_json['data'], date: message.as_json['message']['date'], message_id: message.as_json['message']['message_id'])
+            user = User.find_or_create_by(user_reply(message))
+            chat = Chat.find_or_create_by(chat_reply(message).merge({user_id: user.id}))
+            chat.statebuttons.create(chat_params(message).merge({chat_id: chat.id}))
             bot.api.send_message(chat_id: message.from.id, text: m_name + getting_msg['thanks_msg'])
           else
             bot.api.send_message(chat_id: message.from.id, text: m_name + getting_msg['warning_msg'])
@@ -80,12 +80,28 @@ class UsersController < ApplicationController
   end
 
   def user_reply(message)
-    msg = message.as_json
     {
-      data: msg['data'],
-      chat_id: msg['message']['chat']['id'],
-      date: msg['message']['date'],
-      message_id: msg['message']['message_id']
+      login: message.as_json['message']['chat']['first_name']
+    }
+  end
+
+  def chat_reply(message)
+    {
+      chat_id: message.as_json['message']['chat']['id']
+    }
+  end
+
+  def chat_reply(message)
+    {
+      chat_id: message.as_json['message']['chat']['id']
+    }
+  end
+
+  def chat_params(message)
+    {
+    data: message.as_json['data'],
+    date: message.as_json['message']['date'],
+    message_id: message.as_json['message']['message_id']
     }
   end
 end

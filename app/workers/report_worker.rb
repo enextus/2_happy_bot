@@ -28,13 +28,7 @@ class ReportWorker
         Button.all
       end
 
-      # worker_user = User.all.map(&:login).flatten.uniq
-      # worker_chat = Chat.all.map(&:chat_id).flatten.uniq
-
-      # binding.pry
-
       user = User.all
-
       user.each do |user|
         bot.api.send_message(chat_id: user.chat.chat_id, text: user.login + getting_msg['welcome_msg'].to_s)
         bot.api.send_message(chat_id: user.chat.chat_id, text: getting_msg['desc_msg'])
