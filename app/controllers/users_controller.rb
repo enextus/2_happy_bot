@@ -10,17 +10,18 @@ class UsersController < ApplicationController
   TOKEN = ENV['TOKEN']
 
   # Delay time time until last write to the db
-  DELAY = 60
+  DELAY = 5
 
   # check interval after last saving by each user in the DB
   def timer(login)
-    return true if (user = User.find_by(login: login)).nil?
+    return true if User.find_by(login: login).nil?
+    user = User.find_by(login: login)
     Time.zone.now - user.chat.statebuttons.last.created_at > DELAY
   end
 
   # add worker to the queue
-  def report
-    ReportWorker.perform_async("01-03-2018", "10-12-2018" )
+  def start_hardworker
+    HardWorker.perform_async("17-04-2018", "10-12-2018" )
   end
 
   # get the message from telegram API
@@ -37,16 +38,18 @@ class UsersController < ApplicationController
           Button.all
         end
 
-        # messages user name string shortener
         m_name = message.from.first_name.capitalize
         case message
         when Telegram::Bot::Types::CallbackQuery
           return unless message.data.to_i
+
           if timer(message.as_json['message']['chat']['first_name'])
             user = User.find_or_create_by(user_reply(message))
             chat = Chat.find_or_create_by(chat_reply(message).merge({user_id: user.id}))
+
             chat.statebuttons.create(chat_params(message).merge({chat_id: chat.id}))
             bot.api.send_message(chat_id: message.from.id, text: m_name + getting_msg['thanks_msg'])
+
           else
             bot.api.send_message(chat_id: message.from.id, text: m_name + getting_msg['warning_msg'])
           end
@@ -75,10 +78,6 @@ class UsersController < ApplicationController
 
     private
 
-  def generate_report
-    sleep 27
-  end
-
   def user_reply(message)
     {
       login: message.as_json['message']['chat']['first_name']
@@ -87,13 +86,7 @@ class UsersController < ApplicationController
 
   def chat_reply(message)
     {
-      chat_id: message.as_json['message']['chat']['id']
-    }
-  end
-
-  def chat_reply(message)
-    {
-      chat_id: message.as_json['message']['chat']['id']
+      telegram_chat_number: message.as_json['message']['chat']['id']
     }
   end
 

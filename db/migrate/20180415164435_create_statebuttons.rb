@@ -8,7 +8,6 @@ class CreateStatebuttons < ActiveRecord::Migration[5.1]
       t.timestamps
     end
 
-    add_reference :statebuttons, :chat, index: true
-    add_foreign_key :statebuttons, :chats, column: :chat_id, on_delete: :cascade
+    add_reference :statebuttons, :chat, foreign_key: true
   end
 end

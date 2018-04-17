@@ -1,13 +1,13 @@
 require "active_support/all"
 require 'sidekiq'
 
-class HardWorker
+class ReplayCheckWorker
 
   include Sidekiq::Worker
 
   def perform(how_hard="super hard", how_long=5)
 
-    sleep 15
+    sleep 100
 
     puts "-------------------------------------------------------------"
     puts "Worker N: #{how_hard}"
