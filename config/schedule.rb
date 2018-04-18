@@ -30,8 +30,8 @@ set :output, {:error => 'error.log', :standard => 'cron.log'}
   # runner "HardWorker.perform_async "like a dog", 3"
 # end
 
-every 2.minute do
-  runner "ReportWorker.perform_async '17.04.2018 happy_bot worker', 5 ", :output => 'cron.log'
+every 30.minute do
+  runner "ReportWorker.perform_async '18.04.2018 happy_bot worker', 6 ", :output => 'cron.log'
 end
 
 # every 2.minute do

@@ -26,11 +26,6 @@ class ReportWorker
         Button.all
       end
 
-      # add worker to the queue
-      def replay_check_worker
-        ReplayCheckWorker.perform_async("17-04-2018", "10-12-2018" )
-      end
-
       user = User.all
       user.each do |user|
 
@@ -43,19 +38,21 @@ class ReportWorker
 
         markup = Telegram::Bot::Types::InlineKeyboardMarkup.new(inline_keyboard: kb)
 
-        print "\n"
-        print "| #{Time.zone.now.to_s} | #{user.chat.telegram_chat_number} | #{user.chat.id} | #{user.login} |"
-        print "\n"
-        puts ''
+        # print "\n"
+        # print "| #{Time.zone.now.to_s} | #{user.chat.telegram_chat_number} | #{user.chat.id} | #{user.login} |"
+        # print "\n"
+        # puts ''
 
         bot.api.send_message(chat_id: user.chat.telegram_chat_number, text: user.login + getting_msg['req_msg'], reply_markup: markup)
         user.chat.requests.create(chat_id: user.chat.id)
 
-        replay_check_worker
-        #
-        # puts "СРАВНИВАЙ ЗАПИСъ В ТАБЛ. REQUESTS и в Статебуттонс"
-        # пиши в responce true, если записъ в Статебуттонс в этом временном интервале естъ
-        # пиши в responce false, если запись в Статебуттонс в этом временном интервале отсутствует
+        # binding.pry
+
+        start_date = user.created_at
+        end_date = user.created_at + 360
+        replay_id = user.chat.id
+
+        ReplayCheckWorker.perform_async(start_date, end_date, replay_id)
       end
     end
   end
