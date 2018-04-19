@@ -1,18 +1,18 @@
-require "active_support/all"
+require 'active_support/all'
 require 'sidekiq'
+require 'sidekiq/api' # for the case of rails console
 
 require 'dotenv'
 Dotenv.load
 
 TOKEN = ENV['TOKEN']
 
-class ReportWorker
+
+class ReportingWorker
+
   include Sidekiq::Worker
 
   def perform(*args)
-    print "\n"
-    puts "| Актуальное время: #{Time.zone.now.to_s} |"
-    print "\n"
 
     Telegram::Bot::Client.run(TOKEN) do |bot|
 
@@ -27,6 +27,7 @@ class ReportWorker
       end
 
       user = User.all
+
       user.each do |user|
 
         bot.api.send_message(chat_id: user.chat.telegram_chat_number, text: user.login + getting_msg['welcome_msg'].to_s)
@@ -38,21 +39,15 @@ class ReportWorker
 
         markup = Telegram::Bot::Types::InlineKeyboardMarkup.new(inline_keyboard: kb)
 
-        # print "\n"
-        # print "| #{Time.zone.now.to_s} | #{user.chat.telegram_chat_number} | #{user.chat.id} | #{user.login} |"
-        # print "\n"
-        # puts ''
-
         bot.api.send_message(chat_id: user.chat.telegram_chat_number, text: user.login + getting_msg['req_msg'], reply_markup: markup)
-        user.chat.requests.create(chat_id: user.chat.id)
+        request = user.chat.requests.create(chat_id: user.chat.id)
 
-        # binding.pry
+        user_chat_id = user.chat.id
+        replay_id = request.id
+        beginning_time = request.created_at
+        end_time = request.created_at + 90
 
-        start_date = user.created_at
-        end_date = user.created_at + 360
-        replay_id = user.chat.id
-
-        ReplayCheckWorker.perform_async(start_date, end_date, replay_id)
+        CheckingWorker.perform_async(beginning_time, end_time, user_chat_id, replay_id)
       end
     end
   end

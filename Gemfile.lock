@@ -234,7 +234,7 @@ DEPENDENCIES
   sidekiq
   sidekiq-client-cli
   spring
-  spring-watcher-listen (~> 2.0.0)
+  spring-watcher-listen (~> 2.0.1)
   telegram-bot-ruby
   turbolinks (~> 5)
   tzinfo-data

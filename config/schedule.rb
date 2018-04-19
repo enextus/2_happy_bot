@@ -30,15 +30,17 @@ set :output, {:error => 'error.log', :standard => 'cron.log'}
   # runner "HardWorker.perform_async "like a dog", 3"
 # end
 
-every 30.minute do
-  runner "ReportWorker.perform_async '18.04.2018 happy_bot worker', 6 ", :output => 'cron.log'
+every 15.minute do
+  runner "ReportingWorker.perform_async '20.04.2018 reporting worker', 5 ", :output => 'cron.log'
 end
 
 # every 2.minute do
-  #runner "HardWorker.perform_async ' 23.03.2018 my NEW HARD worker', 2", :output => 'cron.log'
+  #runner "HardWorker.perform_async ' 23.03.2018 my NEW HARD worker', 2", :output => 'log/cron.log'
 # end
 
 # every :hour do # Many shortcuts available: :hour, :day, :month, :year, :reboot
 #  runner "SomeModel.ladeeda"
 #  runner "HardWorker.perform_async "like a dog", 3"
 # end
+
+# 'log/cron.log'
