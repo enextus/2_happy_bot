@@ -1,12 +1,22 @@
-Running via Spring preloader in process 5903
+Running via Spring preloader in process 5622
+Running via Spring preloader in process 2886
+Running via Spring preloader in process 4360
+Running via Spring preloader in process 4929
+Running via Spring preloader in process 5556
+Running via Spring preloader in process 6047
+Running via Spring preloader in process 6366
+Running via Spring preloader in process 6718
+Running via Spring preloader in process 5370
+Running via Spring preloader in process 5731
+Running via Spring preloader in process 6074
+Running via Spring preloader in process 6391
+Running via Spring preloader in process 6710
+Running via Spring preloader in process 8084
 Please specify a valid ruby command or the path of a script to run.
 Run 'bin/rails runner -h' for help.
 
 uninitialized constant Rails::Command::RunnerCommand::ReportingWorker
-Running via Spring preloader in process 6469
-Please specify a valid ruby command or the path of a script to run.
-Run 'bin/rails runner -h' for help.
-
-uninitialized constant Rails::Command::RunnerCommand::ReportingWorker
-Running via Spring preloader in process 6972
-Running via Spring preloader in process 7824
+Running via Spring preloader in process 8945
+Running via Spring preloader in process 9787
+Running via Spring preloader in process 10440
+Running via Spring preloader in process 11863

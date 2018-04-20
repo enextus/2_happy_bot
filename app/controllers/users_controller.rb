@@ -4,7 +4,7 @@
 #
 # a chatId is a unique identifier for a chat, that can be either private, group, supergroup or channel whereas userId is a unique identifier for a user or bot only.
 # The only time the values can be the same is in a private chat.
-# Read more about Telegram types https://stackoverflow.com/questions/42785390/what-is-difference-between-msg-chat-id-and-msg-from-id-in-telegeram-bot/42786449 
+# Read more about Telegram types https://stackoverflow.com/questions/42785390/what-is-difference-between-msg-chat-id-and-msg-from-id-in-telegeram-bot/42786449
 #
 class UsersController < ApplicationController
   require 'dotenv'
@@ -15,7 +15,7 @@ class UsersController < ApplicationController
   TOKEN = ENV['TOKEN']
 
   # Delay time time until last write to the db
-  DELAY = 50
+  DELAY = 120
 
   # check interval after last saving by each user in the DB
   def timer(login)
@@ -26,7 +26,7 @@ class UsersController < ApplicationController
 
   # add worker to the queue
   def start_hardworker
-    HardWorker.perform_async("17-04-2018", "10-12-2018" )
+    HardWorker.perform_async('17-04-2018', '10-12-2018')
   end
 
   # get the message from telegram API
@@ -50,9 +50,9 @@ class UsersController < ApplicationController
 
           if timer(message.as_json['message']['chat']['first_name'])
             user = User.find_or_create_by(user_reply(message))
-            chat = Chat.find_or_create_by(chat_reply(message).merge({user_id: user.id}))
+            chat = Chat.find_or_create_by(chat_reply(message).merge(user_id: user.id))
 
-            chat.statebuttons.create(chat_params(message).merge({chat_id: chat.id}))
+            chat.statebuttons.create(chat_params(message).merge(chat_id: chat.id))
             bot.api.send_message(chat_id: message.from.id, text: m_name + getting_msg['thanks_msg'])
 
           else
@@ -65,7 +65,7 @@ class UsersController < ApplicationController
             bot.api.send_message(chat_id: message.chat.id, text: getting_msg['desc_msg'])
             # buttons array
             kb = getting_btn.map do |button|
-            Telegram::Bot::Types::InlineKeyboardButton.new(text: button.description, callback_data: button.button_value)
+              Telegram::Bot::Types::InlineKeyboardButton.new(text: button.description, callback_data: button.button_value)
             end
             markup = Telegram::Bot::Types::InlineKeyboardMarkup.new(inline_keyboard: kb)
             bot.api.send_message(chat_id: message.chat.id, text: m_name + getting_msg['req_msg'], reply_markup: markup)
@@ -81,7 +81,7 @@ class UsersController < ApplicationController
   end
   # "strong params"
 
-    private
+  private
 
   def user_reply(message)
     {
@@ -97,9 +97,9 @@ class UsersController < ApplicationController
 
   def chat_params(message)
     {
-    data: message.as_json['data'],
-    date: message.as_json['message']['date'],
-    message_id: message.as_json['message']['message_id']
+      data: message.as_json['data'],
+      date: message.as_json['message']['date'],
+      message_id: message.as_json['message']['message_id']
     }
   end
 end
