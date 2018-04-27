@@ -11,7 +11,9 @@ class CheckingWorker
   def perform(beginning_time, end_time, user_chat_id, replay_id)
     sleep 320
 
-    state_button = Statebutton.where(:created_at => beginning_time..end_time, chat_id: user_chat_id)
-    Request.find_by(id: replay_id)&.update(response: true) if state_button.size.positive?
+    state_button = Statebutton.where(created_at: beginning_time..end_time,
+                                     chat_id: user_chat_id)
+    return unless state_button.size.positive?
+    Request.find_by(id: replay_id)&.update(response: true)
   end
 end
