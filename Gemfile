@@ -36,8 +36,6 @@ gem 'jbuilder', '~> 2.5'
 gem 'telegram-bot-ruby'
 gem 'sidekiq'
 gem 'sidekiq-client-cli'
-
-
 gem 'whenever', require: false
 
 group :development, :test do
