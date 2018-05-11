@@ -1,14 +1,14 @@
 # config valid only for current version of Capistrano
-lock '3.4.0'
+lock '3.10.2'
 
-set :application, 'my_app_name'
+set :application, 'myapp'
 set :repo_url, 'git@github.com:enextus/2_happy_bot.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, '/home/enextus/2_happy_bot'
+set :deploy_to, '/home/deploy/www'
 
 # Default value for :scm is :git
 # set :scm, :git
