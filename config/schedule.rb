@@ -1,4 +1,5 @@
-env :PATH, ENV['PATH']
+env :GEM_PATH, ENV['GEM_PATH']
+
 # Use this file to easily define all of your cron jobs.
 #
 # It's helpful, but not entirely necessary to understand cron before proceeding.
@@ -47,7 +48,7 @@ set :output, {:error => 'error.log', :standard => 'cron.log'}
 
 
 every 10.minute do
-  runner "ReportingWorker.perform_async ' 11.05.2018 reporting worker', 2", :output => 'cron.log'
+  runner "ReportingWorker.perform_async ' 13.05.2018 reporting worker', 2", :output => 'cron.log'
 end
 
 # every :hour do # Many shortcuts available: :hour, :day, :month, :year, :reboot
