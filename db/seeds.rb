@@ -1,18 +1,4 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-<<<<<<< HEAD
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
-=======
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#            Character.create(name: 'Luke', movie: movies.first)
- message = {
+message = {
             'welcome_msg' => ', привет!',
             'desc_msg' => 'Эта шкала субъективного счастья измеряет эмоциональное переживание индивидом собственной жизни как целого, отражающее общий уровень психологического благополучия в данный момент.',
             'thanks_msg' => ', спасибо за твой ответ. Теперь ты можешь задать мне любой вопрос в текстовом поле ниже.',
@@ -38,4 +24,3 @@
  button.each do |k,v|
  Button.create(button_value: k, description: v.flatten[1], name: v.flatten[0])
  end
->>>>>>> happy_bot
