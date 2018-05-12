@@ -118,3 +118,6 @@ You specified: spring-watcher-listen (~> 2.0.0) and spring-watcher-listen (~> 2.
   /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
   /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
 Running via Spring preloader in process 31697
+Running via Spring preloader in process 32050
+Running via Spring preloader in process 32202
+Running via Spring preloader in process 32373
