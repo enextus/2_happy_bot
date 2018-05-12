@@ -34,19 +34,16 @@ set :output, {:error => 'error.log', :standard => 'cron.log'}
 #   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
 # end
 
-
 # every 1.day, at: '15:00' do
 #   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
 # end
-
 
 # every 1.day, at: '19:00' do
 #   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
 # end
 
-
-every 55.minute do
-  runner "ReportingWorker.perform_async ' 11.05.2018 reporting worker', 2", :output => 'cron.log'
+every 10.minute do
+  runner "ReportingWorker.perform_async ' 12.05.2018 reporting worker', 2", :output => 'cron.log'
 end
 
 # every :hour do # Many shortcuts available: :hour, :day, :month, :year, :reboot
