@@ -11,6 +11,8 @@ class UsersController < ApplicationController
   Dotenv.load
 
   require 'sidekiq'
+  require 'i18n'
+  require 'listen'
 
   TOKEN = ENV['TOKEN']
 
