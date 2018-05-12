@@ -56,3 +56,39 @@ Running via Spring preloader in process 25492
 Running via Spring preloader in process 26175
 Running via Spring preloader in process 26459
 Running via Spring preloader in process 26609
+Running via Spring preloader in process 26937
+Running via Spring preloader in process 27067
+Running via Spring preloader in process 27357
+Running via Spring preloader in process 27621
+Running via Spring preloader in process 27742
+Running via Spring preloader in process 27878
+Running via Spring preloader in process 28020
+Running via Spring preloader in process 28270
+Running via Spring preloader in process 28428
+Running via Spring preloader in process 29039
+Running via Spring preloader in process 29419
+bundler: failed to load command: bin/rails (bin/rails)
+Bundler::Dsl::DSLError: 
+[!] There was an error parsing `Gemfile`: You cannot specify the same gem twice with different version requirements.
+You specified: listen (>= 0) and listen (~> 3.1.5). Bundler cannot continue.
+
+ #  from /home/enextus/projects/2happy_bot/Gemfile:58
+ #  -------------------------------------------
+ #  group :development do
+ >    gem 'listen', '~> 3.1.5'
+ #    # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+ #  -------------------------------------------
+
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/dsl.rb:109:in `gem'
+  /home/enextus/projects/2happy_bot/Gemfile:58:in `block in eval_gemfile'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/dsl.rb:232:in `group'
+  /home/enextus/projects/2happy_bot/Gemfile:57:in `eval_gemfile'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/dsl.rb:47:in `instance_eval'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/dsl.rb:47:in `eval_gemfile'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/dsl.rb:12:in `evaluate'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/definition.rb:35:in `build'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler.rb:135:in `definition'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler.rb:101:in `setup'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/setup.rb:20:in `<top (required)>'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+  /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'

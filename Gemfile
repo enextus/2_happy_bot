@@ -5,6 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
+gem 'listen', '~> 3.1.5'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
 # Use postgresql as the database for Active Record
@@ -42,19 +45,17 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'dotenv'
-  gem 'i18n', '~> 1.0'
-
-
   gem 'webpacker', '=3.0'
-  gem 'listen'
-
-  # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-
   gem 'pry'
   gem 'selenium-webdriver'
 end
 
 group :development do
+
+  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  gem 'spring'
+  gem 'spring-watcher-listen', '~> 2.0.0'
+
   gem 'capistrano', '~> 3.8'
   gem 'capistrano-bundler', '~> 1.2'
   gem 'capistrano-passenger', '~> 0.2'
