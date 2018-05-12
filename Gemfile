@@ -44,8 +44,12 @@ group :development, :test do
   gem 'dotenv'
   gem 'i18n', '~> 1.0'
 
+
+  gem 'webpacker', '=3.0'
+  gem 'listen'
+
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-  gem 'listen', '>= 3.0.5', '< 3.2'
+
   gem 'pry'
   gem 'selenium-webdriver'
 end
