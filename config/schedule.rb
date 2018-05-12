@@ -42,7 +42,7 @@ set :output, {:error => 'error.log', :standard => 'cron.log'}
 #   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
 # end
 
-every 10.minute do
+every 3.minute do
   runner "ReportingWorker.perform_async ' 12.05.2018 reporting worker', 2", :output => 'cron.log'
 end
 
