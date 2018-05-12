@@ -258,9 +258,8 @@ DEPENDENCIES
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   dotenv
-  i18n (~> 1.0)
   jbuilder (~> 2.5)
-  listen
+  listen (~> 3.1.5)
   pg (>= 0.18, < 2.0)
   pry
   puma (~> 3.7)
