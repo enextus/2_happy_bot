@@ -32,22 +32,19 @@ set :output, {:error => 'error.log', :standard => 'cron.log'}
   # runner "HardWorker.perform_async "like a dog", 3"
 # end
 
-# every 1.day, at: '10:00' do
+# every 1.day, at: '09:00' do
 #   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
 # end
 
-
-# every 1.day, at: '15:00' do
+# every 1.day, at: '13:00' do
 #   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
 # end
-
 
 # every 1.day, at: '19:00' do
 #   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
 # end
 
-
-every 10.minute do
+every 7.minute do
   runner "ReportingWorker.perform_async ' 13.05.2018 reporting worker', 2", :output => 'cron.log'
 end
 
@@ -55,5 +52,3 @@ end
 #  runner "SomeModel.ladeeda"
 #  runner "HardWorker.perform_async "like a dog", 3"
 # end
-
-# 'log/cron.log'

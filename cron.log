@@ -1,0 +1,8 @@
+Running via Spring preloader in process 20867
+Running via Spring preloader in process 24259
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportingWorker
+Running via Spring preloader in process 25699
+Running via Spring preloader in process 25926
