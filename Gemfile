@@ -48,6 +48,8 @@ group :development, :test do
   gem 'pry'
   gem 'selenium-webdriver'
   # gem 'webpacker', '=3.0'
+  gem 'minitest-rails'
+  gem 'minitest'
 end
 
 group :development do
