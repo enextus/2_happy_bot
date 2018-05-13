@@ -41,3 +41,4 @@ You specified: capistrano-rails (>= 0) and capistrano-rails (~> 1.2). Bundler ca
   /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/bundler/setup.rb:20:in `<top (required)>'
   /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
   /home/enextus/.rbenv/versions/2.5.0/lib/ruby/site_ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+Running via Spring preloader in process 29260

@@ -247,7 +247,7 @@ DEPENDENCIES
   capistrano (~> 3.8)
   capistrano-bundler (~> 1.2)
   capistrano-passenger (~> 0.2)
-  capistrano-rails
+  capistrano-rails (~> 1.2)
   capistrano-rbenv (~> 2.1)
   capybara (~> 2.13)
   coffee-rails (~> 4.2)

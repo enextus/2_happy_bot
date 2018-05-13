@@ -33,7 +33,6 @@ gem 'redis', '~> 4.0'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
-gem 'capistrano-rails', group: :development
 gem 'sidekiq'
 gem 'sidekiq-client-cli'
 gem 'telegram-bot-ruby'
@@ -55,7 +54,7 @@ group :development do
   gem 'capistrano', '~> 3.8'
   gem 'capistrano-bundler', '~> 1.2'
   gem 'capistrano-passenger', '~> 0.2'
-  # gem 'capistrano-rails', '~> 1.2'
+  gem 'capistrano-rails', '~> 1.2'
   gem 'capistrano-rbenv', '~> 2.1'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
