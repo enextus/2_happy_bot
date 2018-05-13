@@ -48,10 +48,11 @@ group :development, :test do
   gem 'pry'
   gem 'selenium-webdriver'
   # gem 'webpacker', '=3.0'
-  gem 'minitest'
+  gem  'minitest', '~> 5.1'
 end
 
 group :development do
+    gem  'minitest', '~> 5.1'
   gem 'capistrano', '~> 3.8'
   gem 'capistrano-bundler', '~> 1.2'
   gem 'capistrano-passenger', '~> 0.2'
