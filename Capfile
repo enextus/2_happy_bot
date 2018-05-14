@@ -35,5 +35,7 @@ set :rbenv_ruby, '2.5.0'
 
 set :init_system, :systemd
 
+set :pty,  false
+
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined
 Dir.glob('lib/capistrano/tasks/*.rake').each { |r| import r }
