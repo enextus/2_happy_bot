@@ -6,3 +6,4 @@ Run 'bin/rails runner -h' for help.
 uninitialized constant Rails::Command::RunnerCommand::ReportingWorker
 Running via Spring preloader in process 13553
 Running via Spring preloader in process 13852
+Running via Spring preloader in process 3528
