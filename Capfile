@@ -26,8 +26,14 @@ require 'capistrano/rails/assets'
 require 'capistrano/rails/migrations'
 require 'capistrano/passenger'
 
+# Capfile
+require 'capistrano/sidekiq'
+require 'capistrano/sidekiq/monit' # to require monit tasks # Only for capistrano3
+
 set :rbenv_type, :user
 set :rbenv_ruby, '2.5.0'
+
+set :init_system, :systemd
 
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined
 Dir.glob('lib/capistrano/tasks/*.rake').each { |r| import r }
