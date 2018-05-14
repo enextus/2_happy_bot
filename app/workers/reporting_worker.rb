@@ -3,11 +3,7 @@
 require 'active_support/all'
 require 'sidekiq'
 require 'sidekiq/api' # for the case of rails console
-
 require 'dotenv'
-Dotenv.load
-
-TOKEN = ENV['TOKEN']
 
 # this worker send the requests to the telegram users
 class ReportingWorker
