@@ -3,11 +3,10 @@
 require 'active_support/all'
 require 'sidekiq'
 require 'sidekiq/api' # for the case of rails console
-
 require 'dotenv'
+
 Dotenv.load
 
-TOKEN = ENV['TOKEN']
 
 # this worker check the answers from users
 class CheckingWorker
