@@ -20,7 +20,7 @@ require 'capistrano/passenger'
 
 # Capfile
 require 'capistrano/sidekiq'
-# require 'capistrano/sidekiq/monit' # to require monit tasks # Only for capistrano3
+require 'capistrano/sidekiq/monit' # to require monit tasks # Only for capistrano3
 
 set :rbenv_type, :user
 set :rbenv_ruby, '2.5.0'
