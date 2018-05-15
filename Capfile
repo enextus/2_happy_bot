@@ -19,7 +19,7 @@ require 'capistrano/rails/migrations'
 require 'capistrano/passenger'
 
 # Capfile
-# require 'capistrano/sidekiq'
+require 'capistrano/sidekiq'
 # require 'capistrano/sidekiq/monit' # to require monit tasks # Only for capistrano3
 
 set :rbenv_type, :user
