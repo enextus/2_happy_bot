@@ -20,7 +20,7 @@ require 'capistrano/passenger'
 
 # Capfile
 require 'capistrano/sidekiq'
-require 'capistrano/sidekiq/tasks/sidekiq.cap'
+# equire 'capistrano/sidekiq/tasks/sidekiq.cap'
 
 # https://github.com/seuros/capistrano-sidekiq/issues/27
 
