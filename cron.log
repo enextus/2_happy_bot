@@ -6,3 +6,21 @@ Running via Spring preloader in process 20177
 Running via Spring preloader in process 21555
 Running via Spring preloader in process 22785
 Running via Spring preloader in process 23150
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:90: warning: already initialized constant FileUtils::VERSION
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:92: warning: previous definition of VERSION was here
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1188: warning: already initialized constant FileUtils::Entry_::S_IF_DOOR
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1267: warning: previous definition of S_IF_DOOR was here
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1446: warning: already initialized constant FileUtils::Entry_::DIRECTORY_TERM
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1541: warning: previous definition of DIRECTORY_TERM was here
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1448: warning: already initialized constant FileUtils::Entry_::SYSCASE
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1543: warning: previous definition of SYSCASE was here
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1501: warning: already initialized constant FileUtils::OPT_TABLE
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1596: warning: previous definition of OPT_TABLE was here
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1555: warning: already initialized constant FileUtils::LOW_METHODS
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1650: warning: previous definition of LOW_METHODS was here
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/2.5.0/fileutils.rb:1562: warning: already initialized constant FileUtils::METHODS
+/home/enextus/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/fileutils-1.1.0/lib/fileutils.rb:1657: warning: previous definition of METHODS was here
+Running via Spring preloader in process 2099
+Running via Spring preloader in process 2267
+Running via Spring preloader in process 2429
+Running via Spring preloader in process 4803
