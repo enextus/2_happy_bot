@@ -26,8 +26,6 @@ require 'capistrano/sidekiq'
 
 set :rbenv_type, :user
 set :rbenv_ruby, '2.5.0'
-
-
 set :pty,  false
 
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined

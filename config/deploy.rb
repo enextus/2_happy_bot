@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '3.10.2'
+# lock '3.10.2'
 
 set :application, 'myapp'
 set :repo_url, 'git@github.com:enextus/2_happy_bot.git'
@@ -33,6 +33,8 @@ set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', '
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
+
+set :passenger_restart_with_touch, false # Note that `nil` is NOT the same as `false` here
 
 namespace :deploy do
   after :restart, :clear_cache do
