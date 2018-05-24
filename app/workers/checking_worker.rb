@@ -7,6 +7,7 @@ require 'dotenv'
 
 Dotenv.load
 
+# TOKEN = ENV['TOKEN']
 
 # this worker check the answers from users
 class CheckingWorker

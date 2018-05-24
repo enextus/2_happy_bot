@@ -1,4 +1,5 @@
 # env :GEM_PATH, ENV['GEM_PATH']
+job_type :sidekiq, "cd :path && RAILS_ENV=:environment /usr/local/bin/bundle exec /usr/local/bin/sidekiq-client :task :output"
 
 # Use this file to easily define all of your cron jobs.
 #
@@ -25,7 +26,9 @@ set :chronic_options, hours24: true
 
 # adds ">> cron.log 2> error.log" to all commands
 
-set :output, {:error => 'error.log', :standard => 'cron.log'}
+set :output, error: 'error.log', standard: 'cron.log'
+
+set :environment, :development
 
 # By default this would run the job every day at 3am
 # every 1.day, at: '3:00' do
@@ -44,9 +47,13 @@ set :output, {:error => 'error.log', :standard => 'cron.log'}
 #   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
 # end
 
-every 12.minute do
-  runner "ReportingWorker.perform_async ' 15.05.2018 reporting worker', 2", :output => 'cron.log'
+every 5.minute do
+  runner "ReportingWorker.perform_async ' 24.05.2018 reporting worker ', 3", :output => 'cron.log'
 end
+
+# every 10.minutes do
+  # sidekiq 'push ReportingWorker'
+# #nd
 
 # every :hour do # Many shortcuts available: :hour, :day, :month, :year, :reboot
 #  runner "SomeModel.ladeeda"
