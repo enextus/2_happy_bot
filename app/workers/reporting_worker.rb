@@ -9,6 +9,8 @@ Dotenv.load
 
 TOKEN = ENV['TOKEN']
 
+# https://www.rubydoc.info/gems/sidekiq-client-cli/0.1.7
+
 # this worker send the requests to the telegram users
 class ReportingWorker
   include Sidekiq::Worker
