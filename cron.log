@@ -78,3 +78,15 @@ Bundler::GemNotFound: Could not find rake-12.3.2 in any of the sources
   /home/enextus/.rbenv/versions/2.6.1/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
 /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.6.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby in PATH, mode 040777
 Running via Spring preloader in process 15305
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.6.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby in PATH, mode 040777
+Running via Spring preloader in process 30933
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.6.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby in PATH, mode 040777
+Running via Spring preloader in process 31946
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.6.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby in PATH, mode 040777
+Running via Spring preloader in process 32716
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.6.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby in PATH, mode 040777
+Running via Spring preloader in process 2568
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.6.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby in PATH, mode 040777
+Running via Spring preloader in process 3413
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.6.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby in PATH, mode 040777
+Running via Spring preloader in process 5289
