@@ -31,7 +31,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'sidekiq'
+gem 'sidekiq', '~> 5.2', '>= 5.2.5'
 gem 'sidekiq-client-cli'
 gem 'telegram-bot-ruby'
 gem 'whenever', require: false

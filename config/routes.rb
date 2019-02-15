@@ -7,5 +7,4 @@ Rails.application.routes.draw do
   post '/', to: 'users#getting_user_message'
 
   mount Sidekiq::Web => '/sidekiq'
-
 end
