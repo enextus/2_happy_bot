@@ -228,3 +228,40 @@ Running via Spring preloader in process 22296
 Running via Spring preloader in process 22837
 /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.6.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby in PATH, mode 040777
 Running via Spring preloader in process 23649
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.6.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby in PATH, mode 040777
+Running via Spring preloader in process 26700
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.6.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby in PATH, mode 040777
+Running via Spring preloader in process 29813
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.6.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby in PATH, mode 040777
+Running via Spring preloader in process 30210
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.6.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby in PATH, mode 040777
+Running via Spring preloader in process 30644
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.6.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby in PATH, mode 040777
+Running via Spring preloader in process 2618
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.6.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby in PATH, mode 040777
+Running via Spring preloader in process 6904
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.6.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby in PATH, mode 040777
+Running via Spring preloader in process 11982
+rbenv: bundle: command not found
+
+The `bundle' command exists in these Ruby versions:
+  2.3.1
+  2.6.1
+
+/home/enextus/.rbenv/versions/2.5.1/lib/ruby/2.5.0/rubygems.rb:289:in `find_spec_for_exe': can't find gem bundler (>= 0.a) with executable bundle (Gem::GemNotFoundException)
+	from /home/enextus/.rbenv/versions/2.5.1/lib/ruby/2.5.0/rubygems.rb:308:in `activate_bin_path'
+	from /home/enextus/.rbenv/versions/2.5.1/bin/bundle:23:in `<main>'
+bundler: failed to load command: bin/rails (bin/rails)
+Bundler::GemNotFound: Could not find nokogiri-1.8.2 in any of the sources
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bundler-1.17.3/lib/bundler/spec_set.rb:91:in `block in materialize'
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bundler-1.17.3/lib/bundler/spec_set.rb:85:in `map!'
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bundler-1.17.3/lib/bundler/spec_set.rb:85:in `materialize'
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bundler-1.17.3/lib/bundler/definition.rb:170:in `specs'
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bundler-1.17.3/lib/bundler/definition.rb:237:in `specs_for'
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bundler-1.17.3/lib/bundler/definition.rb:226:in `requested_specs'
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bundler-1.17.3/lib/bundler/runtime.rb:108:in `block in definition_method'
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bundler-1.17.3/lib/bundler/runtime.rb:20:in `setup'
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bundler-1.17.3/lib/bundler.rb:107:in `setup'
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bundler-1.17.3/lib/bundler/setup.rb:20:in `<top (required)>'
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59:in `require'
