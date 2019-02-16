@@ -190,3 +190,19 @@ Running via Spring preloader in process 2309
 Running via Spring preloader in process 6063
 /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.6.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby in PATH, mode 040777
 Running via Spring preloader in process 7757
+bundler: failed to load command: bin/rails (bin/rails)
+Bundler::GemNotFound: Could not find ffi-1.9.24 in any of the sources
+  /home/enextus/.rbenv/versions/2.6.1/lib/ruby/2.6.0/bundler/spec_set.rb:91:in `block in materialize'
+  /home/enextus/.rbenv/versions/2.6.1/lib/ruby/2.6.0/bundler/spec_set.rb:85:in `map!'
+  /home/enextus/.rbenv/versions/2.6.1/lib/ruby/2.6.0/bundler/spec_set.rb:85:in `materialize'
+  /home/enextus/.rbenv/versions/2.6.1/lib/ruby/2.6.0/bundler/definition.rb:170:in `specs'
+  /home/enextus/.rbenv/versions/2.6.1/lib/ruby/2.6.0/bundler/definition.rb:237:in `specs_for'
+  /home/enextus/.rbenv/versions/2.6.1/lib/ruby/2.6.0/bundler/definition.rb:226:in `requested_specs'
+  /home/enextus/.rbenv/versions/2.6.1/lib/ruby/2.6.0/bundler/runtime.rb:108:in `block in definition_method'
+  /home/enextus/.rbenv/versions/2.6.1/lib/ruby/2.6.0/bundler/runtime.rb:20:in `setup'
+  /home/enextus/.rbenv/versions/2.6.1/lib/ruby/2.6.0/bundler.rb:107:in `setup'
+  /home/enextus/.rbenv/versions/2.6.1/lib/ruby/2.6.0/bundler/setup.rb:20:in `<top (required)>'
+  /home/enextus/.rbenv/versions/2.6.1/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/enextus/.rbenv/versions/2.6.1/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.6.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby in PATH, mode 040777
+Running via Spring preloader in process 14564
