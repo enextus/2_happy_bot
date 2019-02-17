@@ -34,7 +34,8 @@ gem 'airbrussh', '~> 1.3', '>= 1.3.1'
 gem 'sidekiq', '~> 5.2', '>= 5.2.5'
 gem 'sidekiq-client-cli'
 gem 'telegram-bot-ruby', '~> 0.8.6.1'
-gem 'whenever', require: false
+gem 'whenever', '~> 0.10.0'
+# gem 'whenever', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
