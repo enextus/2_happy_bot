@@ -23,32 +23,17 @@ set :chronic_options, hours24: true
 
 # adds ">> cron.log 2> error.log" to all commands
 
-set :output, {:error => 'error.log', :standard => 'cron.log'}
-
-# By default this would run the job every day at 3am
-# every 1.day, at: '3:00' do
-  # runner "HardWorker.perform_async "like a dog", 3"
-# end
-
-# every 1.day, at: '10:00' do
-#   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
-# end
+set :output, {:error => 'error.cron.log', :standard => 'cron.log'}
 
 # every 1.day, at: '15:00' do
 #   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
 # end
 
-# every 1.day, at: '19:00' do
-#   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
-# end
-
-every 3.minute do
-  runner "ReportingWorker.perform_async ' 16.02.2019 reporting worker', 2", :output => 'cron.log'
+every 5.minute do
+  runner "ReportingWorker.perform_async ' 17.02.2019 reporting worker', 2", :worker.output => 'worker.cron.log'
 end
 
 # every :hour do # Many shortcuts available: :hour, :day, :month, :year, :reboot
 #  runner "SomeModel.ladeeda"
 #  runner "HardWorker.perform_async "like a dog", 3"
 # end
-
-# 'log/cron.log'
