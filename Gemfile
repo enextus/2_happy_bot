@@ -35,6 +35,7 @@ gem 'sidekiq', '~> 5.2', '>= 5.2.5'
 gem 'sidekiq-client-cli'
 gem 'telegram-bot-ruby', '~> 0.8.6.1'
 gem 'whenever', '~> 0.10.0'
+gem 'redis', '~> 4.1'
 # gem 'whenever', require: false
 
 group :development, :test do
