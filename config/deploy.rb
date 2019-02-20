@@ -41,6 +41,7 @@ namespace :deploy do
       # within release_path do
       #   execute :rake, 'cache:clear'
       # end
+      execute :sudo, :systemctl, :restart, :sidekiq
     end
   end
 end
