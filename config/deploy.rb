@@ -10,6 +10,7 @@ set :repo_url, 'git@github.com:enextus/2_happy_bot.git'
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, '/home/deploy/www/myapp'
 
+set :bundle_gemfile, 'myapp/Gemfile'
 # Default value for :scm is :git
 # set :scm, :git
 
