@@ -4,7 +4,7 @@ lock '3.11.0'
 set :application, 'myapp'
 set :repo_url, 'git@github.com:enextus/2_happy_bot.git'
 
-load './db/seeds.rb'
+require './db/seeds.rb'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
