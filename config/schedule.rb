@@ -29,8 +29,8 @@ set :output, {:error => 'error.cron.log', :standard => 'cron.log'}
 #   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
 # end
 
-every 5.minute do
-  runner "ReportingWorker.perform_async ' 17.02.2019 reporting worker', 2", :worker.output => 'worker.cron.log'
+every 30.minute do
+  runner "ReportingWorker.perform_async ' 22.03.2019 reporting worker', 2", :output => 'cron.log'
 end
 
 # every :hour do # Many shortcuts available: :hour, :day, :month, :year, :reboot
