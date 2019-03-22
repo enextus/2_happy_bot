@@ -1,17 +1,13 @@
 # config valid only for current version of Capistrano
 lock '3.11.0'
-
 set :application, 'myapp'
 set :repo_url, 'git@github.com:enextus/2_happy_bot.git'
-
-require './db/seeds.rb'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, '/home/deploy/www/myapp'
-
 
 # Default value for :scm is :git
 # set :scm, :git
@@ -36,6 +32,7 @@ set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', '
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
+require './db/seeds.rb'
 
 namespace :deploy do
   desc "reload the database with seed data"
