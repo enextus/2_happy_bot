@@ -32,13 +32,12 @@ set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', '
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
-require './db/seeds.rb'
 
 namespace :deploy do
-  desc "reload the database with seed data"
-  task :seed do
-    run "cd #{current_path}; bundle exec rake db:seed RAILS_ENV=#{rails_env}"
-  end
+  # desc "reload the database with seed data"
+  # task :seed do
+  #   run "cd #{current_path}; bundle exec rake db:seed RAILS_ENV=#{rails_env}"
+  # end
   after :restart, :clear_cache do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
       # Here we can do anything such as:
