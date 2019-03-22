@@ -28,7 +28,11 @@ class User < ApplicationRecord
     ', Very doubtful.'
   ].freeze
 
-  def answers
-    @@answers
-  end
+  def self.answers
+		@@answers
+	end
+
+  # def answers
+  #   @@answers
+  # end
 end
