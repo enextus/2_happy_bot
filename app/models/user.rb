@@ -31,8 +31,4 @@ class User < ApplicationRecord
   def self.answers
 		@@answers
 	end
-
-  # def answers
-  #   @@answers
-  # end
 end
