@@ -2,6 +2,7 @@
 lock '3.11.0'
 set :application, 'myapp'
 set :repo_url, 'git@github.com:enextus/2_happy_bot.git'
+set :branch, "happy_bot"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
