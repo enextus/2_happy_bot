@@ -40,13 +40,6 @@ namespace :deploy do
   #   run "cd #{current_path}; bundle exec rake db:seed RAILS_ENV=#{rails_env}"
   # end
 
-  %w[start stop restart].each do |cmd|
-    desc "#{cmd}s redis-server"
-    task cmd, :roles => :app do
-      run "#{sudo} nohup /etc/init.d/redis-server #{cmd}"
-    end
-  end
-
   after :restart, :clear_cache do
 
     on roles(:app), in: :groups, limit: 3, wait: 10 do
@@ -54,6 +47,13 @@ namespace :deploy do
       # within release_path do
       #   execute :rake, 'cache:clear'
       # end
+      %w[start stop restart].each do |cmd|
+        desc "#{cmd}s redis-server"
+        task cmd, :roles => :app do
+          run "#{sudo} nohup /etc/init.d/redis-server #{cmd}"
+        end
+      end
+
       execute :sudo, :systemctl, :restart, :sidekiq
     end
 
