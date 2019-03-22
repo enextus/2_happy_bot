@@ -47,14 +47,6 @@ namespace :deploy do
       # within release_path do
       #   execute :rake, 'cache:clear'
       # end
-      
-      # %w[start stop restart].each do |cmd|
-      #   desc "#{cmd}s redis-server"
-      #   task cmd, :roles => :app do
-      #     run "#{sudo} nohup /etc/init.d/redis-server #{cmd}"
-      #   end
-      # end
-
       execute :sudo, :systemctl, :restart, :sidekiq
     end
 
