@@ -7,12 +7,12 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #            Character.create(name: 'Luke', movie: movies.first)
 message = {
-            'welcome_msg' => ', привет!',
-            'desc_msg' => 'Эта шкала субъективного счастья измеряет эмоциональное переживание индивидом собственной жизни как целого, отражающее общий уровень психологического благополучия в данный момент.',
-            'thanks_msg' => ', спасибо за твой ответ. Теперь ты можешь задать мне любой вопрос в текстовом поле ниже.',
-            'warning_msg' => ', спасибо! Но твой ответ уже принят. Ты можешь задать мне любой вопрос в текстовом поле ниже.',
-            'bye_msg' => ', до следующего сеанса!',
-            'req_msg' => ', оцени следующее утверждение: «В данный момент я счастлив», нажав соответствующую кнопку.'
+            'welcome_msg' => ', hello!',
+            'desc_msg' => "This scale of subjective happiness measures the emotional experience of an individual's own life as a whole, reflecting the general level of psychological well-being at the moment.",
+            'thanks_msg' => ', thank you for your answer. Now you can ask me any question in the text box below.',
+            'warning_msg' => ', thans! But your answer has already been accepted. You can ask me any question in the text box below.',
+            'bye_msg' => ', bye!',
+            'req_msg' => ", Rate the following statement: 'I'm happy right now' by clicking the corresponding button."
            }
 
 message.each do |k, v|
@@ -20,13 +20,13 @@ message.each do |k, v|
 end
 
 button = {
-          '-3' => {'0_btn' => 'Совершенно не согласен' },
-          '-2' => {'0_btn' => 'Не согласен' },
-          '-1' => {'0_btn' => 'Немного не согласен' },
-          '0' => {'0_btn' => 'Неопределенно (и согласен, и не согласен)' },
-          '1' => {'0_btn' => 'Согласен немного' },
-          '2' => {'0_btn' => 'Согласен' },
-          '3' => {'0_btn' => 'Совершенно согласен' }
+          '-3' => {'0_btn' => 'Totally disagree' },
+          '-2' => {'0_btn' => 'I do not agree' },
+          '-1' => {'0_btn' => 'Slightly disagree' },
+          '0' => {'0_btn' => 'Indefinitely (both agree and disagree)' },
+          '1' => {'0_btn' => 'I agree a little' },
+          '2' => {'0_btn' => 'I agree' },
+          '3' => {'0_btn' => 'Totally agree' }
         }
 
 button.each do |k, v|
