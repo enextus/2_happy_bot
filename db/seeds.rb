@@ -2,7 +2,7 @@ message = {
             'welcome_msg' => ', hello!',
             'desc_msg' => "This scale of subjective happiness measures the emotional experience of an individual's own life as a whole, reflecting the general level of psychological well-being at the moment.",
             'thanks_msg' => ', thank you for your answer. Now you can ask me any question in the text box below.',
-            'warning_msg' => ', thans! But your answer has already been accepted. You can ask me any question in the text box below.',
+            'warning_msg' => ', thanks! But your answer has already been saved. You can ask me any question in the text box below.',
             'bye_msg' => ', bye!',
             'req_msg' => ", Rate the following statement: 'I'm happy right now' by clicking the corresponding button."
            }
