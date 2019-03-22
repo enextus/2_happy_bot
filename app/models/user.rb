@@ -1,31 +1,31 @@
 class User < ApplicationRecord
     has_one :chat, dependent: :destroy
-    
+
     @@answers = [
     # positive
-    ', это бесспорно. ',
-    ', это предрешено.',
-    ', никаких сомнений.',
-    ', определённо да!',
-    ', можешь быть уверен в этом.',
+    ', It is certain. ',
+    ', It is decidedly so.',
+    ', Without a doubt.',
+    ', Yes — definitely!',
+    ', You may rely on it.',
     # like positive
-    ', мне кажется — «да».',
-    ', это вероятнее всего.',
-    ', хорошие перспективы.',
-    ', знаки говорят — «да».',
-    ', да!',
+    ', As I see it, yes.',
+    ', Most likely.',
+    ', Outlook good.',
+    ', Signs point to yes.',
+    ', Yes!',
     # Neutral
-    ', пока не ясно, попробуй снова.',
-    ', спроси позже.',
-    ', это лучше не рассказывать.',
-    ', это сейчас нельзя предсказать.',
-    ', сконцентрируйся и спроси опять.',
+    ', Reply hazy, try again.',
+    ', Ask again later.',
+    ', Better not tell you now.',
+    ', Cannot predict now.',
+    ', Concentrate and ask again.',
     # Negative
-    ', даже не думай!',
-    ', мой ответ — «нет»!',
-    ', по моим данным — «нет».',
-    ', перспективы не очень хорошие.',
-    ', весьма сомнительно.'
+    ', Don’t count on it!',
+    ', My reply is no!',
+    ', My sources say no.',
+    ', Outlook not so good.',
+    ', Very doubtful.'
   ].freeze
 
   def answers
