@@ -21,7 +21,7 @@ set :output, {:error => 'error.cron.log', :standard => 'cron.log'}
 #   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
 # end
 
-every 3.minute do
+every 59.minute do
   runner "ReportingWorker.perform_async ' 22.03.2019 reporting worker', 2", :output => 'cron.log'
 end
 
