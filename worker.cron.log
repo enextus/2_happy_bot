@@ -2552,3 +2552,136 @@ Please specify a valid ruby command or the path of a script to run.
 Run 'bin/rails runner -h' for help.
 
 uninitialized constant Rails::Command::RunnerCommand::ReportingWorker
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 8202
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportingWorker
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 9102
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportingWorker
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 9477
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportingWorker
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 9860
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportingWorker
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 10452
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant Rails::Command::RunnerCommand::ReportingWorker
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 4813
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 5557
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 5945
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 6392
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 7040
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 7404
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 8340
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 8960
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 9514
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 10769
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 12981
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 13440
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 14081
+bundler: failed to load command: bin/rails (bin/rails)
+Errno::ENOSPC: No space left on device @ dir_s_mkdir - /tmp/spring-1000
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/2.5.0/fileutils.rb:232:in `mkdir'
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/2.5.0/fileutils.rb:232:in `fu_mkdir'
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/2.5.0/fileutils.rb:210:in `block (2 levels) in mkdir_p'
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/2.5.0/fileutils.rb:208:in `reverse_each'
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/2.5.0/fileutils.rb:208:in `block in mkdir_p'
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/2.5.0/fileutils.rb:193:in `each'
+  /home/enextus/.rbenv/versions/2.5.1/lib/ruby/2.5.0/fileutils.rb:193:in `mkdir_p'
+  /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/env.rb:40:in `tmp_path'
+  /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/env.rb:49:in `socket_path'
+  /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/env.rb:53:in `socket_name'
+  /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/client/run.rb:26:in `connect'
+  /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/client/run.rb:31:in `call'
+  /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/client/command.rb:7:in `call'
+  /home/en/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 6339
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 7280
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 8564
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 9728
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 2975
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 3277
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 2853
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 2252
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 4002
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 5190
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 3412
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 4045
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 4800
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 6048
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 8059
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 15935
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 16361
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 3288
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 5056
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 5061
+Running via Spring preloader in process 5066
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 6098
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 8280
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 13398
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 6934
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 11137
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 7242
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 7835
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 8624
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 9010
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 3670
