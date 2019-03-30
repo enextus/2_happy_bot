@@ -1,9 +1,3 @@
-# Use this file to easily define all of your cron jobs.
-#
-# It's helpful, but not entirely necessary to understand cron before proceeding.
-# http://en.wikipedia.org/wiki/Cron
-
-# Example:
 #
 # set :output, "/path/to/my/cron_log.log"
 #
@@ -17,8 +11,6 @@
 #   runner "AnotherModel.prune_old_records"
 # end
 
-# Learn more: http://github.com/javan/whenever
-
 set :chronic_options, hours24: true
 
 # adds ">> cron.log 2> error.log" to all commands
@@ -29,8 +21,8 @@ set :output, {:error => 'error.cron.log', :standard => 'cron.log'}
 #   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
 # end
 
-every 5.minute do
-  runner "ReportingWorker.perform_async ' 17.02.2019 reporting worker', 2", :worker.output => 'worker.cron.log'
+every 59.minute do
+  runner "ReportingWorker.perform_async ' 22.03.2019 reporting worker', 2", :output => 'cron.log'
 end
 
 # every :hour do # Many shortcuts available: :hour, :day, :month, :year, :reboot

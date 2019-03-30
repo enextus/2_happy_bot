@@ -1,15 +1,14 @@
 # config valid only for current version of Capistrano
 lock '3.11.0'
-
 set :application, 'myapp'
 set :repo_url, 'git@github.com:enextus/2_happy_bot.git'
+set :branch, 'happy_bot'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, '/home/deploy/www/myapp'
-
 
 # Default value for :scm is :git
 # set :scm, :git
@@ -36,13 +35,20 @@ set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', '
 # set :keep_releases, 5
 
 namespace :deploy do
+  # desc "reload the database with seed data"
+  # task :seed do
+  #   run "cd #{current_path}; bundle exec rake db:seed RAILS_ENV=#{rails_env}"
+  # end
+
   after :restart, :clear_cache do
-    on roles(:web), in: :groups, limit: 3, wait: 10 do
+
+    on roles(:app), in: :groups, limit: 3, wait: 10 do
       # Here we can do anything such as:
       # within release_path do
       #   execute :rake, 'cache:clear'
       # end
       execute :sudo, :systemctl, :restart, :sidekiq
     end
+
   end
 end

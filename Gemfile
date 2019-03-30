@@ -4,9 +4,15 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
-
+# dotenv https://www.rubydoc.info/gems/dotenv/2.7.1
+gem 'dotenv-rails', groups: [:development, :test]
+gem 'dotenv', '~> 2.7', '>= 2.7.1'
+# gem 'dotenv-rails', require: 'dotenv/rails-now'
+# gem 'gem-that-requires-env-variables'
+gem 'railties', '~> 5.0', '>= 5.0.0.1'
+gem 'net-ssh', '~> 5.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.5'
+gem 'rails', '~> 5.2.2.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
@@ -39,18 +45,19 @@ gem 'telegram-bot-ruby', '~> 0.8.6.1'
 gem 'whenever', '~> 0.10.0', require: false
 gem 'redis', '~> 4.1'
 
+gem "actionview", ">= 5.1.6.2"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
-  gem 'dotenv'
   gem 'pry'
   gem 'selenium-webdriver'
 end
 
 group :development do
-  gem 'capistrano', '~> 3.10'
+  gem 'capistrano', '~> 3.11'
   gem 'capistrano-bundler', '~> 1.2'
   gem 'capistrano-passenger', '~> 0.2'
   gem 'capistrano-rails', '~> 1.2'
