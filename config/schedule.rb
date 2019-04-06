@@ -15,14 +15,14 @@ set :chronic_options, hours24: true
 
 # adds ">> cron.log 2> error.log" to all commands
 
-set :output, {:error => 'error.cron.log', :standard => 'cron.log'}
+set :output, {:error => '/log/error.cron.log', :standard => '/log/cron.log'}
 
 # every 1.day, at: '15:00' do
 #   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
 # end
 
 every 59.minute do
-  runner "ReportingWorker.perform_async ' 22.03.2019 reporting worker', 2", :output => 'cron.log'
+  runner "ReportingWorker.perform_async ' 22.03.2019 reporting worker', 2", :output => '/log/cron.log'
 end
 
 # every :hour do # Many shortcuts available: :hour, :day, :month, :year, :reboot
