@@ -1,0 +1,49 @@
+rbenv: version `2.5.5' is not installed (set by /home/enextus/projects/2happy_bot/.ruby-version)
+rbenv: bundle: command not found
+
+The `bundle' command exists in these Ruby versions:
+  2.3.1
+  2.5.1
+  2.6.1
+
+rbenv: bundle: command not found
+
+The `bundle' command exists in these Ruby versions:
+  2.3.1
+  2.5.1
+  2.6.1
+
+rbenv: bundle: command not found
+
+The `bundle' command exists in these Ruby versions:
+  2.3.1
+  2.5.1
+  2.6.1
+
+rbenv: bundle: command not found
+
+The `bundle' command exists in these Ruby versions:
+  2.3.1
+  2.5.1
+  2.6.1
+
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 24468
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 1504
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 4714
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 8422
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 10589
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant ReportingWorker
+/home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib/spring/application.rb:185: warning: Insecure world writable dir /home/enextus/projects/2happy_bot/vendor/bundle/ruby/2.5.0 in PATH, mode 040777
+Running via Spring preloader in process 11985
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+
+uninitialized constant ReportingWorker
