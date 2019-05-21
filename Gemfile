@@ -42,7 +42,7 @@ gem 'airbrussh', '~> 1.3', '>= 1.3.1'
 gem 'sidekiq', '~> 5.2', '>= 5.2.5'
 gem 'sidekiq-client-cli'
 gem 'telegram-bot-ruby', '~> 0.8.6.1'
-gem 'whenever', '~> 0.10.0', require: false
+gem 'whenever', '~> 0.11.0', require: false
 gem 'redis', '~> 4.1'
 
 gem "actionview", ">= 5.1.6.2"
