@@ -34,6 +34,14 @@ set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', '
 # Default value for keep_releases is 5
 # set :keep_releases, 5
 
+set :whenever_command, -> {
+  on roles(:app) do
+    within current_path do
+      execute :bundle, :exec, "whenever -i #{fetch(:application)}_#{fetch(:rails_env)} --update-crontab #{fetch(:rails_env) == "production" ? "" : "--load-file config/schedule.dev.rb"} --set environment=#{fetch(:rails_env)}"
+    end
+  end
+}
+
 namespace :deploy do
   # desc "reload the database with seed data"
   # task :seed do

@@ -1,5 +1,17 @@
-#
-# set :output, "/path/to/my/cron_log.log"
+set :chronic_options, hours24: true
+set :environment, 'development'
+log_dir = File.expand_path("../log/", __FILE__)
+
+# adds ">> cron.log 2> error.log" to all commands
+
+set :output, {
+  :error    => File.join(log_dir, "error.cron.log"),
+  :standard => File.join(log_dir, "cron.log")
+}
+
+# every 1.day, at: '15:00' do
+#   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
+# end
 #
 # every 2.hours do
 #   command "/usr/bin/some_great_command"
@@ -11,18 +23,8 @@
 #   runner "AnotherModel.prune_old_records"
 # end
 
-set :chronic_options, hours24: true
-
-# adds ">> cron.log 2> error.log" to all commands
-
-set :output, {:error => '/log/error.cron.log', :standard => '/log/cron.log'}
-
-# every 1.day, at: '15:00' do
-#   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
-# end
-
-every 59.minute do
-  runner "ReportingWorker.perform_async ' 22.03.2019 reporting worker', 2", :output => '/log/cron.log'
+every 4.minute do
+  runner "ReportingWorker.perform_async ' 22.05.2019 reporting worker', 2", :output => '/home/enextus/projects/2happy_bot/log/cron.log'
 end
 
 # every :hour do # Many shortcuts available: :hour, :day, :month, :year, :reboot
