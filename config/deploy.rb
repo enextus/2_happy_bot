@@ -37,7 +37,7 @@ set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', '
 set :whenever_command, -> {
   on roles(:app) do
     within current_path do
-      execute :bundle, :exec, "whenever -i #{fetch(:application)}_#{fetch(:rails_env)} --update-crontab #{fetch(:rails_env) == "production" ? "" : "--load-file config/schedule.dev.rb"} --set environment=#{fetch(:rails_env)}"
+      execute :bundle, :exec, "whenever -i #{fetch(:application)}_#{fetch(:rails_env)} --update-crontab #{fetch(:rails_env) == "production" ? "" : "--load-file config/schedule.rb"} --set environment=#{fetch(:rails_env)}"
     end
   end
 }
