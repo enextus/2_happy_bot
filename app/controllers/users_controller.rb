@@ -9,7 +9,6 @@
 class UsersController < ApplicationController
   require 'dotenv'
   Dotenv.load
-
   require 'sidekiq'
 
   TOKEN = ENV['TOKEN']
