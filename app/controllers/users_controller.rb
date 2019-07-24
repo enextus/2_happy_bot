@@ -78,9 +78,8 @@ class UsersController < ApplicationController
       end
     end
   end
-  
-  # "strong params"
 
+  # here are "strong params"
   private
 
   def user_reply(message)
