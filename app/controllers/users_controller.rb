@@ -1,11 +1,10 @@
 # frozen_string_literal: true
 
 # Telegram bot with a happiness measurement tool.
-#
 # a chatId is a unique identifier for a chat, that can be either private, group, supergroup or channel whereas userId is a unique identifier for a user or bot only.
 # The only time the values can be the same is in a private chat.
 # Read more about Telegram types https://stackoverflow.com/questions/42785390/what-is-difference-between-msg-chat-id-and-msg-from-id-in-telegeram-bot/42786449
-#
+
 class UsersController < ApplicationController
   require 'dotenv'
   Dotenv.load
