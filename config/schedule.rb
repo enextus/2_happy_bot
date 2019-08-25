@@ -24,7 +24,7 @@ set :output, {
 # end
 
 every 4.minute do
-  runner "ReportingWorker.perform_async ' 22.05.2019 reporting worker', 2", :output => '/home/enextus/projects/2happy_bot/log/cron.log'
+  runner "ReportingWorker.perform_async ' 22.05.2019 reporting worker', 2", :output => File.join(log_dir, "cron.log")
 end
 
 # every :hour do # Many shortcuts available: :hour, :day, :month, :year, :reboot
