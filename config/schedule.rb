@@ -1,5 +1,5 @@
 set :chronic_options, hours24: true
-set :environment, 'development'
+# set :environment, 'development'
 log_dir = File.expand_path("../log/", __FILE__)
 
 # adds ">> cron.log 2> error.log" to all commands
@@ -24,7 +24,7 @@ set :output, {
 # end
 
 every 4.minute do
-  runner "ReportingWorker.perform_async ' 22.05.2019 reporting worker', 2", :output => File.join(log_dir, "cron.log")
+  runner "ReportingWorker.perform_async ' 25.08.2019 reporting worker', 2", :output # => File.join(log_dir, "cron.log")
 end
 
 # every :hour do # Many shortcuts available: :hour, :day, :month, :year, :reboot
