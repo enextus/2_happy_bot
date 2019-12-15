@@ -236,7 +236,7 @@ GEM
       faraday
       inflecto
       virtus
-    thor (0.20.3)
+    thor (1.0.0)
     thread_safe (0.3.6)
     thread_safe (0.3.6-java)
     tilt (2.0.10)
