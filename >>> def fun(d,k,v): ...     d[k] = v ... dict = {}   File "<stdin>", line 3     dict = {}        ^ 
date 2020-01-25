@@ -1,0 +1,3 @@
+def fun(d,k,v):
+     d[k] = v
+ dict = {}
