@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '3.12.0'
+lock '3.12.1'
 set :application, 'myapp'
 set :repo_url, 'git@github.com:enextus/2_happy_bot.git'
 set :branch, 'happy_bot'
