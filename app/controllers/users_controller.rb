@@ -4,7 +4,6 @@
 # a chatId is a unique identifier for a chat, that can be either private, group, supergroup or channel whereas userId is a unique identifier for a user or bot only.
 # The only time the values can be the same is in a private chat.
 # Read more about Telegram types https://stackoverflow.com/questions/42785390/what-is-difference-between-msg-chat-id-and-msg-from-id-in-telegeram-bot/42786449
-
 class UsersController < ApplicationController
   require 'dotenv'
   Dotenv.load
@@ -18,6 +17,7 @@ class UsersController < ApplicationController
   # check interval after last saving by each user in the DB
   def timer(login)
     return true if User.find_by(login: login).nil?
+
     user = User.find_by(login: login)
     Time.zone.now - user.chat.statebuttons.last.created_at > DELAY
   end
@@ -33,11 +33,13 @@ class UsersController < ApplicationController
       bot.listen do |message|
         def getting_msg
           return if Message.where(name: 'welcome_msg').empty?
+
           Message.select(:name, :description).to_hash
         end
 
         def getting_btn
           return if Button.where(name: '0_btn').empty?
+
           Button.all
         end
 
