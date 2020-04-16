@@ -12,7 +12,7 @@ gem 'dotenv', '~> 2.7', '>= 2.7.1'
 gem 'railties', '~> 5.0', '>= 5.0.0.1'
 gem 'net-ssh', '~> 5.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.4.2'
+gem 'rails', '~> 6.0.2.2'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
