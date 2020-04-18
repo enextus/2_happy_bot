@@ -53,7 +53,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.1)
     bindex (0.8.1)
     builder (3.2.4)
-    byebug (11.1.1)
+    byebug (11.1.2)
     capistrano (3.13.0)
       airbrussh (>= 1.0.0)
       i18n
@@ -297,7 +297,7 @@ DEPENDENCIES
   pry (~> 0.10.3)
   puma (~> 3.7)
   rails (~> 5.2.4.2)
-  railties (~> 5.0, >= 5.0.0.1)
+  railties (~> 5.0, >= 5.2.4.2)
   redis (~> 4.1)
   sass-rails (~> 5.0)
   selenium-webdriver
