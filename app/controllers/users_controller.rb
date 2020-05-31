@@ -27,7 +27,7 @@ class UsersController < ApplicationController
     HardWorker.perform_async('17-04-2018', '10-12-2018')
   end
 
-  # getting a message from telegram API
+  # getting a message from telegram API .
   def getting_user_message
     Telegram::Bot::Client.run(TOKEN) do |bot|
       bot.listen do |message|
