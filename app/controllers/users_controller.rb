@@ -12,8 +12,7 @@ class UsersController < ApplicationController
   TOKEN = ENV['TOKEN']
 
   # Delay time time until last write to the db
-  DELAY = 200
- 
+  DELAY = 250
 
   # check interval after last saving by each user in the DB
   def timer(login)
@@ -38,16 +37,16 @@ class UsersController < ApplicationController
           Message.select(:name, :description).to_hash
         end
 
-        def getting_btn
+        getting_btn2 = lambda {
           return if Button.where(name: '0_btn').empty?
 
           Button.all
-        end
+        }
 
         m_name = message.from.first_name.capitalize
         case message
         when Telegram::Bot::Types::CallbackQuery
-          return unless message.data.to_i
+          break unless message.data.to_i # removed return
 
           if timer(message.as_json['message']['chat']['first_name'])
             user = User.find_or_create_by(user_reply(message))
@@ -64,10 +63,12 @@ class UsersController < ApplicationController
           when '/start'
             bot.api.send_message(chat_id: message.chat.id, text: m_name + getting_msg['welcome_msg'])
             bot.api.send_message(chat_id: message.chat.id, text: getting_msg['desc_msg'])
+
             # buttons array
-            kb = getting_btn.map do |button|
+            kb = getting_btn2.call.map do |button|
               Telegram::Bot::Types::InlineKeyboardButton.new(text: button.description, callback_data: button.button_value)
             end
+
             markup = Telegram::Bot::Types::InlineKeyboardMarkup.new(inline_keyboard: kb)
             bot.api.send_message(chat_id: message.chat.id, text: m_name + getting_msg['req_msg'], reply_markup: markup)
           when '/stop'
