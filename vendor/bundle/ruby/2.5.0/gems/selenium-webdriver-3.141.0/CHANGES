@@ -48,7 +48,7 @@ Safari:
   * Fixed a bug when Selenium::WebDriver::Element#displayed? would raise error
     in Safari 12
 
-3.14.0 (2018-08-03)
+3.14.1 (2018-08-03)
 ===================
 
 Ruby:
