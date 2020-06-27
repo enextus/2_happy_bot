@@ -4,7 +4,6 @@ require 'active_support/all'
 require 'sidekiq'
 require 'sidekiq/api' # for the case of rails console
 
-# test
 # this worker check the answers from users
 class CheckingWorker
   include Sidekiq::Worker
@@ -15,6 +14,7 @@ class CheckingWorker
     state_button = Statebutton.where(created_at: beginning_time..end_time,
                                      chat_id: user_chat_id)
     return unless state_button.size.positive?
+
     Request.find_by(id: replay_id)&.update(response: true)
   end
 end

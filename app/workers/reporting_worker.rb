@@ -15,11 +15,13 @@ class ReportingWorker
 
   def getting_msg
     return if Message.where(name: 'welcome_msg').empty?
+
     Message.select(:name, :description).to_hash
   end
 
   def getting_btn
     return if Button.where(name: '0_btn').empty?
+
     Button.all
   end
 
