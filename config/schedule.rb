@@ -23,7 +23,7 @@ set :output, {
 #   runner "AnotherModel.prune_old_records"
 # end
 
-every 4.minute do
+every 10.minute do
   runner "ReportingWorker.perform_async ' 25.08.2019 reporting worker', 2"
 end
 
