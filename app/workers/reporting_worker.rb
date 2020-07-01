@@ -43,7 +43,7 @@ class ReportingWorker
         user_chat_id = user.chat.id
         replay_id = request.id
         beginning_time = request.created_at
-        end_time = request.created_at + 400
+        end_time = request.created_at + 490
 
         CheckingWorker.perform_async(beginning_time, end_time, user_chat_id, replay_id)
       end
