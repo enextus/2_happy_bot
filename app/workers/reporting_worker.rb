@@ -2,7 +2,7 @@
 
 require 'active_support/all'
 require 'sidekiq'
-require 'sidekiq/api' # for the case of rails console
+require 'sidekiq/api' # for rails console
 
 require 'dotenv'
 Dotenv.load
