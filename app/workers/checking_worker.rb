@@ -9,7 +9,8 @@ class CheckingWorker
   include Sidekiq::Worker
 
   def perform(run_time, end_time, user_chat_id, replay_id)
-    sleep 9200
+    sleep 7200
+    sleep 100
 
     state_button = Statebutton.where(created_at: run_time..end_time, chat_id: user_chat_id)
     return unless state_button.size.positive?
