@@ -2,7 +2,7 @@ class ExampleJob < ApplicationJob
   queue_as :default
 
   def perform(*args)
-    # Do something later
+    # Do something
   end
 end
 
