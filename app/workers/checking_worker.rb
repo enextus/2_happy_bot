@@ -9,7 +9,7 @@ class CheckingWorker
   include Sidekiq::Worker
 
   def perform(run_time, end_time, user_chat_id, replay_id)
-    sleep 5208
+    sleep 7238
 
     # Do something
 

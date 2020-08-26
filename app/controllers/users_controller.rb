@@ -12,7 +12,7 @@ class UsersController < ApplicationController
   TOKEN = ENV['TOKEN']
 
   # Delay time time until last write to the db
-  DELAY = 250
+  DELAY = 450
 
   # check interval after last saving by each user in the DB
   def timer(login)
