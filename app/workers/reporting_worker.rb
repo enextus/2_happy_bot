@@ -5,6 +5,7 @@ require 'sidekiq'
 require 'sidekiq/api' # for rails console
 
 require 'dotenv'
+
 Dotenv.load
 
 TOKEN = ENV['TOKEN']
