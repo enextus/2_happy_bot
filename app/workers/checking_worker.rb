@@ -12,7 +12,7 @@ class CheckingWorker
 
     # CheckingWorker.perform_async(run_time, end_time, user_chat_id, replay_id)
 
-    sleep 3600 * 3
+    sleep 3600 * 5
 
     state_button = Statebutton.where(created_at: run_time..end_time, chat_id: user_chat_id)
 
