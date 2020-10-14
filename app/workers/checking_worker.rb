@@ -14,6 +14,9 @@ class CheckingWorker
 
     sleep 3600 * 5
 
+    partlength = 0
+    partlength ||= gets.to_i
+
     state_button = Statebutton.where(created_at: run_time..end_time, chat_id: user_chat_id)
 
     return unless state_button.size.positive?
