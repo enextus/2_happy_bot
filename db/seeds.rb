@@ -12,13 +12,13 @@ message.each do |k, v|
 end
 
 button = {
-          '-3' => {'0_btn' => 'Totally disagree' },
-          '-2' => {'0_btn' => 'I do not agree' },
-          '-1' => {'0_btn' => 'Slightly disagree' },
+          '-3' => {'0_btn' => 'Totally disagree -3' },
+          '-2' => {'0_btn' => 'I do not agree -2' },
+          '-1' => {'0_btn' => 'Slightly disagree -1' },
           '0' => {'0_btn' => 'Indefinitely (both agree and disagree)' },
-          '1' => {'0_btn' => 'I agree a little' },
-          '2' => {'0_btn' => 'I agree' },
-          '3' => {'0_btn' => 'Totally agree' }
+          '1' => {'0_btn' => 'I agree a little 1' },
+          '2' => {'0_btn' => 'I agree 2' },
+          '3' => {'0_btn' => 'Totally agree 3' }
         }
 
 button.each do |k, v|
