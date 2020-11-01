@@ -12,7 +12,7 @@ class CheckingWorker
 
     # CheckingWorker.perform_async(run_time, end_time, user_chat_id, replay_id)
 
-    sleep 3600 * 4
+    sleep 3600 * 3
 
     partlength = 0
     partlength ||= gets.to_i
