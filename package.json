@@ -1,8 +1,0 @@
-{
-  "name": "happy_bot",
-  "private": true,
-  "dependencies": {
-    "red": "0.0.0",
-    "ws": "^3.3.3"
-  }
-}
