@@ -10,7 +10,7 @@ Dotenv.load
 
 TOKEN = ENV['TOKEN']
 
-# this worker send the requests to the telegram users
+# this worker send the requests to the telegram users 
 class ReportingWorker
   include Sidekiq::Worker
 
