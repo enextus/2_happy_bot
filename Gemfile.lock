@@ -107,9 +107,6 @@ GEM
       ruby2_keywords
     faraday-net_http (1.0.0)
     ffi (1.14.2)
-    ffi (1.14.2-java)
-    ffi (1.14.2-x64-mingw32)
-    ffi (1.14.2-x86-mingw32)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     i18n (1.8.5)
@@ -138,29 +135,15 @@ GEM
       net-ssh (>= 2.6.5, < 7.0.0)
     net-ssh (5.2.0)
     nio4r (2.5.4)
-    nio4r (2.5.4-java)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
-    nokogiri (1.10.10-java)
-    nokogiri (1.10.10-x64-mingw32)
-      mini_portile2 (~> 2.4.0)
-    nokogiri (1.10.10-x86-mingw32)
-      mini_portile2 (~> 2.4.0)
     pg (1.2.3)
-    pg (1.2.3-x64-mingw32)
-    pg (1.2.3-x86-mingw32)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    pry (0.10.4-java)
-      coderay (~> 1.1.0)
-      method_source (~> 0.8.1)
-      slop (~> 3.4)
-      spoon (~> 0.0)
     public_suffix (4.0.6)
     puma (3.12.6)
-    puma (3.12.6-java)
     rack (2.2.3)
     rack-protection (2.1.0)
       rack
@@ -220,8 +203,6 @@ GEM
       cli
       sidekiq (>= 2.15)
     slop (3.6.0)
-    spoon (0.0.6)
-      ffi
     spring (2.1.1)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -242,15 +223,12 @@ GEM
       virtus
     thor (1.0.1)
     thread_safe (0.3.6)
-    thread_safe (0.3.6-java)
     tilt (2.0.10)
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2020.6)
-      tzinfo (>= 1.0.0)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     virtus (1.0.5)
@@ -265,8 +243,6 @@ GEM
       railties (>= 5.0)
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
-    websocket-driver (0.7.3-java)
-      websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     whenever (0.11.0)
       chronic (>= 0.6.3)
@@ -274,11 +250,6 @@ GEM
       nokogiri (~> 1.8)
 
 PLATFORMS
-  java
-  ruby
-  x64-mingw32
-  x86-mingw32
-  x86-mswin32
   x86_64-linux
 
 DEPENDENCIES
