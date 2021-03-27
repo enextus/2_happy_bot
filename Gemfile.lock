@@ -126,9 +126,10 @@ GEM
     marcel (0.3.3)
       mimemagic (~> 0.3.2)
     method_source (0.8.2)
-    mimemagic (0.3.8)
+    mimemagic (0.3.10)
       nokogiri (~> 1)
-    mini_mime (1.0.2)
+      rake
+    mini_mime (1.0.3)
     minitest (5.14.4)
     multipart-post (2.1.1)
     net-scp (3.0.0)
