@@ -9,10 +9,15 @@ gem 'dotenv-rails', groups: [:development, :test]
 gem 'dotenv', '~> 2.7', '>= 2.7.1'
 # gem 'dotenv-rails', require: 'dotenv/rails-now'
 # gem 'gem-that-requires-env-variables'
+gem 'rails', '~> 5.2', '= 5.2.5'
 gem 'railties', '~> 5.0', '>= 5.2.4.2'
+gem "actionview", ">= 5.1.6.2"
+
+gem 'activerecord', '~> 5.2', '= 5.2.5'
+
 gem 'net-ssh', '~> 5.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.4.2'
+# gem 'rails', '~> 5.2.4.2'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
@@ -45,7 +50,7 @@ gem 'telegram-bot-ruby', '~> 0.8.6.1'
 gem 'whenever', '~> 0.11.0', require: false
 gem 'redis', '~> 4.1'
 
-gem "actionview", ">= 5.1.6.2"
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
