@@ -271,7 +271,7 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   pry (~> 0.10.3)
   puma (~> 3.7)
-  rails (~> 5.2, = 5.2.5)
+  rails (= 5.2.5)
   railties (~> 5.0, >= 5.2.4.2)
   redis (~> 4.1)
   sass-rails (~> 5.0)
