@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Load DSL and set up stages
 require 'capistrano/setup'
 
@@ -19,7 +21,6 @@ require 'whenever/capistrano'
 require 'capistrano/ssh_doctor'
 
 set :whenever_command, 'bundle exec whenever'
-
 set :rbenv_type, :user
 set :rbenv_ruby, '2.7.1'
 
