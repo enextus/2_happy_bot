@@ -1,23 +1,28 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
-  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
   "https://github.com/#{repo_name}.git"
 end
+
 # dotenv https://www.rubydoc.info/gems/dotenv/2.7.1
-gem 'dotenv-rails', groups: [:development, :test]
+
+gem 'actionview', '= 5.2.5'
 gem 'dotenv', '~> 2.7', '>= 2.7.1'
+gem 'dotenv-rails', groups: %i[development test]
+
 # gem 'dotenv-rails', require: 'dotenv/rails-now'
 # gem 'gem-that-requires-env-variables'
-
-gem 'railties', '~> 5.0', '>= 5.2.4.2'
-gem "actionview", "= 5.2.5"
 
 gem 'activerecord', '~> 5.2', '= 5.2.5'
 
 gem 'net-ssh', '~> 5.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '= 5.2.5'
+
+gem 'railties', '~> 5.0', '>= 5.2.4.2'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
@@ -28,7 +33,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-gem "sprockets", ">= 3.7.2"
+
 # gem "nokogiri", ">= 1.8.5"
 gem 'nokogiri', '~> 1.10', '>= 1.10.4'
 # Use CoffeeScript for .coffee assets and views
@@ -44,17 +49,16 @@ gem 'jbuilder', '~> 2.5'
 gem 'airbrussh', '~> 1.3', '>= 1.3.1'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'redis', '~> 4.1'
 gem 'sidekiq', '~> 5.2', '>= 5.2.5'
 gem 'sidekiq-client-cli'
+gem 'sprockets', '>= 3.7.2'
 gem 'telegram-bot-ruby', '~> 0.8.6.1'
 gem 'whenever', '~> 0.11.0', require: false
-gem 'redis', '~> 4.1'
-
-
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'byebug', platforms: %i[mri mingw x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'pry', '~> 0.10.3'
@@ -78,4 +82,4 @@ group :development do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
