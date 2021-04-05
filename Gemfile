@@ -59,6 +59,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'pry', '~> 0.10.3'
   gem 'selenium-webdriver'
+  gem 'rubocop-rails', '~> 2.9', '>= 2.9.1'
 end
 
 group :development do
