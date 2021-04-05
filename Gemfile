@@ -50,6 +50,7 @@ gem 'airbrussh', '~> 1.3', '>= 1.3.1'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'redis', '~> 4.1'
+gem 'rubygems-update', '~> 3.2', '>= 3.2.15'
 gem 'sidekiq', '~> 5.2', '>= 5.2.5'
 gem 'sidekiq-client-cli'
 gem 'sprockets', '>= 3.7.2'
@@ -67,7 +68,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'capistrano', '~> 3.11'
+  gem 'capistrano', '~> 3.16'
   gem 'capistrano-bundler', '~> 2.0', '>= 2.0.1'
   gem 'capistrano-passenger', '~> 0.2'
   gem 'capistrano-rails', '~> 1.2'
