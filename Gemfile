@@ -18,7 +18,7 @@ gem 'dotenv-rails', groups: %i[development test]
 
 gem 'activerecord', '~> 5.2', '= 5.2.5'
 
-gem 'net-ssh', '~> 5.2'
+gem 'net-ssh', '~> 6.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '= 5.2.5'
 
@@ -68,7 +68,7 @@ end
 
 group :development do
   gem 'capistrano', '~> 3.11'
-  gem 'capistrano-bundler', '~> 1.2'
+  gem 'capistrano-bundler', '~> 2.0', '>= 2.0.1'
   gem 'capistrano-passenger', '~> 0.2'
   gem 'capistrano-rails', '~> 1.2'
   gem 'capistrano-rbenv', '~> 2.1'
