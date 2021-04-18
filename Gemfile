@@ -24,7 +24,7 @@ gem 'rails', '= 5.2.5'
 
 gem 'railties', '~> 5.0', '>= 5.2.4.2'
 # Use postgresql as the database for Active Record
-gem 'pg', '>= 0.18', '< 2.0'
+gem 'pg', '~> 1.2', '>= 1.2.3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
