@@ -9,20 +9,20 @@ end
 
 # dotenv https://www.rubydoc.info/gems/dotenv/2.7.1
 
-gem 'actionview', '= 5.2.5'
+gem 'actionview', '= 6.1.3.1'
 gem 'dotenv', '~> 2.7', '>= 2.7.1'
 gem 'dotenv-rails', groups: %i[development test]
 
 # gem 'dotenv-rails', require: 'dotenv/rails-now'
 # gem 'gem-that-requires-env-variables'
 
-gem 'activerecord', '~> 5.2', '= 5.2.5'
+gem 'activerecord', '= 6.1.3.1'
 
 gem 'net-ssh', '~> 6.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '= 5.2.5'
+gem 'rails', '= 6.1.3.1'
 
-gem 'railties', '~> 5.0', '>= 5.2.4.2'
+gem 'railties', '>= 6.1.3.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.2', '>= 1.2.3'
 # Use Puma as the app server
