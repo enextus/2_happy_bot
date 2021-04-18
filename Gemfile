@@ -8,7 +8,7 @@ git_source(:github) do |repo_name|
 end
 
 # dotenv https://www.rubydoc.info/gems/dotenv/2.7.1
-
+gem 'bootsnap',   '>= 1.2', require: false
 gem 'actionview', '= 6.1.3.1'
 gem 'dotenv', '~> 2.7', '>= 2.7.1'
 gem 'dotenv-rails', groups: %i[development test]
