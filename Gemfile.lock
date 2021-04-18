@@ -312,9 +312,9 @@ DEPENDENCIES
   byebug
   capistrano (~> 3.2.1)
   capistrano-bundler (~> 2.0, >= 2.0.1)
-  capistrano-passenger (~> 0.2)
-  capistrano-rails (~> 1.2)
-  capistrano-rbenv (~> 2.1)
+  capistrano-passenger (~> 0.2.1)
+  capistrano-rails (~> 1.6, >= 1.6.1)
+  capistrano-rbenv (~> 2.2)
   capistrano-ssh-doctor (~> 1.0)
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
@@ -347,4 +347,4 @@ DEPENDENCIES
   whenever (~> 0.11.0)
 
 BUNDLED WITH
-   2.2.16
+   2.2.2
