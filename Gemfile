@@ -7,8 +7,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'bootsnap',   '>= 1.2', require: false
 gem 'actionview', '= 6.1.3.1'
+gem 'bootsnap',   '>= 1.2', require: false
+
 gem 'dotenv', '~> 2.7', '>= 2.7.1'
 gem 'dotenv-rails', groups: %i[development test]
 
