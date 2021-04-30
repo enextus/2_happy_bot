@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require 'active_support/all'
 require 'sidekiq'
 require 'sidekiq/api' # for rails console
