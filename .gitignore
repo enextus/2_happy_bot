@@ -7,6 +7,13 @@
 # Ignore bundler config.
 /.bundle
 
+# Ignore idea config.
+/.idea/
+
+# Ignore vscode config.
+/.vscode/
+
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
