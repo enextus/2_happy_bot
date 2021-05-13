@@ -13,7 +13,6 @@
 # Ignore vscode config.
 /.vscode/
 
-
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
