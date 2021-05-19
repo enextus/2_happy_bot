@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ExampleJob < ApplicationJob
   queue_as :default
 
@@ -5,6 +7,3 @@ class ExampleJob < ApplicationJob
     # Do something
   end
 end
-
-
-# https://github.com/mperham/sidekiq/wiki/Active-Job
