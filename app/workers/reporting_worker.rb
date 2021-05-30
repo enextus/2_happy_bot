@@ -29,8 +29,10 @@ class ReportingWorker
   def perform(*)
     Telegram::Bot::Client.run(TOKEN) do |bot|
       User.all.each do |user|
-        bot.api.send_message(chat_id: user.chat.telegram_chat_number, text: user.login + getting_msg['welcome_msg'].to_s)
-        bot.api.send_message(chat_id: user.chat.telegram_chat_number, text: getting_msg['desc_msg'])
+        bot.api.send_message(chat_id: user.chat.telegram_chat_number,
+                             text: user.login + getting_msg['welcome_msg'].to_s)
+        bot.api.send_message(chat_id: user.chat.telegram_chat_number,
+                             text: getting_msg['desc_msg'])
 
         kb = getting_btn.map do |button|
           Telegram::Bot::Types::InlineKeyboardButton.new(text: button.description, callback_data: button.button_value)
@@ -38,7 +40,9 @@ class ReportingWorker
 
         markup = Telegram::Bot::Types::InlineKeyboardMarkup.new(inline_keyboard: kb)
 
-        bot.api.send_message(chat_id: user.chat.telegram_chat_number, text: user.login + getting_msg['req_msg'], reply_markup: markup)
+        bot.api.send_message(chat_id: user.chat.telegram_chat_number,
+                             text: user.login + getting_msg['req_msg'],
+                             reply_markup: markup)
         request = user.chat.requests.create(chat_id: user.chat.id)
 
         user_chat_id = user.chat.id

@@ -9,7 +9,6 @@ class CheckingWorker
   include Sidekiq::Worker
 
   def perform(run_time, end_time, user_chat_id, replay_id)
-
     # CheckingWorker.perform_async(run_time, end_time, user_chat_id, replay_id)
 
     sleep 3600 * 25
