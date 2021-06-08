@@ -10,6 +10,8 @@ end
 gem 'actionview', '= 6.1.3.1'
 gem 'bootsnap',   '>= 1.2', require: false
 
+gem 'dry-inflector', '~> 0.2.0'
+
 gem 'dotenv', '~> 2.7', '>= 2.7.1'
 gem 'dotenv-rails', groups: %i[development test]
 
