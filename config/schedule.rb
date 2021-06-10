@@ -1,13 +1,14 @@
+# frozen_string_literal: true
+
 set :chronic_options, hours24: true
 # set :environment, 'development'
 log_dir = ::File.expand_path('../../log/', __FILE__)
 
 # adds ">> cron.log 2> error.log" to all commands
 
-set :output, {
-  :error    => File.join(log_dir, "error.cron.log"),
-  :standard => File.join(log_dir, "cron.log")
-}
+set :output, { error: File.join(log_dir, 'error.cron.log'),
+               standard: File.join(log_dir, 'cron.log')
+              }
 
 # every 1.day, at: '15:00' do
 #   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
@@ -23,8 +24,8 @@ set :output, {
 #   runner "AnotherModel.prune_old_records"
 # end
 
-every 10.minute do
-  runner "ReportingWorker.perform_async ' 25.08.2019 reporting worker', 2"
+every 45.minute do
+  runner "ReportingWorker.perform_async ' 11.06.2021 reporting worker', 2"
 end
 
 # every :hour do # Many shortcuts available: :hour, :day, :month, :year, :reboot
