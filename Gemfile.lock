@@ -345,6 +345,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.1)
   sprockets (>= 3.7.2)
+  sshkit (~> 1.21, >= 1.21.2)
   telegram-bot-ruby (~> 0.8.6.1)
   turbolinks (~> 5)
   tzinfo-data
@@ -353,4 +354,4 @@ DEPENDENCIES
   whenever (~> 0.11.0)
 
 BUNDLED WITH
-   2.2.16
+   2.2.19

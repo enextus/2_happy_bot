@@ -53,6 +53,9 @@ gem 'redis', '~> 4.1'
 gem 'rubygems-update', '~> 3.2', '>= 3.2.15'
 gem 'sidekiq', '~> 5.2', '>= 5.2.5'
 gem 'sidekiq-client-cli'
+
+gem 'sshkit', '~> 1.21', '>= 1.21.2'
+
 gem 'sprockets', '>= 3.7.2'
 gem 'telegram-bot-ruby', '~> 0.8.6.1'
 gem 'whenever', '~> 0.11.0', require: false
