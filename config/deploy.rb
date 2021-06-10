@@ -47,7 +47,9 @@ set :linked_dirs, fetch(:linked_dirs, []).push('log',
 set :whenever_command, -> {
   on roles(:app) do
     within current_path do
-      execute :bundle, :exec, "whenever -i #{fetch(:application)}_#{fetch(:rails_env)} --update-crontab #{fetch(:rails_env) == "production" ? "" : "--load-file config/schedule.rb"} --set environment=#{fetch(:rails_env)}"
+      execute :bundle, :exec, "whenever -i #{fetch(:application)}_#{fetch(:rails_env)} --update-crontab
+                              #{fetch(:rails_env) == 'production' ? '' : ' --load-file config/schedule.rb'}
+                              --set environment=#{fetch(:rails_env)}"
     end
   end
 }
@@ -59,7 +61,6 @@ namespace :deploy do
   # end
 
   after :restart, :clear_cache do
-
     on roles(:app), in: :groups, limit: 3, wait: 10 do
       # Here we can do anything such as:
       # within release_path do
@@ -67,10 +68,8 @@ namespace :deploy do
       # end
       execute :sudo, :systemctl, :restart, :sidekiq
     end
-
   end
 end
-
 
 # enextus@enextus:~/projects/2happy_bot$ gem install capistrano-passenger
 # ==== Release notes for capistrano-passenger ====
@@ -91,7 +90,8 @@ end
 #
 #     set :passenger_restart_with_touch, false # Note that `nil` is NOT the same as `false` here
 #
-# If you don't set `:passenger_restart_with_touch`, capistrano-passenger will check what version of passenger you are running
+# If you don't set `:passenger_restart_with_touch`, capistrano-passenger will check what version
+# of passenger you are running
 # and use `passenger-config restart-app` if it is available in that version.
 #
 # If you are running passenger in standalone mode, it is possible for you to put passenger in your
