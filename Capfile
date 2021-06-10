@@ -4,10 +4,10 @@
 require 'capistrano/setup'
 
 # Include default deployment tasks
+require 'capistrano/deploy'
+
 require 'capistrano/scm/git'
 install_plugin Capistrano::SCM::Git
-
-require 'capistrano/deploy'
 
 # require 'capistrano/rvm'
 require 'capistrano/rails'
@@ -27,4 +27,7 @@ set :rbenv_type, :user
 set :rbenv_ruby, '3.0.1'
 
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined
+#install_plugin Capistrano::Puma::Daemon
 Dir.glob('lib/capistrano/tasks/*.rake').each { |r| import r }
+
+#https://stackoverflow.com/questions/41307044/capistrano-dont-know-how-to-build-task-deploynew-release-path
