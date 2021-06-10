@@ -9,18 +9,13 @@ end
 
 gem 'actionview', '= 6.1.3.2'
 gem 'bootsnap',   '>= 1.2', require: false
-
 gem 'dry-inflector', '~> 0.2.0'
-
 gem 'dotenv', '~> 2.7', '>= 2.7.1'
 gem 'dotenv-rails', groups: %i[development test]
 
-# gem 'dotenv-rails', require: 'dotenv/rails-now'
 # gem 'gem-that-requires-env-variables'
-
+gem 'actionpack', '>= 6.1.3.2'
 gem 'activerecord', '>= 6.1.3.1'
-gem "actionpack", ">= 6.1.3.2"
-
 gem 'net-ssh', '~> 6.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '= 6.1.3.2'
@@ -29,12 +24,11 @@ gem 'railties', '>= 6.1.3.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.2', '>= 1.2.3'
 # Use Puma as the app server
-gem "puma", ">= 4.3.8"
+gem 'puma', '>= 4.3.8'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
-
 gem 'nokogiri', '~> 1.10', '>= 1.10.4'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
@@ -53,10 +47,8 @@ gem 'redis', '~> 4.1'
 gem 'rubygems-update', '~> 3.2', '>= 3.2.15'
 gem 'sidekiq', '~> 5.2', '>= 5.2.5'
 gem 'sidekiq-client-cli'
-
-gem 'sshkit', '~> 1.21', '>= 1.21.2'
-
 gem 'sprockets', '>= 3.7.2'
+gem 'sshkit', '~> 1.21', '>= 1.21.2'
 gem 'telegram-bot-ruby', '~> 0.8.6.1'
 gem 'whenever', '~> 1.0', require: false
 gem 'whenever-test', '~> 1.0', '>= 1.0.1'
