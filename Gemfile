@@ -58,7 +58,8 @@ gem 'sshkit', '~> 1.21', '>= 1.21.2'
 
 gem 'sprockets', '>= 3.7.2'
 gem 'telegram-bot-ruby', '~> 0.8.6.1'
-gem 'whenever', '~> 0.11.0', require: false
+gem 'whenever', '~> 1.0', require: false
+gem 'whenever-test', '~> 1.0', '>= 1.0.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
