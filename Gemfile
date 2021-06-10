@@ -7,7 +7,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'actionview', '= 6.1.3.1'
+gem 'actionview', '= 6.1.3.2'
 gem 'bootsnap',   '>= 1.2', require: false
 
 gem 'dry-inflector', '~> 0.2.0'
@@ -18,11 +18,12 @@ gem 'dotenv-rails', groups: %i[development test]
 # gem 'dotenv-rails', require: 'dotenv/rails-now'
 # gem 'gem-that-requires-env-variables'
 
-gem 'activerecord', '= 6.1.3.1'
+gem 'activerecord', '>= 6.1.3.1'
+gem "actionpack", ">= 6.1.3.2"
 
 gem 'net-ssh', '~> 6.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '= 6.1.3.1'
+gem 'rails', '= 6.1.3.2'
 
 gem 'railties', '>= 6.1.3.1'
 # Use postgresql as the database for Active Record
