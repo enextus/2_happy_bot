@@ -12,7 +12,7 @@ gem 'bootsnap',   '>= 1.2', require: false
 gem 'dry-inflector', '~> 0.2.0'
 gem 'dotenv', '~> 2.7', '>= 2.7.1'
 gem 'dotenv-rails', groups: %i[development test]
-
+gem 'materialize-sass', '~> 0.96.1'
 # gem 'gem-that-requires-env-variables'
 gem 'actionpack', '>= 6.1.3.2'
 gem 'activerecord', '>= 6.1.3.1'
