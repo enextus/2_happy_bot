@@ -384,6 +384,7 @@ DEPENDENCIES
   rubocop-rails (~> 2.10, >= 2.10.1)
   rubygems-update (~> 3.2, >= 3.2.20)
   sass-rails (~> 6.0)
+  sassc (~> 2.4)
   selenium-webdriver (~> 3.142, >= 3.142.7)
   sidekiq (~> 6.2, >= 6.2.1)
   sidekiq-client-cli (~> 0.1.7)
