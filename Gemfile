@@ -28,6 +28,7 @@ gem 'font-awesome-sass', '~> 5.15', '>= 5.15.1'
 
 gem 'font-awesome-sass-rails', '~> 3.0', '>= 3.0.2.2'
 
+gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
 
 gem 'materialize-sass', '~> 0.96.1'
 gem 'rails-ujs', '~> 0.1.0'
