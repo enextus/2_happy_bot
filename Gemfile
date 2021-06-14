@@ -73,6 +73,7 @@ gem 'telegram-bot-ruby', '~> 0.16.0'
 gem 'uri', '~> 0.10.1'
 gem 'whenever', '~> 1.0'
 gem 'whenever-test', '~> 1.0', '>= 1.0.1'
+gem 'world-flags', '~> 0.6.6'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
