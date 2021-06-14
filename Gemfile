@@ -10,7 +10,7 @@ end
 gem 'actionview', '= 6.1.3.2'
 gem 'airbrussh', '~> 1.4'
 
-gem 'bootsnap',   '>= 1.2', require: false
+gem 'bootsnap', '~> 1.7', '>= 1.7.5'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'bundler', '~> 2.2', '>= 2.2.20'
 
