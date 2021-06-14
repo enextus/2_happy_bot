@@ -9,7 +9,7 @@ end
 
 gem 'actionview', '= 6.1.3.2'
 gem 'airbrussh', '~> 1.4'
-
+gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
 gem 'bundler', '~> 2.2', '>= 2.2.20'
 
 gem 'concurrent-ruby', '~> 1.1', '>= 1.1.9'
@@ -27,8 +27,6 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.7'
 gem 'font-awesome-sass', '~> 5.15', '>= 5.15.1'
 
 gem 'font-awesome-sass-rails', '~> 3.0', '>= 3.0.2.2'
-
-gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
 
 gem 'materialize-sass', '~> 0.96.1'
 gem 'rails-ujs', '~> 0.1.0'
