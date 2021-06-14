@@ -54,7 +54,7 @@ gem 'puma', '~> 5.3', '>= 5.3.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 6.0'
 
-gem 'sprockets', '~> 4.0', '>= 4.0.2'
+gem 'sprockets', '~> 3.5', '>= 3.5.2'
 gem 'sprockets-rails', '~> 3.2', '>= 3.2.2'
 
 # Use Uglifier as compressor for JavaScript assets
