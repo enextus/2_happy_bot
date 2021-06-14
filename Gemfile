@@ -22,7 +22,7 @@ gem 'materialize-sass', '~> 0.96.1'
 gem 'actionpack', '>= 6.1.3.2'
 gem 'activerecord', '>= 6.1.3.1'
 gem 'net-ssh', '~> 6.1'
-
+gem 'nokogiri', '~> 1.11', '>= 1.11.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '= 6.1.3.2'
 gem 'railties', '~> 6.1', '>= 6.1.3.2'
@@ -38,7 +38,7 @@ gem 'sass-rails', '~> 6.0'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '~> 4.2'
-gem 'nokogiri', '~> 1.11', '>= 1.11.7'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 5.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -80,11 +80,11 @@ group :development do
   gem 'capistrano-ssh-doctor', '~> 1.0'
 
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-  gem 'listen', '~> 3.1', '>= 3.1.5'
+  gem 'listen', '~> 3.5', '>= 3.5.1'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.1'
-  gem 'web-console', '>= 3.3.0'
+  gem 'spring', '~> 2.1', '>= 2.1.1'
+  gem 'spring-watcher-listen', '~> 2.0', '>= 2.0.1'
+  gem 'web-console', '~> 4.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
