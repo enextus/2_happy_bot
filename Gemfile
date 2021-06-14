@@ -30,7 +30,7 @@ gem 'font-awesome-sass-rails', '~> 3.0', '>= 3.0.2.2'
 
 
 gem 'materialize-sass', '~> 0.96.1'
-
+gem 'rails-ujs', '~> 0.1.0'
 # gem 'gem-that-requires-env-variables'
 gem 'actionpack', '>= 6.1.3.2'
 gem 'activerecord', '>= 6.1.3.1'
@@ -57,8 +57,7 @@ gem 'uglifier', '~> 4.2'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 5.0'
-# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5.2', '>= 5.2.1'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.11', '>= 2.11.2'
 # Use Redis adapter to run Action Cable in production
@@ -75,7 +74,10 @@ gem 'sidekiq-client-cli', '~> 0.1.7'
 gem 'sshkit', '~> 1.21', '>= 1.21.2'
 
 gem 'telegram-bot-ruby', '~> 0.16.0'
+
+gem 'turbolinks', '~> 5.2', '>= 5.2.1'
 gem 'uri', '~> 0.10.1'
+
 gem 'whenever', '~> 1.0'
 gem 'whenever-test', '~> 1.0', '>= 1.0.1'
 gem 'world-flags', '~> 0.6.6'
