@@ -61,6 +61,7 @@ gem 'sidekiq-client-cli', '~> 0.1.7'
 
 gem 'sshkit', '~> 1.21', '>= 1.21.2'
 gem 'telegram-bot-ruby', '~> 0.16.0'
+gem 'uri', '~> 0.10.1'
 gem 'whenever', '~> 1.0'
 gem 'whenever-test', '~> 1.0', '>= 1.0.1'
 
