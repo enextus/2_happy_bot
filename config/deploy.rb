@@ -7,7 +7,7 @@ set :application, 'myapp'
 set :repo_url, 'git@github.com:enextus/2_happy_bot.git'
 set :branch, 'happy_bot'
 
-set :passenger_restart_with_touch, false # Note that `nil` is NOT the same as `false` here
+# set :passenger_restart_with_touch, false # Note that `nil` is NOT the same as `false` here
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
