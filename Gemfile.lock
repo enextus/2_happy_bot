@@ -304,6 +304,7 @@ GEM
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.0.0)
+    uri (0.10.1)
     virtus (2.0.0)
       axiom-types (~> 0.1)
       coercible (~> 1.0)
@@ -374,6 +375,7 @@ DEPENDENCIES
   turbolinks (~> 5.2, >= 5.2.1)
   tzinfo-data
   uglifier (~> 4.2)
+  uri (~> 0.10.1)
   web-console (~> 4.1)
   whenever (~> 1.0)
   whenever-test (~> 1.0, >= 1.0.1)
