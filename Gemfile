@@ -8,59 +8,67 @@ git_source(:github) do |repo_name|
 end
 
 gem 'actionview', '= 6.1.3.2'
+gem 'airbrussh', '~> 1.4'
+
 gem 'bootsnap',   '>= 1.2', require: false
-gem 'dry-inflector', '~> 0.2.0'
+
 gem 'dotenv', '~> 2.7', '>= 2.7.1'
+gem 'dry-inflector', '~> 0.2.0'
+
 gem 'dotenv-rails', groups: %i[development test]
 gem 'materialize-sass', '~> 0.96.1'
+
 # gem 'gem-that-requires-env-variables'
 gem 'actionpack', '>= 6.1.3.2'
 gem 'activerecord', '>= 6.1.3.1'
 gem 'net-ssh', '~> 6.1'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '= 6.1.3.2'
+gem 'railties', '~> 6.1', '>= 6.1.3.2'
 
-gem 'railties', '>= 6.1.3.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.2', '>= 1.2.3'
+
 # Use Puma as the app server
-gem 'puma', '>= 4.3.8'
+gem 'puma', '~> 5.3', '>= 5.3.2'
+
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 6.0'
+
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
-gem 'nokogiri', '~> 1.10', '>= 1.10.4'
+gem 'uglifier', '~> 4.2'
+gem 'nokogiri', '~> 1.11', '>= 1.11.7'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.2'
+gem 'coffee-rails', '~> 5.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
+gem 'turbolinks', '~> 5.2', '>= 5.2.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.5'
+gem 'jbuilder', '~> 2.11', '>= 2.11.2'
 # Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 4.0'
+gem 'redis', '~> 4.3', '>= 4.3.1'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-gem 'airbrussh', '~> 1.3', '>= 1.3.1'
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-gem 'redis', '~> 4.1'
-gem 'rubygems-update', '~> 3.2', '>= 3.2.15'
-gem 'sidekiq', '~> 5.2', '>= 5.2.5'
-gem 'sidekiq-client-cli'
-gem 'sprockets', '>= 3.7.2'
+gem 'bcrypt', '~> 3.1', '>= 3.1.16'
+gem 'rubygems-update', '~> 3.2', '>= 3.2.20'
+
+gem 'sidekiq', '~> 6.2', '>= 6.2.1'
+
+gem 'sidekiq-client-cli', '~> 0.1.7'
+gem 'sprockets', '~> 4.0', '>= 4.0.2'
+
 gem 'sshkit', '~> 1.21', '>= 1.21.2'
-gem 'telegram-bot-ruby', '~> 0.8.6.1'
-gem 'whenever', '~> 1.0', require: false
+gem 'telegram-bot-ruby', '~> 0.16.0'
+gem 'whenever', '~> 1.0'
 gem 'whenever-test', '~> 1.0', '>= 1.0.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '~> 2.13'
-  gem 'pry', '~> 0.10.3'
-  gem 'rubocop-rails', '~> 2.9', '>= 2.9.1'
-  gem 'selenium-webdriver'
+  gem 'capybara', '~> 3.35', '>= 3.35.3'
+  gem 'pry', '~> 0.14.1'
+  gem 'rubocop-rails', '~> 2.10', '>= 2.10.1'
+  gem 'selenium-webdriver', '~> 3.142', '>= 3.142.7'
 end
 
 group :development do
