@@ -370,6 +370,7 @@ DEPENDENCIES
   spring (~> 2.1, >= 2.1.1)
   spring-watcher-listen (~> 2.0, >= 2.0.1)
   sprockets (~> 4.0, >= 4.0.2)
+  sprockets-rails (~> 3.2, >= 3.2.2)
   sshkit (~> 1.21, >= 1.21.2)
   telegram-bot-ruby (~> 0.16.0)
   turbolinks (~> 5.2, >= 5.2.1)
