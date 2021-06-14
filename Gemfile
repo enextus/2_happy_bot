@@ -37,6 +37,8 @@ gem 'puma', '~> 5.3', '>= 5.3.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 6.0'
 
+gem 'sprockets', '~> 4.0', '>= 4.0.2'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '~> 4.2'
 
@@ -56,7 +58,6 @@ gem 'rubygems-update', '~> 3.2', '>= 3.2.20'
 gem 'sidekiq', '~> 6.2', '>= 6.2.1'
 
 gem 'sidekiq-client-cli', '~> 0.1.7'
-gem 'sprockets', '~> 4.0', '>= 4.0.2'
 
 gem 'sshkit', '~> 1.21', '>= 1.21.2'
 gem 'telegram-bot-ruby', '~> 0.16.0'
