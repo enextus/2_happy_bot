@@ -10,7 +10,7 @@ module Rake
   #   Rake::SprocketsTask.new do |t|
   #     t.environment = Sprockets::Environment.new
   #     t.output      = "./public/assets"
-  #     t.assets      = %w( application.js application.css )
+  #     t.assets      = %w( application.js application.css.scss )
   #   end
   #
   class SprocketsTask < Rake::TaskLib
@@ -64,7 +64,7 @@ module Rake
 
     # Array of asset logical paths to compile.
     #
-    #   t.assets = %w( application.js jquery.js application.css )
+    #   t.assets = %w( application.js jquery.js application.css.scss )
     #
     attr_accessor :assets
 

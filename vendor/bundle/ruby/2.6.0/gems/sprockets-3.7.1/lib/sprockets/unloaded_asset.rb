@@ -90,7 +90,7 @@ module Sprockets
     # For example a history array with one Set of dependencies may look like:
     #
     # [["environment-version", "environment-paths", "processors:type=text/css&file_type=text/css",
-    #   "file-digest:///Full/path/app/assets/stylesheets/application.css",
+    #   "file-digest:///Full/path/app/assets/stylesheets/application.css.scss",
     #   "processors:type=text/css&file_type=text/css&pipeline=self",
     #   "file-digest:///Full/path/app/assets/stylesheets"]]
     #
