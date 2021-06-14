@@ -13,6 +13,9 @@ gem 'airbrussh', '~> 1.4'
 gem 'bootsnap',   '>= 1.2', require: false
 
 gem 'dotenv', '~> 2.7', '>= 2.7.1'
+
+gem 'concurrent-ruby', '~> 1.1', '>= 1.1.9'
+
 gem 'dry-inflector', '~> 0.2.0'
 
 gem 'dotenv-rails', groups: %i[development test]
@@ -61,6 +64,7 @@ gem 'sidekiq', '~> 6.2', '>= 6.2.1'
 gem 'sidekiq-client-cli', '~> 0.1.7'
 
 gem 'sshkit', '~> 1.21', '>= 1.21.2'
+
 gem 'telegram-bot-ruby', '~> 0.16.0'
 gem 'uri', '~> 0.10.1'
 gem 'whenever', '~> 1.0'

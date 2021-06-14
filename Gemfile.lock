@@ -344,6 +344,7 @@ DEPENDENCIES
   capistrano-ssh-doctor (~> 1.0)
   capybara (~> 3.35, >= 3.35.3)
   coffee-rails (~> 5.0)
+  concurrent-ruby (~> 1.1, >= 1.1.9)
   dotenv (~> 2.7, >= 2.7.1)
   dotenv-rails
   dry-inflector (~> 0.2.0)
