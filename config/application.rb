@@ -29,8 +29,10 @@ HOSTNAME = ENV['HOSTNAME']
 module HappyBot
   # class Application < Rails::Application
   class Application < Rails::Application
+    config.assets.paths << "#{Rails}/vendor/assets/fonts"
+
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 5.1
+    config.load_defaults 6.1
 
     config.active_job.queue_adapter = :sidekiq
 
