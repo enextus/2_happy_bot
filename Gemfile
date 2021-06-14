@@ -22,6 +22,7 @@ gem 'dotenv-rails', groups: %i[development test]
 gem 'freeze', '~> 0.1.0'
 
 gem 'font-awesome-sass', '~> 5.15', '>= 5.15.1'
+gem 'font-awesome-sass-rails', '~> 3.0', '>= 3.0.2.2'
 
 gem 'materialize-sass', '~> 0.96.1'
 
