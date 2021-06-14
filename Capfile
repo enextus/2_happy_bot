@@ -27,7 +27,5 @@ set :rbenv_type, :user
 set :rbenv_ruby, '2.7.3'
 
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined
-#install_plugin Capistrano::Puma::Daemon
+# install_plugin Capistrano::Puma::Daemon
 Dir.glob('lib/capistrano/tasks/*.rake').each { |r| import r }
-
-#https://stackoverflow.com/questions/41307044/capistrano-dont-know-how-to-build-task-deploynew-release-path
