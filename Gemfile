@@ -12,14 +12,17 @@ gem 'airbrussh', '~> 1.4'
 
 gem 'bootsnap',   '>= 1.2', require: false
 
-gem 'dotenv', '~> 2.7', '>= 2.7.1'
-
 gem 'concurrent-ruby', '~> 1.1', '>= 1.1.9'
+
+gem 'dotenv', '~> 2.7', '>= 2.7.1'
 
 gem 'dry-inflector', '~> 0.2.0'
 
 gem 'dotenv-rails', groups: %i[development test]
 gem 'freeze', '~> 0.1.0'
+
+gem 'font-awesome-sass', '~> 5.15', '>= 5.15.1'
+
 gem 'materialize-sass', '~> 0.96.1'
 
 # gem 'gem-that-requires-env-variables'
