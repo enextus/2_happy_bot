@@ -39,6 +39,8 @@ gem 'activerecord', '>= 6.1.3.1'
 gem 'bootstrap', '~> 5.0', '>= 5.0.1'
 gem 'net-ssh', '~> 6.1'
 gem 'nokogiri', '~> 1.11', '>= 1.11.7'
+
+gem 'popper_js', '~> 2.9', '>= 2.9.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '= 6.1.3.2'
 gem 'railties', '~> 6.1', '>= 6.1.3.2'
