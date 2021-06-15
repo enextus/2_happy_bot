@@ -411,8 +411,5 @@ DEPENDENCIES
   whenever-test (~> 1.0, >= 1.0.1)
   world-flags (~> 0.6.6)
 
-RUBY VERSION
-   ruby 3.0.1p64
-
 BUNDLED WITH
    2.2.20
