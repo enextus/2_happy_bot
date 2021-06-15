@@ -142,7 +142,7 @@ module ActionView
       #   asset_path("application.js", skip_pipeline: true)                 # => "application.js"
       #   asset_path("filedoesnotexist.png", skip_pipeline: true)           # => "filedoesnotexist.png"
       #   asset_path("application", type: :javascript, skip_pipeline: true) # => "/javascripts/application.js"
-      #   asset_path("application", type: :stylesheet, skip_pipeline: true) # => "/stylesheets/application.css.scss"
+      #   asset_path("application", type: :stylesheet, skip_pipeline: true) # => "/stylesheets/application.css"
       #
       # === Options applying to all assets
       #

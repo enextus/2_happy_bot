@@ -17,7 +17,7 @@ module ActionView
     #   image_tag("rails.png")
     #   # => <img src="/assets/rails.png" />
     #   stylesheet_link_tag("application")
-    #   # => <link href="/assets/application.css.scss?body=1" media="screen" rel="stylesheet" />
+    #   # => <link href="/assets/application.css?body=1" media="screen" rel="stylesheet" />
     module AssetTagHelper
       extend ActiveSupport::Concern
 
