@@ -2,7 +2,6 @@
 
 source 'https://rubygems.org'
 
-
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
   "https://github.com/#{repo_name}.git"
@@ -50,7 +49,7 @@ gem 'pg', '~> 1.2', '>= 1.2.3'
 gem 'puma', '~> 5.3', '>= 5.3.2'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 6.0'
+# gem 'sass-rails', '~> 6.0'
 
 gem 'sprockets', '~> 3.5', '>= 3.5.2'
 gem 'sprockets-rails', '~> 3.2', '>= 3.2.2'
