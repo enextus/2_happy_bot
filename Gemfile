@@ -21,14 +21,14 @@ gem 'dry-inflector', '~> 0.2.0'
 gem 'dotenv-rails', groups: %i[development test]
 gem 'freeze', '~> 0.1.0'
 
-gem 'font_awesome', '~> 3.101'
-gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.7'
+# gem 'font_awesome', '~> 3.101'
+# gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.7'
 
-gem 'font-awesome-sass', '~> 5.15', '>= 5.15.1'
+# gem 'font-awesome-sass', '~> 5.15', '>= 5.15.1'
 
-gem 'font-awesome-sass-rails', '~> 3.0', '>= 3.0.2.2'
+# gem 'font-awesome-sass-rails', '~> 3.0', '>= 3.0.2.2'
 
-gem 'materialize-sass', '~> 0.96.1'
+# gem 'materialize-sass', '~> 0.96.1'
 gem 'rails-ujs', '~> 0.1.0'
 # gem 'gem-that-requires-env-variables'
 gem 'actionpack', '>= 6.1.3.2'
