@@ -7,6 +7,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'actionpack', '>= 6.1.3.2'
+gem 'activerecord', '~> 6.1', '>= 6.1.3.2'
 gem 'actionview', '= 6.1.3.2'
 gem 'airbrussh', '~> 1.4'
 gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
@@ -21,18 +23,7 @@ gem 'dry-inflector', '~> 0.2.0'
 gem 'dotenv-rails', groups: %i[development test]
 gem 'freeze', '~> 0.1.0'
 
-# gem 'font_awesome', '~> 3.101'
-# gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.7'
-
-# gem 'font-awesome-sass', '~> 5.15', '>= 5.15.1'
-
-# gem 'font-awesome-sass-rails', '~> 3.0', '>= 3.0.2.2'
-
-# gem 'materialize-sass', '~> 0.96.1'
 gem 'rails-ujs', '~> 0.1.0'
-# gem 'gem-that-requires-env-variables'
-gem 'actionpack', '>= 6.1.3.2'
-gem 'activerecord', '>= 6.1.3.1'
 gem 'bootstrap', '~> 5.0', '>= 5.0.1'
 gem 'net-ssh', '~> 6.1'
 gem 'nokogiri', '~> 1.11', '>= 1.11.7'
@@ -47,9 +38,6 @@ gem 'pg', '~> 1.2', '>= 1.2.3'
 
 # Use Puma as the app server
 gem 'puma', '~> 5.3', '>= 5.3.2'
-
-# Use SCSS for stylesheets
-# gem 'sass-rails', '~> 6.0'
 
 gem 'sprockets', '~> 3.5', '>= 3.5.2'
 gem 'sprockets-rails', '~> 3.2', '>= 3.2.2'
@@ -68,8 +56,6 @@ gem 'redis', '~> 4.3', '>= 4.3.1'
 gem 'bcrypt', '~> 3.1', '>= 3.1.16'
 gem 'rack', '~> 2.2', '>= 2.2.3'
 gem 'rubygems-update', '~> 3.2', '>= 3.2.20'
-
-# gem 'sassc', '~> 2.4'
 
 gem 'sidekiq', '~> 6.2', '>= 6.2.1'
 
