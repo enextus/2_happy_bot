@@ -58,18 +58,12 @@ gem 'rack', '~> 2.2', '>= 2.2.3'
 gem 'rubygems-update', '~> 3.2', '>= 3.2.20'
 
 gem 'sidekiq', '~> 6.2', '>= 6.2.1'
-
 gem 'sidekiq-client-cli', '~> 0.1.7'
-
 gem 'sshkit', '~> 1.21', '>= 1.21.2'
-
 gem 'telegram-bot-ruby', '~> 0.16.0'
-
 gem 'thor', '~> 1.1'
-
 gem 'turbolinks', '~> 5.2', '>= 5.2.1'
 gem 'uri', '~> 0.10.1'
-
 gem 'whenever', '~> 1.0'
 gem 'whenever-test', '~> 1.0', '>= 1.0.1'
 gem 'world-flags', '~> 0.6.6'
@@ -91,7 +85,6 @@ group :development do
   gem 'capistrano-rails', '~> 1.6', '>= 1.6.1'
   gem 'capistrano-rbenv', '~> 2.2'
   gem 'capistrano-ssh-doctor', '~> 1.0'
-
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'listen', '~> 3.5', '>= 3.5.1'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
