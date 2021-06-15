@@ -79,6 +79,8 @@ gem 'sshkit', '~> 1.21', '>= 1.21.2'
 
 gem 'telegram-bot-ruby', '~> 0.16.0'
 
+gem 'thor', '~> 1.1'
+
 gem 'turbolinks', '~> 5.2', '>= 5.2.1'
 gem 'uri', '~> 0.10.1'
 

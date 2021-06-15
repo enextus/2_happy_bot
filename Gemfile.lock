@@ -401,6 +401,7 @@ DEPENDENCIES
   sprockets-rails (~> 3.2, >= 3.2.2)
   sshkit (~> 1.21, >= 1.21.2)
   telegram-bot-ruby (~> 0.16.0)
+  thor (~> 1.1)
   turbolinks (~> 5.2, >= 5.2.1)
   tzinfo-data
   uglifier (~> 4.2)
