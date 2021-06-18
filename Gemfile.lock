@@ -351,6 +351,7 @@ DEPENDENCIES
   dotenv (~> 2.7, >= 2.7.1)
   dotenv-rails
   dry-inflector (~> 0.2.0)
+  ffi (~> 1.9, >= 1.9.10)
   freeze (~> 0.1.0)
   jbuilder (~> 2.11, >= 2.11.2)
   listen (~> 3.5, >= 3.5.1)
