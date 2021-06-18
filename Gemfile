@@ -12,6 +12,7 @@ gem 'activerecord', '~> 6.1', '>= 6.1.3.2'
 gem 'actionview', '= 6.1.3.2'
 gem 'airbrussh', '~> 1.4'
 gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
+
 gem 'bundler', '~> 2.2', '>= 2.2.20'
 
 gem 'concurrent-ruby', '~> 1.1', '>= 1.1.9'
