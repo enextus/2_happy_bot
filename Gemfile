@@ -20,8 +20,6 @@ gem 'dry-inflector', '~> 0.2.0'
 
 gem 'dotenv-rails', groups: %i[development test]
 
-gem 'ffi', '~> 1.15', '>= 1.15.3'
-
 gem 'freeze', '~> 0.1.0'
 
 gem 'rails-ujs', '~> 0.1.0'
