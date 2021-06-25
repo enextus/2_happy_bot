@@ -25,8 +25,8 @@ require 'capistrano/ssh_doctor'
 
 set :whenever_command, 'bundle exec whenever'
 set :rbenv_type, :user
-# set :rbenv_ruby, '3.0.1'
-set :rbenv_ruby, '2.7.3'
+set :rbenv_ruby, '3.0.1'
+# set :rbenv_ruby, '2.7.3'
 
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined
 # install_plugin Capistrano::Puma::Daemon
