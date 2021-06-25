@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="JRUBY" name="JRuby">
+      <configuration>
+        <JRUBY_FACET_CONFIG_ID NAME="JRUBY_SDK_NAME" VALUE="" />
+        <LOAD_PATH number="0" />
+        <I18N_FOLDERS number="0" />
+      </configuration>
+      <facet type="JRailsFacetType" name="JRuby on Rails">
+        <configuration>
+          <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_SUPPORT_REMOVED" VALUE="false" />
+          <RAILS_FACET_CONFIG_ID NAME="RAILS_TESTS_SOURCES_PATCHED" VALUE="true" />
+          <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_APPLICATION_ROOT" VALUE="$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/railties-5.1.6/lib/rails/generators/rails/plugin/templates" />
+        </configuration>
+      </facet>
+    </facet>
+    <facet type="Python" name="Python">
+      <configuration sdkName="Python 3.9" />
+    </facet>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/railties-5.1.6/lib/rails/generators/rails/plugin/templates/features" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/railties-5.1.6/lib/rails/generators/rails/plugin/templates/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/railties-5.1.6/lib/rails/generators/rails/plugin/templates/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/railties-5.1.6/lib/rails/generators/rails/plugin/templates/.bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/railties-5.1.6/lib/rails/generators/rails/plugin/templates/public/packs" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/railties-5.1.6/lib/rails/generators/rails/plugin/templates/vendor/bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/railties-5.1.6/lib/rails/generators/rails/plugin/templates/vendor/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/railties-5.1.6/lib/rails/generators/rails/plugin/templates/log" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/railties-5.1.6/lib/rails/generators/rails/plugin/templates/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/railties-5.1.6/lib/rails/generators/rails/plugin/templates/public/system" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/railties-5.1.6/lib/rails/generators/rails/plugin/templates/components" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Python 3.9 interpreter library" level="application" />
   </component>
 </module>
