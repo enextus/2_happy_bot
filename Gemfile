@@ -9,6 +9,7 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '= 6.1.4'
+gem 'rack', '~> 2.2', '>= 2.2.3'
 gem 'railties', '~> 6.1', '>= 6.1.4'
 gem 'rspec', '~> 3.10'
 
@@ -61,7 +62,7 @@ gem 'jbuilder', '~> 2.11', '>= 2.11.2'
 gem 'redis', '~> 4.3', '>= 4.3.1'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1', '>= 3.1.16'
-gem 'rack', '~> 2.2', '>= 2.2.3'
+
 gem 'rubygems-update', '~> 3.2', '>= 3.2.20'
 
 gem 'sidekiq', '~> 6.2', '>= 6.2.1'
