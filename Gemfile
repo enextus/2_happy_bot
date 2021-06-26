@@ -28,7 +28,8 @@ gem 'zeitwerk', '~> 2.4', '>= 2.4.2'
 gem 'airbrussh', '~> 1.4'
 gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
 
-gem 'bundler', '1.17.3'
+# gem 'bundler', '1.17.3'
+gem 'bundler', '~> 2.0', '>= 2.0.2'
 
 gem 'concurrent-ruby', '~> 1.1', '>= 1.1.9'
 gem 'dotenv', '~> 2.7', '>= 2.7.1'
