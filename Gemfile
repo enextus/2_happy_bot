@@ -19,8 +19,6 @@ gem 'activerecord', '~> 6.1', '>= 6.1.4'
 gem 'activesupport', '~> 6.1', '>= 6.1.4'
 gem 'actionview', '= 6.1.4'
 
-
-
 gem 'i18n', '~> 1.8', '>= 1.8.10'
 gem 'minitest', '~> 5.14', '>= 5.14.4'
 gem 'tzinfo', '~> 2.0', '>= 2.0.4'
@@ -30,7 +28,7 @@ gem 'zeitwerk', '~> 2.4', '>= 2.4.2'
 gem 'airbrussh', '~> 1.4'
 gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
 
-gem 'bundler', '~> 2.2', '>= 2.2.20'
+gem 'bundler', '1.17.3'
 
 gem 'concurrent-ruby', '~> 1.1', '>= 1.1.9'
 gem 'dotenv', '~> 2.7', '>= 2.7.1'
