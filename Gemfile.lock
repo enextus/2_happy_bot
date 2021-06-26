@@ -355,8 +355,10 @@ DEPENDENCIES
   faraday (~> 1.4, >= 1.4.3)
   ffi (~> 1.9, >= 1.9.10)
   freeze (~> 0.1.0)
+  i18n (~> 1.8, >= 1.8.10)
   jbuilder (~> 2.11, >= 2.11.2)
   listen (~> 3.5, >= 3.5.1)
+  minitest (~> 5.14, >= 5.14.4)
   net-ssh (~> 6.1)
   nokogiri (~> 1.11, >= 1.11.7)
   pg (~> 1.2, >= 1.2.3)
@@ -382,6 +384,7 @@ DEPENDENCIES
   telegram-bot-ruby (~> 0.16.0)
   thor (~> 1.1)
   turbolinks (~> 5.2, >= 5.2.1)
+  tzinfo (~> 2.0, >= 2.0.4)
   tzinfo-data
   uglifier (~> 4.2)
   uri (~> 0.10.1)
@@ -389,6 +392,7 @@ DEPENDENCIES
   whenever (~> 1.0)
   whenever-test (~> 1.0, >= 1.0.1)
   world-flags (~> 0.6.6)
+  zeitwerk (~> 2.4, >= 2.4.2)
 
 BUNDLED WITH
    2.2.21
