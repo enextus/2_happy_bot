@@ -29,7 +29,7 @@ gem 'airbrussh', '~> 1.4'
 gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
 
 # gem 'bundler', '1.17.3'
-gem 'bundler', '~> 2.2', '>= 2.2.21'
+gem 'bundler', '~> 2.2', '>= 2.2.20'
 
 gem 'concurrent-ruby', '~> 1.1', '>= 1.1.9'
 gem 'dotenv', '~> 2.7', '>= 2.7.1'
