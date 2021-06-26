@@ -12,13 +12,10 @@ gem 'rails', '= 6.1.4'
 gem 'rack', '~> 2.2', '>= 2.2.3'
 gem 'railties', '~> 6.1', '>= 6.1.4'
 gem 'rspec', '~> 3.10'
-
 gem 'actionpack', '~> 6.1', '>= 6.1.4'
 gem 'activerecord', '~> 6.1', '>= 6.1.4'
-
 gem 'activesupport', '~> 6.1', '>= 6.1.4'
 gem 'actionview', '= 6.1.4'
-
 gem 'i18n', '~> 1.8', '>= 1.8.10'
 gem 'minitest', '~> 5.14', '>= 5.14.4'
 gem 'tzinfo', '~> 2.0', '>= 2.0.4'
@@ -26,28 +23,21 @@ gem 'zeitwerk', '~> 2.4', '>= 2.4.2'
 
 gem 'airbrussh', '~> 1.4'
 gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
-
-
 gem 'concurrent-ruby', '~> 1.1', '>= 1.1.9'
 gem 'dotenv', '~> 2.7', '>= 2.7.1'
 gem 'dry-inflector', '~> 0.2.0'
-
 gem 'dotenv-rails', groups: %i[development test]
 gem 'faraday', '~> 1.4', '>= 1.4.3'
 gem 'ffi', '~> 1.9', '>= 1.9.10'
-
 gem 'freeze', '~> 0.1.0'
-
 gem 'rails-ujs', '~> 0.1.0'
 gem 'bootstrap', '~> 5.0', '>= 5.0.1'
 gem 'net-ssh', '~> 6.1'
 gem 'nokogiri', '~> 1.11', '>= 1.11.7'
-
 gem 'popper_js', '~> 2.9', '>= 2.9.2'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.2', '>= 1.2.3'
-
 # Use Puma as the app server
 gem 'puma', '~> 5.3', '>= 5.3.2'
 
