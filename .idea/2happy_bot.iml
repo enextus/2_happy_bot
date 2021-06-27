@@ -33,6 +33,11 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/railties-5.1.6/lib/rails/generators/rails/plugin/templates/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/railties-5.1.6/lib/rails/generators/rails/plugin/templates/public/system" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/railties-5.1.6/lib/rails/generators/rails/plugin/templates/components" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/inspectionProfiles" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/modules" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp/pids" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
