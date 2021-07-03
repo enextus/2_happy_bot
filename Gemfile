@@ -36,7 +36,7 @@ gem 'coffee-rails', '~> 5.0'
 gem 'concurrent-ruby', '~> 1.1', '>= 1.1.9'
 
 gem 'dotenv', '~> 2.7', '>= 2.7.1'
-gem 'dry-inflector', '~> 0.2.0'
+gem 'dry-inflector', '~> 0.2.1'
 gem 'dotenv-rails', groups: %i[development test]
 
 gem 'faraday', '~> 1.4', '>= 1.4.3'

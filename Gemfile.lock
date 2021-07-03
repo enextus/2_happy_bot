@@ -350,7 +350,7 @@ DEPENDENCIES
   concurrent-ruby (~> 1.1, >= 1.1.9)
   dotenv (~> 2.7, >= 2.7.1)
   dotenv-rails
-  dry-inflector (~> 0.2.0)
+  dry-inflector (~> 0.2.1)
   faraday (~> 1.4, >= 1.4.3)
   ffi (~> 1.9, >= 1.9.10)
   freeze (~> 0.1.0)
