@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-# gem 'rake', '~> 13.0', '>= 13.0.4'
+gem 'rake', '~> 13.0', '>= 13.0.6'
 # gem 'bundler', '~> 2.2', '>= 2.2.22'
 
 # #####################################################################################################################
@@ -40,7 +40,7 @@ gem 'concurrent-ruby', '~> 1.1', '>= 1.1.9'
 gem 'dotenv', '~> 2.7', '>= 2.7.1'
 gem 'dotenv-rails', groups: %i[development test]
 gem 'dry-inflector', '~> 0.2.1'
-gem 'faraday', '~> 1.4', '>= 1.4.3'
+gem 'faraday', '~> 1.5'
 gem 'ffi', '~> 1.9', '>= 1.9.10'
 gem 'freeze', '~> 0.1.0'
 gem 'i18n', '~> 1.8', '>= 1.8.10'
