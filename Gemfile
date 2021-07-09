@@ -32,7 +32,7 @@ gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1', '>= 3.1.16'
-gem 'bootstrap', '~> 5.0', '>= 5.0.1'
+# gem 'bootstrap', '~> 5.0', '>= 5.0.1'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 5.0'
