@@ -63,6 +63,10 @@ gem 'rails-ujs', '~> 0.1.0'
 gem 'redis', '~> 4.3', '>= 4.3.1'
 gem 'rexml', '~> 3.2', '>= 3.2.5'
 gem 'rubygems-update', '~> 3.2', '>= 3.2.20'
+
+gem 'sassc', '~> 2.4'
+gem 'sass-rails', '~> 6.0'
+
 gem 'sidekiq', '~> 6.2', '>= 6.2.1'
 gem 'sidekiq-client-cli', '~> 0.1.7'
 gem 'sprockets', '~> 3.5', '>= 3.5.2'
@@ -125,7 +129,9 @@ gem 'will_paginate',              '3.3.0'
 gem 'bootstrap-will_paginate',    '1.0.0'
 gem 'bootstrap-sass',             '3.4.1'
 gem 'puma',                       '5.2.2'
-gem 'sass-rails',                 '6.0.0'
+
+gem 'sass-rails', '~> 6.0'
+
 gem 'webpacker',                  '5.2.1'
 gem 'turbolinks',                 '5.2.1'
 gem 'jbuilder',                   '2.10.0'
