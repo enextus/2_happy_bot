@@ -2,6 +2,7 @@
 
 # config valid only for current version of Capistrano
 lock '3.16.0'
+
 set :passenger_in_gemfile, true
 set :application, 'myapp'
 set :repo_url, 'git@github.com:enextus/2_happy_bot.git'
@@ -44,7 +45,7 @@ set :linked_dirs, fetch(:linked_dirs, []).push('log',
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 
 # Default value for keep_releases is 5
-# set :keep_releases, 5
+set :keep_releases, 3
 
 set :whenever_command, -> {
   on roles(:app) do
