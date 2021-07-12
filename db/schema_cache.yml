@@ -1,0 +1,331 @@
+--- !ruby/object:ActiveRecord::ConnectionAdapters::SchemaCache
+columns:
+  requests:
+  - !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: true
+    name: id
+    sql_type_metadata: &2 !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::TypeMetadata
+      delegate_dc_obj: !ruby/object:ActiveRecord::ConnectionAdapters::SqlTypeMetadata
+        sql_type: bigint
+        type: :integer
+        limit: 8
+        precision: 
+        scale: 
+      oid: 20
+      fmod: -1
+    'null': false
+    default: 
+    default_function: nextval('requests_id_seq'::regclass)
+    collation: 
+    comment: 
+  - !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: 
+    name: response
+    sql_type_metadata: !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::TypeMetadata
+      delegate_dc_obj: !ruby/object:ActiveRecord::ConnectionAdapters::SqlTypeMetadata
+        sql_type: boolean
+        type: :boolean
+        limit: 
+        precision: 
+        scale: 
+      oid: 16
+      fmod: -1
+    'null': false
+    default: 'false'
+    default_function: 
+    collation: 
+    comment: 
+  - &4 !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: 
+    name: created_at
+    sql_type_metadata: &1 !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::TypeMetadata
+      delegate_dc_obj: !ruby/object:ActiveRecord::ConnectionAdapters::SqlTypeMetadata
+        sql_type: timestamp without time zone
+        type: :datetime
+        limit: 
+        precision: 
+        scale: 
+      oid: 1114
+      fmod: -1
+    'null': false
+    default: 
+    default_function: 
+    collation: 
+    comment: 
+  - &5 !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: 
+    name: updated_at
+    sql_type_metadata: *1
+    'null': false
+    default: 
+    default_function: 
+    collation: 
+    comment: 
+  - &8 !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: 
+    name: chat_id
+    sql_type_metadata: *2
+    'null': true
+    default: 
+    default_function: 
+    collation: 
+    comment: 
+  buttons:
+  - !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: true
+    name: id
+    sql_type_metadata: *2
+    'null': false
+    default: 
+    default_function: nextval('buttons_id_seq'::regclass)
+    collation: 
+    comment: 
+  - &6 !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: 
+    name: name
+    sql_type_metadata: &3 !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::TypeMetadata
+      delegate_dc_obj: !ruby/object:ActiveRecord::ConnectionAdapters::SqlTypeMetadata
+        sql_type: character varying
+        type: :string
+        limit: 
+        precision: 
+        scale: 
+      oid: 1043
+      fmod: -1
+    'null': true
+    default: 
+    default_function: 
+    collation: 
+    comment: 
+  - &7 !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: 
+    name: description
+    sql_type_metadata: !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::TypeMetadata
+      delegate_dc_obj: !ruby/object:ActiveRecord::ConnectionAdapters::SqlTypeMetadata
+        sql_type: text
+        type: :text
+        limit: 
+        precision: 
+        scale: 
+      oid: 25
+      fmod: -1
+    'null': true
+    default: 
+    default_function: 
+    collation: 
+    comment: 
+  - !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: 
+    name: button_value
+    sql_type_metadata: *3
+    'null': true
+    default: 
+    default_function: 
+    collation: 
+    comment: 
+  - *4
+  - *5
+  messages:
+  - !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: true
+    name: id
+    sql_type_metadata: *2
+    'null': false
+    default: 
+    default_function: nextval('messages_id_seq'::regclass)
+    collation: 
+    comment: 
+  - *6
+  - *7
+  - *4
+  - *5
+  chats:
+  - !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: true
+    name: id
+    sql_type_metadata: *2
+    'null': false
+    default: 
+    default_function: nextval('chats_id_seq'::regclass)
+    collation: 
+    comment: 
+  - !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: 
+    name: telegram_chat_number
+    sql_type_metadata: *2
+    'null': true
+    default: 
+    default_function: 
+    collation: 
+    comment: 
+  - *4
+  - *5
+  - !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: 
+    name: user_id
+    sql_type_metadata: *2
+    'null': true
+    default: 
+    default_function: 
+    collation: 
+    comment: 
+  users:
+  - !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: true
+    name: id
+    sql_type_metadata: *2
+    'null': false
+    default: 
+    default_function: nextval('users_id_seq'::regclass)
+    collation: 
+    comment: 
+  - !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: 
+    name: login
+    sql_type_metadata: *3
+    'null': false
+    default: ''
+    default_function: 
+    collation: 
+    comment: 
+  - *4
+  - *5
+  ar_internal_metadata:
+  - !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: 
+    name: key
+    sql_type_metadata: *3
+    'null': false
+    default: 
+    default_function: 
+    collation: 
+    comment: 
+  - !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: 
+    name: value
+    sql_type_metadata: *3
+    'null': true
+    default: 
+    default_function: 
+    collation: 
+    comment: 
+  - *4
+  - *5
+  statebuttons:
+  - !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: true
+    name: id
+    sql_type_metadata: *2
+    'null': false
+    default: 
+    default_function: nextval('statebuttons_id_seq'::regclass)
+    collation: 
+    comment: 
+  - !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: 
+    name: data
+    sql_type_metadata: *2
+    'null': true
+    default: 
+    default_function: 
+    collation: 
+    comment: 
+  - !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: 
+    name: date
+    sql_type_metadata: *2
+    'null': true
+    default: 
+    default_function: 
+    collation: 
+    comment: 
+  - !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: 
+    name: message_id
+    sql_type_metadata: *2
+    'null': true
+    default: 
+    default_function: 
+    collation: 
+    comment: 
+  - *4
+  - *5
+  - *8
+  schema_migrations:
+  - !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::Column
+    serial: 
+    name: version
+    sql_type_metadata: *3
+    'null': false
+    default: 
+    default_function: 
+    collation: 
+    comment: 
+primary_keys:
+  requests: id
+  buttons: id
+  messages: id
+  chats: id
+  users: id
+  ar_internal_metadata: key
+  statebuttons: id
+  schema_migrations: version
+data_sources:
+  requests: true
+  buttons: true
+  messages: true
+  chats: true
+  users: true
+  ar_internal_metadata: true
+  statebuttons: true
+  schema_migrations: true
+indexes:
+  requests:
+  - !ruby/object:ActiveRecord::ConnectionAdapters::IndexDefinition
+    table: requests
+    name: index_requests_on_chat_id
+    unique: false
+    columns:
+    - chat_id
+    lengths: {}
+    orders: {}
+    opclasses: {}
+    where: 
+    type: 
+    using: :btree
+    comment: 
+  buttons: []
+  messages: []
+  chats:
+  - !ruby/object:ActiveRecord::ConnectionAdapters::IndexDefinition
+    table: chats
+    name: index_chats_on_user_id
+    unique: false
+    columns:
+    - user_id
+    lengths: {}
+    orders: {}
+    opclasses: {}
+    where: 
+    type: 
+    using: :btree
+    comment: 
+  users: []
+  ar_internal_metadata: []
+  statebuttons:
+  - !ruby/object:ActiveRecord::ConnectionAdapters::IndexDefinition
+    table: statebuttons
+    name: index_statebuttons_on_chat_id
+    unique: false
+    columns:
+    - chat_id
+    lengths: {}
+    orders: {}
+    opclasses: {}
+    where: 
+    type: 
+    using: :btree
+    comment: 
+  schema_migrations: []
+version: 20180417063537
+database_version: 90525
