@@ -69,7 +69,8 @@ class UsersController < ApplicationController
 
             # buttons array
             kb = getting_btn2.call.map do |button|
-              Telegram::Bot::Types::InlineKeyboardButton.new(text: button.description, callback_data: button.button_value)
+              Telegram::Bot::Types::InlineKeyboardButton.new(text: button.description,
+                                                             callback_data: button.button_value)
             end
 
             markup = Telegram::Bot::Types::InlineKeyboardMarkup.new(inline_keyboard: kb)
