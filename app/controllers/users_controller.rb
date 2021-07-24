@@ -108,4 +108,5 @@ class UsersController < ApplicationController
       message_id: message.as_json['message']['message_id']
     }
   end
+
 end
