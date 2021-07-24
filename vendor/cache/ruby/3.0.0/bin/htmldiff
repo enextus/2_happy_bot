@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env ruby_executable_hooks
 'exec' "ruby" '-x' "$0" "$@"
 #!/home/enextus/.rbenv/versions/3.0.2/bin/ruby
 #
