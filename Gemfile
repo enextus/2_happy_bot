@@ -14,17 +14,18 @@ end
 # #####################################################################################################################
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1', '>= 6.1.3.2'
+# gem 'rails', '~> 6.1', '>= 6.1.3.2'
+gem 'rails', '= 6.1.4'
 gem 'rack', '~> 2.2', '>= 2.2.3'
-gem 'railties', '~> 6.1', '>= 6.1.3.2'
+gem 'railties', '= 6.1.4'
 gem 'rspec', '~> 3.10'
 
 # #####################################################################################################################
 
-gem 'actionpack', '~> 6.1', '>= 6.1.3.2'
-gem 'actionview', '= 6.1.3.2'
-gem 'activerecord', '~> 6.1', '>= 6.1.3.2'
-gem 'activesupport', '~> 6.1', '>= 6.1.3.2'
+gem 'actionpack', '= 6.1.4'
+gem 'actionview', '= 6.1.4'
+gem 'activerecord', '= 6.1.4'
+gem 'activesupport', '= 6.1.4'
 
 gem 'airbrussh', '~> 1.4'
 gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
