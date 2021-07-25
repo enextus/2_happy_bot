@@ -32,7 +32,7 @@ gem 'airbrussh', '~> 1.4'
 gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
 
 # Use ActiveModel has_secure_password
-gem 'bcrypt', '~> 3.1', '>= 3.1.16'
+# gem 'bcrypt', '~> 3.1', '>= 3.1.16'
 
 # gem 'bootstrap', '~> 5.0', '>= 5.0.1'
 
