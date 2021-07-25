@@ -389,19 +389,25 @@
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.16/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.16/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.16/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/bcrypt-ruby-7427d6861d59/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/bcrypt-ruby-7427d6861d59/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/bcrypt-ruby-7427d6861d59/.git" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/bcrypt-ruby-7427d6861d59/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/bcrypt-ruby-7427d6861d59/.github" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.16/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.16/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.16/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/bcrypt-ruby-7427d6861d59/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/bcrypt-ruby-7427d6861d59/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/bcrypt-ruby-7427d6861d59/.git" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/bcrypt-ruby-7427d6861d59/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/bcrypt-ruby-7427d6861d59/.github" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.16/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.16/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/bcrypt-ruby-7427d6861d59/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/bcrypt-ruby-7427d6861d59/.git" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/bcrypt-ruby-7427d6861d59/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/bundler/gems/bcrypt-ruby-7427d6861d59/.github" />
         </excluded>
       </library>
     </orderEntry>
@@ -2718,7 +2724,7 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.2.23, rbenv: 3.0.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.2.24, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rbs (v1.2.1, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uri (v0.10.1, rbenv: 3.0.2) [gem]" level="application" />
   </component>
