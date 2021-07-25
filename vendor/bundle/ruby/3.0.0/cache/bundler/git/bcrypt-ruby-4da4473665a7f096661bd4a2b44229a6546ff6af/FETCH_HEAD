@@ -1,0 +1,25 @@
+a0ca03b1ee157d58a2660932bab670781bb5088e		branch 'better_jruby_testing' of https://github.com/codahale/bcrypt-ruby
+7427d6861d59636d84ec970ab29b8a5ff8bfa570		branch 'master' of https://github.com/codahale/bcrypt-ruby
+3706a48dd0695f6647fb88119a319bb9baff2467		branch 'no-null-bytes' of https://github.com/codahale/bcrypt-ruby
+84745b1564ef29d308a58a96429cd74ab26ddcbc	not-for-merge	tag 'rel_2_0_3' of https://github.com/codahale/bcrypt-ruby
+18178defdd85fcde985e0f010666d8aa54819a48	not-for-merge	tag 'rel_2_0_4' of https://github.com/codahale/bcrypt-ruby
+3137ad6d58e3541613b4e1e1cdd7cd70c5d9f2b6	not-for-merge	tag 'rel_2_0_5' of https://github.com/codahale/bcrypt-ruby
+17b18eab80d82ec39c36bfadc461b2e092342002	not-for-merge	tag 'rel_2_1_0' of https://github.com/codahale/bcrypt-ruby
+525b5999142d3d8c731fd7524eb07780dcd03720	not-for-merge	tag 'rel_2_1_1' of https://github.com/codahale/bcrypt-ruby
+c85bc646b8251f3b4f7365d63752a813c2733409	not-for-merge	tag 'rel_2_1_2' of https://github.com/codahale/bcrypt-ruby
+526a4bba7a61cc54ca488fa4816a53f5208e82df	not-for-merge	tag 'v3.0.0' of https://github.com/codahale/bcrypt-ruby
+efbf09475899c3ad11ab9ab4757984289d4504ce	not-for-merge	tag 'v3.0.1' of https://github.com/codahale/bcrypt-ruby
+7a7fcf396f927ed61a60647a9a55aafa7c8e6b6a	not-for-merge	tag 'v3.1.1' of https://github.com/codahale/bcrypt-ruby
+1f9184a8df2b90fa02d01a32a364eefc9072e1b9	not-for-merge	tag 'v3.1.10' of https://github.com/codahale/bcrypt-ruby
+fbbece54c6cb8b53db01132c7eeb58955944547d	not-for-merge	tag 'v3.1.11' of https://github.com/codahale/bcrypt-ruby
+12a50f4ff20c1723cc08b3f3c5dcd257c305172c	not-for-merge	tag 'v3.1.12' of https://github.com/codahale/bcrypt-ruby
+c92c5a88023bbc1a8131c87a9d999c4b761a9df3	not-for-merge	tag 'v3.1.12.rc1' of https://github.com/codahale/bcrypt-ruby
+a52708174689a1d05411af51784182e5e03b35d4	not-for-merge	tag 'v3.1.13' of https://github.com/codahale/bcrypt-ruby
+2c17728c1d89cb0fe964d04aa50a0cb9395084f1	not-for-merge	tag 'v3.1.14' of https://github.com/codahale/bcrypt-ruby
+f4d43582b8c2be518b01191601ae77cd8ade8eeb	not-for-merge	tag 'v3.1.15' of https://github.com/codahale/bcrypt-ruby
+ad936f4feef59d375e25200e9c594412328952c5	not-for-merge	tag 'v3.1.16' of https://github.com/codahale/bcrypt-ruby
+a5b7bfbf21bc41838902b4a798f90ec25c09630e	not-for-merge	tag 'v3.1.3' of https://github.com/codahale/bcrypt-ruby
+58f056b01d6e617a539e1308cb2b9e221525cfdf	not-for-merge	tag 'v3.1.6' of https://github.com/codahale/bcrypt-ruby
+f167f92c702ea6b01a9995e3089f49b95c34eecb	not-for-merge	tag 'v3.1.7' of https://github.com/codahale/bcrypt-ruby
+519c661fa72803231d967c80e83b2efa18c4c937	not-for-merge	tag 'v3.1.8' of https://github.com/codahale/bcrypt-ruby
+b82c7140eb4ecedc20ab3a7c0d0801667d1907b3	not-for-merge	tag 'v3.1.9' of https://github.com/codahale/bcrypt-ruby
