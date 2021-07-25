@@ -32,7 +32,8 @@ gem 'airbrussh', '~> 1.4'
 gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
 
 # Use ActiveModel has_secure_password
-gem 'bcrypt', '~> 3.1', '>= 3.1.16'
+gem 'bcrypt', '~> 3.1.7'
+
 # gem 'bootstrap', '~> 5.0', '>= 5.0.1'
 
 # Use CoffeeScript for .coffee assets and views
@@ -108,7 +109,7 @@ group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'listen', '~> 3.5', '>= 3.5.1'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring', '~> 2.1', '>= 2.1.1'
+  # gem 'spring', '~> 2.1', '>= 2.1.1'
   gem 'spring-watcher-listen', '~> 2.0', '>= 2.0.1'
   gem 'web-console', '~> 4.1'
 end
