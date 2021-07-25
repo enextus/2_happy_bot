@@ -20,6 +20,7 @@ gem 'rack', '~> 2.2', '>= 2.2.3'
 gem 'railties', '= 6.1.4'
 gem 'rspec', '~> 3.10'
 gem 'rubygems-bundler', '~> 1.4', '>= 1.4.5'
+
 # #####################################################################################################################
 
 gem 'actionpack', '= 6.1.4'
@@ -43,7 +44,7 @@ gem 'dry-inflector', '~> 0.2.1'
 gem 'faraday', '~> 1.5'
 gem 'ffi', '~> 1.9', '>= 1.9.10'
 gem 'freeze', '~> 0.1.0'
-gem 'i18n', '~> 1.8', '>= 1.8.10'
+gem 'i18n', '~> 1.6', '>= 1.6'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.11', '>= 2.11.2'
