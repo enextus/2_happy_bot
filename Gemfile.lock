@@ -147,7 +147,6 @@ GEM
     freeze (0.1.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
-    hashie (4.1.0)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     ice_nine (0.11.2)
@@ -309,9 +308,6 @@ GEM
       chronic (>= 0.6.3)
     whenever-test (1.0.1)
       whenever
-    world-flags (0.6.6)
-      hashie (>= 1.2)
-      i18n (>= 0.6)
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.4.2)
@@ -381,8 +377,6 @@ DEPENDENCIES
   web-console (~> 4.1)
   whenever (~> 1.0)
   whenever-test (~> 1.0, >= 1.0.1)
-  world-flags (~> 0.6.6)
-  zeitwerk (~> 2.4, >= 2.4.2)
 
 BUNDLED WITH
    2.2.24
