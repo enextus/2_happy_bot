@@ -2410,25 +2410,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="webrick (vbundled(1.7.0)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/webrick-1.7.0/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/webrick-1.7.0/lib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/webrick-1.7.0/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/webrick-1.7.0/lib" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/webrick-1.7.0/bin" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="websocket-driver (vbundled(0.7.5)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
