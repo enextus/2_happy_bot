@@ -81,8 +81,6 @@ gem 'tzinfo', '~> 2.0', '>= 2.0.4'
 gem 'uglifier', '~> 4.2'
 gem 'uri', '~> 0.10.1'
 
-gem 'webrick', '~> 1.7'
-
 gem 'whenever', '~> 1.0'
 gem 'whenever-test', '~> 1.0', '>= 1.0.1'
 
