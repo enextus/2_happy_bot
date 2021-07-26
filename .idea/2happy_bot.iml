@@ -1107,20 +1107,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="hashie (vbundled(4.1.0)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/hashie-4.1.0/lib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/hashie-4.1.0/lib" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="i18n (vbundled(1.8.10)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -2501,36 +2487,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="world-flags (vbundled(0.6.6)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/world-flags-0.6.6/db" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/world-flags-0.6.6/app" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/world-flags-0.6.6/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/world-flags-0.6.6/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/world-flags-0.6.6/config" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/world-flags-0.6.6/sandbox" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/world-flags-0.6.6/db" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/world-flags-0.6.6/app" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/world-flags-0.6.6/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/world-flags-0.6.6/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/world-flags-0.6.6/config" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/world-flags-0.6.6/sandbox" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/world-flags-0.6.6/db" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/world-flags-0.6.6/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/world-flags-0.6.6/config" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/world-flags-0.6.6/sandbox" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="xpath (vbundled(3.2.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -2601,8 +2557,6 @@
         <option value="test_unit:install" />
         <option value="test_unit:mailbox" />
         <option value="test_unit:plugin" />
-        <option value="world_flags:init" />
-        <option value="world_flags:publicize" />
       </list>
     </option>
     <option name="myGenerators">
@@ -2634,8 +2588,6 @@
         <option value="test_unit:install" />
         <option value="test_unit:mailbox" />
         <option value="test_unit:plugin" />
-        <option value="world_flags:init" />
-        <option value="world_flags:publicize" />
       </list>
     </option>
   </component>
