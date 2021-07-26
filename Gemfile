@@ -14,11 +14,10 @@ end
 # #####################################################################################################################
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-# gem 'rails', '~> 6.1', '>= 6.1.3.2'
 gem 'rails', '= 6.1.4'
 gem 'rack', '~> 2.2', '>= 2.2.3'
 gem 'railties', '= 6.1.4'
-gem 'rspec', '~> 3.10'
+# gem 'rspec', '~> 3.10'
 gem 'rubygems-bundler', '~> 1.4', '>= 1.4.5'
 
 # #####################################################################################################################
@@ -33,8 +32,6 @@ gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1', '>= 3.1.16'
-
-# gem 'bootstrap', '~> 5.0', '>= 5.0.1'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 5.0'
