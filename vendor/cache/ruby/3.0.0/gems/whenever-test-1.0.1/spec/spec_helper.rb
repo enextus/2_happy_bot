@@ -1,5 +1,0 @@
-require 'pry'
-require 'whenever/test'
-require 'minitest/autorun'
-require 'minitest/pride'
-require 'mocha/setup'
