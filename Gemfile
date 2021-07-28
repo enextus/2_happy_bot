@@ -4,10 +4,7 @@ source 'https://rubygems.org'
 
 gem 'rake', '~> 13.0', '>= 13.0.6'
 
-gem 'executable-hooks', '~> 1.6', '>= 1.6.1'
-
-
-# #####################################################################################################################
+gem 'executable-hooks', '= 1.4.2'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
@@ -20,7 +17,6 @@ end
 gem 'rails', '= 6.1.4'
 gem 'rack', '~> 2.2', '>= 2.2.3'
 gem 'railties', '= 6.1.4'
-gem 'rubygems-bundler', '~> 1.4', '>= 1.4.5'
 
 gem 'bcrypt', '= 3.1.7'
 

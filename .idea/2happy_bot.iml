@@ -372,6 +372,28 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="bcrypt (vbundled(3.1.7)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/spec" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/spec" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="bindex (vbundled(0.8.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -416,20 +438,6 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/builder-3.2.4/test" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/builder-3.2.4/rakelib" />
         </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="bundler-unload (vbundled(1.0.2)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bundler-unload-1.0.2/lib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bundler-unload-1.0.2/lib" />
-        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -862,33 +870,30 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="executable-hooks (vbundled(1.6.1)) [path][gem]" type="rubylib">
+      <library name="executable-hooks (vbundled(1.4.2)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.6.1/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.6.1/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.6.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.6.1/test-tf" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.6.1/test-tf-bundle" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.6.1/test-tf-truffleruby" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/test-tf" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/test-tf-bundle" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.6.1/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.6.1/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.6.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.6.1/test-tf" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.6.1/test-tf-bundle" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.6.1/test-tf-truffleruby" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/test-tf" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/test-tf-bundle" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.6.1/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.6.1/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.6.1/test-tf" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.6.1/test-tf-bundle" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.6.1/test-tf-truffleruby" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/test-tf" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/test-tf-bundle" />
         </excluded>
       </library>
     </orderEntry>
@@ -1884,25 +1889,6 @@
         </SOURCES>
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ruby2_keywords-0.0.5/logs" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="rubygems-bundler (vbundled(1.4.5)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-bundler-1.4.5/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-bundler-1.4.5/test" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-bundler-1.4.5/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-bundler-1.4.5/test" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-bundler-1.4.5/test" />
         </excluded>
       </library>
     </orderEntry>
