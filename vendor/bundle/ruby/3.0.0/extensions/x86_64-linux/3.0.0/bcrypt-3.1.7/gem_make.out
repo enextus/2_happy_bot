@@ -1,0 +1,20 @@
+current directory: /home/enextus/projects/2happy_bot/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/ext/mri
+/home/enextus/.rbenv/versions/3.0.2/bin/ruby -I /home/enextus/.rbenv/versions/3.0.2/lib/ruby/site_ruby/3.0.0 -r ./siteconf20210728-172125-trjg6l.rb extconf.rb
+checking for ruby/util.h... yes
+creating Makefile
+
+current directory: /home/enextus/projects/2happy_bot/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/ext/mri
+make DESTDIR\= clean
+
+current directory: /home/enextus/projects/2happy_bot/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/ext/mri
+make DESTDIR\=
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: /home/enextus/projects/2happy_bot/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/ext/mri
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20210728-172125-7ylhfa
