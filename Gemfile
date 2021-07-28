@@ -50,7 +50,7 @@ gem 'jbuilder', '~> 2.11', '>= 2.11.2'
 gem 'minitest', '~> 5.14', '>= 5.14.4'
 gem 'net-ssh', '~> 6.1'
 
-gem 'nokogiri', '~> 1.12.0.rc1'
+gem 'nokogiri', '~> 1.11', '>= 1.11.7'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.2', '>= 1.2.3'
