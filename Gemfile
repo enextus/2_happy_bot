@@ -65,8 +65,8 @@ gem 'redis', '~> 4.3', '>= 4.3.1'
 gem 'rexml', '~> 3.2', '>= 3.2.5'
 gem 'rubygems-update', '~> 3.2', '>= 3.2.20'
 
-gem 'sassc', '= 2.1'
-gem 'sass-rails', '~> 5.0'
+gem 'sassc', '~> 2.4'
+gem 'sass-rails', '~> 6.0'
 
 gem 'sidekiq', '~> 6.2', '>= 6.2.1'
 gem 'sidekiq-client-cli', '~> 0.1.7'
