@@ -1261,24 +1261,24 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="mini_portile2 (vbundled(2.5.3)) [path][gem]" type="rubylib">
+      <library name="mini_portile2 (vbundled(2.4.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.5.3/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.5.3/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.5.3/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.4.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.4.0/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.4.0/concourse" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.5.3/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.5.3/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.5.3/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.4.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.4.0/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.4.0/concourse" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.5.3/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.5.3/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.4.0/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.4.0/concourse" />
         </excluded>
       </library>
     </orderEntry>
@@ -1385,27 +1385,27 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="nokogiri (vbundled(1.11.7)) [path][gem]" type="rubylib">
+      <library name="nokogiri (vbundled(1.9.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/patches" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.9.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.9.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.9.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.9.1/patches" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/patches" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.9.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.9.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.9.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.9.1/patches" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/patches" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.9.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.9.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.9.1/patches" />
         </excluded>
       </library>
     </orderEntry>
@@ -1555,40 +1555,6 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.3.2/ext" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.3.2/docs" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.3.2/tools" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="racc (vbundled(1.5.2)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/web" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/rdoc" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/sample" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/web" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/rdoc" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/sample" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/web" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/rdoc" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/racc-1.5.2/sample" />
         </excluded>
       </library>
     </orderEntry>
