@@ -1261,28 +1261,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="mini_portile2 (vbundled(2.5.3)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.5.3/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.5.3/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.5.3/.github" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.5.3/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.5.3/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.5.3/.github" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.5.3/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/mini_portile2-2.5.3/.github" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="minitest (vbundled(5.14.4)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -1381,31 +1359,6 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/.github" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/rakelib" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/examples" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="nokogiri (vbundled(1.11.7)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/patches" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/patches" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nokogiri-1.11.7/patches" />
         </excluded>
       </library>
     </orderEntry>

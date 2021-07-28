@@ -336,6 +336,7 @@ DEPENDENCIES
   dotenv (~> 2.7, >= 2.7.1)
   dotenv-rails
   dry-inflector (~> 0.2.1)
+  executable-hooks (~> 1.6, >= 1.6.1)
   faraday (~> 1.5)
   ffi (~> 1.9, >= 1.9.10)
   freeze (~> 0.1.0)
