@@ -130,10 +130,6 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/actionmailbox-6.1.4/lib" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/actionmailbox-6.1.4/config" />
         </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/actionmailbox-6.1.4/db" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/actionmailbox-6.1.4/config" />
-        </excluded>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -180,9 +176,6 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/actiontext-6.1.4/app" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/actiontext-6.1.4/lib" />
         </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/actiontext-6.1.4/db" />
-        </excluded>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -264,10 +257,6 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/activestorage-6.1.4/lib" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/activestorage-6.1.4/config" />
         </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/activestorage-6.1.4/db" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/activestorage-6.1.4/config" />
-        </excluded>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -379,7 +368,6 @@
         </SOURCES>
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/axiom-types-0.1.1/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/axiom-types-0.1.1/config" />
         </excluded>
       </library>
     </orderEntry>
@@ -699,7 +687,6 @@
         </SOURCES>
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/coercible-1.0.0/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/coercible-1.0.0/config" />
         </excluded>
       </library>
     </orderEntry>
@@ -818,7 +805,6 @@
         </SOURCES>
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/descendants_tracker-0.0.4/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/descendants_tracker-0.0.4/config" />
         </excluded>
       </library>
     </orderEntry>
@@ -1093,16 +1079,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="globalid (vbundled(0.4.2)) [path][gem]" type="rubylib">
+      <library name="globalid (vbundled(0.5.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/globalid-0.4.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/globalid-0.5.1/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/globalid-0.4.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/globalid-0.5.1/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -1140,7 +1126,6 @@
         </SOURCES>
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ice_nine-0.11.2/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ice_nine-0.11.2/config" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/ice_nine-0.11.2/benchmarks" />
         </excluded>
       </library>
@@ -1815,16 +1800,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="redis (vbundled(4.3.1)) [path][gem]" type="rubylib">
+      <library name="redis (vbundled(4.4.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/redis-4.3.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/redis-4.4.0/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/redis-4.3.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/redis-4.4.0/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -1887,7 +1872,6 @@
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubocop-1.18.4/exe" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubocop-1.18.4/assets" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubocop-1.18.4/config" />
         </excluded>
       </library>
     </orderEntry>
@@ -1923,7 +1907,6 @@
         </SOURCES>
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubocop-rails-2.11.3/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubocop-rails-2.11.3/config" />
         </excluded>
       </library>
     </orderEntry>
