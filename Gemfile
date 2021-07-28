@@ -4,7 +4,6 @@ source 'https://rubygems.org'
 
 gem 'rake', '~> 13.0', '>= 13.0.6'
 
-gem 'executable-hooks', '= 1.4.2'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
@@ -48,6 +47,8 @@ gem 'jbuilder', '~> 2.11', '>= 2.11.2'
 gem 'minitest', '~> 5.14', '>= 5.14.4'
 gem 'net-ssh', '~> 6.1'
 
+gem 'executable-hooks', '= 1.4.2'
+
 gem 'nokogiri', '= 1.9.1'
 
 # Use postgresql as the database for Active Record
@@ -64,7 +65,6 @@ gem 'rexml', '~> 3.2', '>= 3.2.5'
 gem 'rubygems-update', '~> 3.2', '>= 3.2.20'
 
 gem 'sassc', '~> 2.4'
-gem 'sass-rails', '~> 6.0'
 
 gem 'sidekiq', '~> 6.2', '>= 6.2.1'
 gem 'sidekiq-client-cli', '~> 0.1.7'
@@ -79,7 +79,6 @@ gem 'tzinfo', '~> 2.0', '>= 2.0.4'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '~> 4.2'
 gem 'uri', '~> 0.10.1'
-
 gem 'whenever', '~> 1.0'
 gem 'whenever-test', '~> 1.0', '>= 1.0.1'
 
@@ -92,7 +91,6 @@ group :development, :test do
   gem 'capybara', '~> 3.35', '>= 3.35.3'
   gem 'pry', '~> 0.14.1'
   gem 'rubocop-rails', '~> 2.10', '>= 2.10.1'
-  # gem 'selenium-webdriver', '~> 3.142', '>= 3.142.7'
 end
 
 group :development do
