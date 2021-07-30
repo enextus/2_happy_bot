@@ -523,6 +523,20 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="capistrano-sidekiq (vbundled(2.0.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/capistrano-sidekiq-2.0.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/capistrano-sidekiq-2.0.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="capistrano-ssh-doctor (vbundled(1.0.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -2349,6 +2363,7 @@
         <option value="application_record" />
         <option value="assets" />
         <option value="benchmark" />
+        <option value="capistrano:sidekiq:monit:template" />
         <option value="channel" />
         <option value="coffee:assets" />
         <option value="controller" />
@@ -2379,6 +2394,7 @@
         <option value="application_record" />
         <option value="assets" />
         <option value="benchmark" />
+        <option value="capistrano:sidekiq:monit:template" />
         <option value="channel" />
         <option value="coffee:assets" />
         <option value="controller" />
