@@ -1921,20 +1921,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="sass-rails (vbundled(6.0.0)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sass-rails-6.0.0/lib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sass-rails-6.0.0/lib" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="sassc (vbundled(2.4.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -1953,28 +1939,6 @@
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/test" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="sassc-rails (vbundled(2.1.2)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-rails-2.1.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-rails-2.1.2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-rails-2.1.2/gemfiles" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-rails-2.1.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-rails-2.1.2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-rails-2.1.2/gemfiles" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-rails-2.1.2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-rails-2.1.2/gemfiles" />
         </excluded>
       </library>
     </orderEntry>
@@ -2149,25 +2113,6 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/thread_safe-0.3.6/tasks" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/thread_safe-0.3.6/examples" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/thread_safe-0.3.6/yard-template" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="tilt (vbundled(2.0.10)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tilt-2.0.10/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tilt-2.0.10/lib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tilt-2.0.10/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tilt-2.0.10/lib" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tilt-2.0.10/bin" />
         </excluded>
       </library>
     </orderEntry>
