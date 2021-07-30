@@ -13,9 +13,7 @@ install_plugin Capistrano::SCM::Git
 
 require 'capistrano/rails'
 
-if Rake.application.top_level_tasks.first == "staging"
-  require 'capistrano/rbenv'
-end
+require 'capistrano/rbenv' if Rake.application.top_level_tasks.first == "staging"
 
 # require 'capistrano/chruby'
 require 'capistrano/bundler'
