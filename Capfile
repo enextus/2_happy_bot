@@ -3,32 +3,26 @@
 # Load DSL and set up stages
 require 'capistrano/setup'
 
+require 'capistrano/sidekiq'
+
 # Include default deployment tasks
 require 'capistrano/deploy'
-
 require 'capistrano/scm/git'
 
 install_plugin Capistrano::SCM::Git
 
-# require 'capistrano/rvm'
 require 'capistrano/rails'
-
-# require 'capistrano/rbenv'
 
 if Rake.application.top_level_tasks.first == "staging"
   require 'capistrano/rbenv'
 end
 
-
 # require 'capistrano/chruby'
 require 'capistrano/bundler'
 require 'capistrano/rails/assets'
-
 require 'capistrano/rails/migrations'
 require 'capistrano/passenger'
-
 require 'whenever/capistrano'
-
 require 'capistrano/ssh_doctor'
 
 set :whenever_command, 'bundle exec whenever'
