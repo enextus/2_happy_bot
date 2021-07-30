@@ -335,22 +335,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="autoprefixer-rails (vbundled(10.2.5.1)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/autoprefixer-rails-10.2.5.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/autoprefixer-rails-10.2.5.1/vendor" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/autoprefixer-rails-10.2.5.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/autoprefixer-rails-10.2.5.1/vendor" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="axiom-types (vbundled(0.1.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -368,28 +352,6 @@
         </SOURCES>
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/axiom-types-0.1.1/spec" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="bcrypt (vbundled(3.1.7)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/spec" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/spec" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.7/spec" />
         </excluded>
       </library>
     </orderEntry>
@@ -1114,28 +1076,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="jbuilder (vbundled(2.11.2)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/jbuilder-2.11.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/jbuilder-2.11.2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/jbuilder-2.11.2/gemfiles" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/jbuilder-2.11.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/jbuilder-2.11.2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/jbuilder-2.11.2/gemfiles" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/jbuilder-2.11.2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/jbuilder-2.11.2/gemfiles" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="listen (vbundled(3.6.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -1514,30 +1454,30 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="puma (vbundled(5.3.2)) [path][gem]" type="rubylib">
+      <library name="puma (vbundled(5.4.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.3.2/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.3.2/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.3.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.3.2/docs" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.3.2/tools" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.4.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.4.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.4.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.4.0/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.4.0/tools" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.3.2/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.3.2/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.3.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.3.2/docs" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.3.2/tools" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.4.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.4.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.4.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.4.0/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.4.0/tools" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.3.2/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.3.2/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.3.2/docs" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.3.2/tools" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.4.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.4.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.4.0/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.4.0/tools" />
         </excluded>
       </library>
     </orderEntry>
@@ -1921,6 +1861,20 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="sass-rails (vbundled(6.0.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sass-rails-6.0.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sass-rails-6.0.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="sassc (vbundled(2.4.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -1939,6 +1893,28 @@
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sassc-rails (vbundled(2.1.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-rails-2.1.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-rails-2.1.2/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-rails-2.1.2/gemfiles" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-rails-2.1.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-rails-2.1.2/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-rails-2.1.2/gemfiles" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-rails-2.1.2/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sassc-rails-2.1.2/gemfiles" />
         </excluded>
       </library>
     </orderEntry>
@@ -1987,21 +1963,21 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="sprockets (vbundled(3.7.2)) [path][gem]" type="rubylib">
+      <library name="sprockets (vbundled(4.0.2)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sprockets-3.7.2/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sprockets-3.7.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sprockets-4.0.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sprockets-4.0.2/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sprockets-3.7.2/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sprockets-3.7.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sprockets-4.0.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sprockets-4.0.2/lib" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sprockets-3.7.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/sprockets-4.0.2/bin" />
         </excluded>
       </library>
     </orderEntry>
@@ -2113,6 +2089,25 @@
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/thread_safe-0.3.6/tasks" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/thread_safe-0.3.6/examples" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/thread_safe-0.3.6/yard-template" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tilt (vbundled(2.0.10)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tilt-2.0.10/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tilt-2.0.10/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tilt-2.0.10/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tilt-2.0.10/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/tilt-2.0.10/bin" />
         </excluded>
       </library>
     </orderEntry>
@@ -2360,7 +2355,6 @@
         <option value="generator" />
         <option value="helper" />
         <option value="integration_test" />
-        <option value="jbuilder" />
         <option value="job" />
         <option value="mailbox" />
         <option value="mailer" />
@@ -2391,7 +2385,6 @@
         <option value="generator" />
         <option value="helper" />
         <option value="integration_test" />
-        <option value="jbuilder" />
         <option value="job" />
         <option value="mailbox" />
         <option value="mailer" />
@@ -2447,11 +2440,6 @@
               <RakeTaskImpl description="Load asset compile environment" fullCommand="assets:environment" id="environment" />
               <RakeTaskImpl description="Compile all the assets named in config.assets.precompile" fullCommand="assets:precompile" id="precompile" />
               <RakeTaskImpl description="" fullCommand="assets:clean" id="clean" />
-            </subtasks>
-          </RakeTaskImpl>
-          <RakeTaskImpl id="autoprefixer">
-            <subtasks>
-              <RakeTaskImpl description="Show selected browsers and prefixed CSS properties and values" fullCommand="autoprefixer:info" id="info" />
             </subtasks>
           </RakeTaskImpl>
           <RakeTaskImpl id="cache_digests">
