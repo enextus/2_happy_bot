@@ -44,16 +44,16 @@ gem 'i18n', '~> 1.6', '>= 1.6'
 # gem 'jbuilder', '~> 2.11', '>= 2.11.2'
 # gem 'minitest', '~> 5.14', '>= 5.14.4'
 
-gem 'net-ssh', '~> 6.1'
 gem 'executable-hooks', '= 1.4.2'
+gem 'net-ssh', '~> 6.1'
 gem 'nokogiri', '= 1.9.1'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.2', '>= 1.2.3'
 
 # Use Puma as the app server
-gem 'puma', '~> 5.3', '>= 5.3.2'
 gem 'popper_js', '~> 2.9', '>= 2.9.2'
+gem 'puma', '~> 5.3', '>= 5.3.2'
 gem 'rails-ujs', '~> 0.1.0'
 
 # Use Redis adapter to run Action Cable in production
@@ -96,7 +96,7 @@ group :development do
   gem 'capistrano-passenger', '~> 0.2.1'
   gem 'capistrano-rails', '~> 1.6', '>= 1.6.1'
   gem 'capistrano-rbenv', '~> 2.2'
-  gem "capistrano-sidekiq"
+  gem 'capistrano-sidekiq'
   gem 'capistrano-ssh-doctor', '~> 1.0'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'listen', '~> 3.5', '>= 3.5.1'
