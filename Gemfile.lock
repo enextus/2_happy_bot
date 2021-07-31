@@ -65,6 +65,8 @@ GEM
     airbrussh (1.4.0)
       sshkit (>= 1.6.1, != 1.7.0)
     ast (2.4.2)
+    autoprefixer-rails (10.2.5.1)
+      execjs (> 0)
     axiom-types (0.1.1)
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
@@ -237,7 +239,7 @@ GEM
       rubocop (>= 1.7.0, < 2.0)
     ruby-progressbar (1.11.0)
     ruby2_keywords (0.0.5)
-    rubygems-update (3.2.24)
+    rubygems-update (3.2.25)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
@@ -309,13 +311,15 @@ DEPENDENCIES
   actionview (= 6.1.4)
   activerecord (= 6.1.4)
   activesupport (= 6.1.4)
+  airbrussh (~> 1.4)
+  autoprefixer-rails (~> 10.2, >= 10.2.5.1)
   byebug
   capistrano (~> 3.16.0)
   capistrano-bundler (~> 2.0, >= 2.0.1)
   capistrano-passenger (~> 0.2.1)
   capistrano-rails (~> 1.6, >= 1.6.1)
   capistrano-rbenv (~> 2.2)
-  capistrano-sidekiq
+  capistrano-sidekiq (~> 2.0)
   capistrano-ssh-doctor (~> 1.0)
   capybara (~> 3.35, >= 3.35.3)
   coffee-rails (~> 5.0)
@@ -357,8 +361,5 @@ DEPENDENCIES
   whenever (~> 1.0)
   whenever-test (~> 1.0, >= 1.0.1)
 
-RUBY VERSION
-   ruby 3.0.2p107
-
 BUNDLED WITH
-   2.2.24
+   2.2.25

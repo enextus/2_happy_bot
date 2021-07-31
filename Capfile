@@ -11,7 +11,6 @@ require 'capistrano/scm/git'
 install_plugin Capistrano::SCM::Git
 
 require 'capistrano/rails'
-
 require 'capistrano/rbenv' if Rake.application.top_level_tasks.first == 'staging'
 
 # require 'capistrano/chruby'
@@ -30,7 +29,6 @@ set :rbenv_ruby, '3.0.2'
 set :rbenv_path, '/home/enextus/.rbenv'
 
 set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rbenv_ruby)} #{fetch(:rbenv_path)}/bin/rbenv exec"
-
 
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined
 # install_plugin Capistrano::Puma::Daemon

@@ -2,12 +2,14 @@
 
 source 'https://rubygems.org'
 
+=begin
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
   "https://github.com/#{repo_name}.git"
 end
+=end
 
-ruby '3.0.2'
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4'
@@ -26,8 +28,8 @@ gem 'actionview', '= 6.1.4'
 gem 'activerecord', '= 6.1.4'
 gem 'activesupport', '= 6.1.4'
 
-# gem 'airbrussh', '~> 1.4'
-# gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
+gem 'airbrussh', '~> 1.4'
+gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 5.0'
@@ -96,7 +98,7 @@ group :development do
   gem 'capistrano-passenger', '~> 0.2.1'
   gem 'capistrano-rails', '~> 1.6', '>= 1.6.1'
   gem 'capistrano-rbenv', '~> 2.2'
-  gem 'capistrano-sidekiq'
+  gem 'capistrano-sidekiq', '~> 2.0'
   gem 'capistrano-ssh-doctor', '~> 1.0'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'listen', '~> 3.5', '>= 3.5.1'

@@ -335,6 +335,22 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="autoprefixer-rails (vbundled(10.2.5.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/autoprefixer-rails-10.2.5.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/autoprefixer-rails-10.2.5.1/vendor" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/autoprefixer-rails-10.2.5.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/autoprefixer-rails-10.2.5.1/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="axiom-types (vbundled(0.1.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -1847,30 +1863,30 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rubygems-update (vbundled(3.2.24)) [path][gem]" type="rubylib">
+      <library name="rubygems-update (vbundled(3.2.25)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.24/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.24/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.24/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.24/bundler" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.24/hide_lib_for_update" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.25/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.25/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.25/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.25/bundler" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.25/hide_lib_for_update" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.24/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.24/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.24/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.24/bundler" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.24/hide_lib_for_update" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.25/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.25/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.25/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.25/bundler" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.25/hide_lib_for_update" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.24/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.24/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.24/bundler" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.24/hide_lib_for_update" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.25/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.25/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.25/bundler" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubygems-update-3.2.25/hide_lib_for_update" />
         </excluded>
       </library>
     </orderEntry>
@@ -2348,8 +2364,8 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.2.24, rbenv: 3.0.2) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rbs (v1.2.1, rbenv: 3.0.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.2.25, rbenv: 3.0.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rbs (v1.3.3, rbenv: 3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uri (v0.10.1, rbenv: 3.0.2) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
@@ -2456,6 +2472,11 @@
               <RakeTaskImpl description="Load asset compile environment" fullCommand="assets:environment" id="environment" />
               <RakeTaskImpl description="Compile all the assets named in config.assets.precompile" fullCommand="assets:precompile" id="precompile" />
               <RakeTaskImpl description="" fullCommand="assets:clean" id="clean" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="autoprefixer">
+            <subtasks>
+              <RakeTaskImpl description="Show selected browsers and prefixed CSS properties and values" fullCommand="autoprefixer:info" id="info" />
             </subtasks>
           </RakeTaskImpl>
           <RakeTaskImpl id="cache_digests">
