@@ -39,7 +39,7 @@ gem 'i18n', '~> 1.6', '>= 1.6'
 # gem 'jbuilder', '~> 2.11', '>= 2.11.2'
 # gem 'minitest', '~> 5.14', '>= 5.14.4'
 
-gem 'executable-hooks', '= 1.4.2'
+# gem 'executable-hooks', '= 1.4.2'
 gem 'net-ssh', '~> 6.1'
 gem 'nokogiri', '= 1.9.1'
 

@@ -890,34 +890,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="executable-hooks (vbundled(1.4.2)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/test-tf" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/test-tf-bundle" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/test-tf" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/test-tf-bundle" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/bin" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/test-tf" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/executable-hooks-1.4.2/test-tf-bundle" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="faraday (vbundled(1.7.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
