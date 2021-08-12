@@ -10,12 +10,6 @@ gem 'rails', '~> 6.1.4'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 
-# Use Active Model has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# gem 'rack', '~> 2.2', '>= 2.2.3'
-# gem 'railties', '= 6.1.4'
-
 gem 'actionpack', '= 6.1.4'
 gem 'actionview', '= 6.1.4'
 gem 'activerecord', '= 6.1.4'
@@ -34,10 +28,6 @@ gem 'faraday', '~> 1.5'
 gem 'ffi', '~> 1.9', '>= 1.9.10'
 gem 'freeze', '~> 0.1.0'
 gem 'i18n', '~> 1.6', '>= 1.6'
-
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-# gem 'jbuilder', '~> 2.11', '>= 2.11.2'
-# gem 'minitest', '~> 5.14', '>= 5.14.4'
 
 # gem 'executable-hooks', '= 1.4.2'
 gem 'net-ssh', '~> 6.1'
@@ -60,9 +50,6 @@ gem 'sassc', '~> 2.4'
 
 gem 'sidekiq', '~> 6.2', '>= 6.2.1'
 gem 'sidekiq-client-cli', '~> 0.1.7'
-
-# gem 'sprockets', '~> 3.5', '>= 3.5.2'
-# gem 'sprockets-rails', '~> 3.2', '>= 3.2.2'
 
 gem 'sshkit', '~> 1.21', '>= 1.21.2'
 gem 'telegram-bot-ruby', '~> 0.16.0'
