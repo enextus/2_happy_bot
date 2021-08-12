@@ -9,17 +9,22 @@ require 'capistrano/sidekiq'
 require 'capistrano/deploy'
 
 
-
+# This will add tasks to your deploy process
 require 'capistrano/rails'
+require 'capistrano/passenger'
 require 'capistrano/rbenv' if Rake.application.top_level_tasks.first == 'staging'
+require "capistrano/yarn"
 
-# require 'capistrano/chruby'
-require 'capistrano/bundler'
+
+
+
 require 'capistrano/rails/assets'
 require 'capistrano/rails/migrations'
-require 'capistrano/passenger'
+
 require 'whenever/capistrano'
 require 'capistrano/ssh_doctor'
+
+require 'capistrano/bundler'
 
 set :whenever_command, 'bundle exec whenever'
 set :rbenv_type, :user
