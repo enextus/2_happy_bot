@@ -101,6 +101,7 @@ group :development do
   gem 'capistrano-rbenv', '~> 2.2'
   gem 'capistrano-sidekiq', '~> 2.0'
   gem 'capistrano-ssh-doctor', '~> 1.0'
+  gem 'capistrano-yarn', '~> 2.0', '>= 2.0.2'
 
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'listen', '~> 3.5', '>= 3.5.1'
