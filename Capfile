@@ -4,7 +4,7 @@
 require 'capistrano/setup'
 
 require 'capistrano/sidekiq'
-install_plugin Capistrano::Sidekiq  # Default sidekiq tasks
+install_plugin Capistrano::Sidekiq # Default sidekiq tasks
 
 # Include default deployment tasks
 require 'capistrano/deploy'
