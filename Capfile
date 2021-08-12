@@ -3,6 +3,9 @@
 # Load DSL and set up stages
 require 'capistrano/setup'
 
+require 'capistrano/sidekiq'
+install_plugin Capistrano::Sidekiq  # Default sidekiq tasks
+
 # Include default deployment tasks
 require 'capistrano/deploy'
 
@@ -18,6 +21,7 @@ require 'capistrano/rails/assets'
 require 'capistrano/rails/migrations'
 require 'capistrano/ssh_doctor'
 
+# whenever
 require 'whenever/capistrano'
 set :whenever_command, 'bundle exec whenever'
 
