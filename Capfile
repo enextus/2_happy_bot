@@ -11,7 +11,7 @@ require 'capistrano/deploy'
 require 'capistrano/rails'
 require 'capistrano/passenger'
 require 'capistrano/rbenv' if Rake.application.top_level_tasks.first == 'staging'
-# require 'capistrano/yarn'
+require 'capistrano/yarn'
 require 'capistrano/bundler'
 
 # something
