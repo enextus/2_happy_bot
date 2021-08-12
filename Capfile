@@ -2,13 +2,13 @@
 
 # Load DSL and set up stages
 require 'capistrano/setup'
+
 require 'capistrano/sidekiq'
 
 # Include default deployment tasks
 require 'capistrano/deploy'
-require 'capistrano/scm/git'
 
-install_plugin Capistrano::SCM::Git
+
 
 require 'capistrano/rails'
 require 'capistrano/rbenv' if Rake.application.top_level_tasks.first == 'staging'
@@ -25,6 +25,10 @@ set :whenever_command, 'bundle exec whenever'
 set :rbenv_type, :user
 
 set :rbenv_ruby, '3.0.2'
+
+require 'capistrano/scm/git'
+
+install_plugin Capistrano::SCM::Git
 
 set :rbenv_path, '/home/enextus/.rbenv'
 

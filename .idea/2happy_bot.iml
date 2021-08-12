@@ -335,18 +335,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="autoprefixer-rails (vbundled(10.2.5.1)) [path][gem]" type="rubylib">
+      <library name="autoprefixer-rails (vbundled(10.3.1.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/autoprefixer-rails-10.2.5.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/autoprefixer-rails-10.2.5.1/vendor" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/autoprefixer-rails-10.3.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/autoprefixer-rails-10.3.1.0/vendor" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/autoprefixer-rails-10.2.5.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/autoprefixer-rails-10.2.5.1/vendor" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/autoprefixer-rails-10.3.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/autoprefixer-rails-10.3.1.0/vendor" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -890,24 +890,24 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="faraday (vbundled(1.5.1)) [path][gem]" type="rubylib">
+      <library name="faraday (vbundled(1.7.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-1.5.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-1.5.1/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-1.5.1/examples" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-1.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-1.7.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-1.7.0/examples" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-1.5.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-1.5.1/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-1.5.1/examples" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-1.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-1.7.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-1.7.0/examples" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-1.5.1/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-1.5.1/examples" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-1.7.0/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-1.7.0/examples" />
         </excluded>
       </library>
     </orderEntry>
@@ -1010,6 +1010,20 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="faraday-rack (vbundled(1.0.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-rack-1.0.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/faraday-rack-1.0.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="ffi (vbundled(1.15.3)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -1054,16 +1068,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="globalid (vbundled(0.5.1)) [path][gem]" type="rubylib">
+      <library name="globalid (vbundled(0.5.2)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/globalid-0.5.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/globalid-0.5.2/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/globalid-0.5.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/globalid-0.5.2/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -1125,16 +1139,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="loofah (vbundled(2.10.0)) [path][gem]" type="rubylib">
+      <library name="loofah (vbundled(2.12.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/loofah-2.10.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/loofah-2.12.0/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/loofah-2.10.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/loofah-2.12.0/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -1307,33 +1321,33 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="nio4r (vbundled(2.5.7)) [path][gem]" type="rubylib">
+      <library name="nio4r (vbundled(2.5.8)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/.github" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/rakelib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/examples" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/rakelib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/examples" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/.github" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/rakelib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/examples" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/rakelib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/examples" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/spec" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/.github" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/rakelib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.7/examples" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/rakelib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/examples" />
         </excluded>
       </library>
     </orderEntry>
@@ -1795,16 +1809,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rubocop-ast (vbundled(1.8.0)) [path][gem]" type="rubylib">
+      <library name="rubocop-ast (vbundled(1.9.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubocop-ast-1.8.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubocop-ast-1.9.1/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubocop-ast-1.8.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubocop-ast-1.9.1/lib" />
         </SOURCES>
       </library>
     </orderEntry>
