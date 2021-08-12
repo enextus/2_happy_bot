@@ -1846,16 +1846,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rubocop-ast (vbundled(1.9.1)) [path][gem]" type="rubylib">
+      <library name="rubocop-ast (vbundled(1.10.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubocop-ast-1.9.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubocop-ast-1.10.0/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubocop-ast-1.9.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.0.0/gems/rubocop-ast-1.10.0/lib" />
         </SOURCES>
       </library>
     </orderEntry>
