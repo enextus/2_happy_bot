@@ -2,13 +2,6 @@
 
 source 'https://rubygems.org'
 
-=begin
-git_source(:github) do |repo_name|
-  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
-  "https://github.com/#{repo_name}.git"
-end
-=end
-
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
