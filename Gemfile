@@ -7,14 +7,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4'
 
-# Use SCSS for stylesheets
-gem 'sass-rails', '>= 6'
-
 gem 'actionpack', '= 6.1.4'
 gem 'actionview', '= 6.1.4'
 gem 'activerecord', '= 6.1.4'
 gem 'activesupport', '= 6.1.4'
-
 gem 'airbrussh', '~> 1.4'
 gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
 
@@ -46,8 +42,11 @@ gem 'redis', '~> 4.3', '>= 4.3.1'
 gem 'rexml', '~> 3.2', '>= 3.2.5'
 gem 'rubygems-update', '~> 3.2', '>= 3.2.20'
 
+# Use SCSS for stylesheets
 gem 'sassc', '~> 2.4'
+gem 'sass-rails', '>= 6'
 
+# Use sidekiq
 gem 'sidekiq', '~> 6.2', '>= 6.2.1'
 gem 'sidekiq-client-cli', '~> 0.1.7'
 
