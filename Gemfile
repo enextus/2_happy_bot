@@ -6,10 +6,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4'
 
-gem 'actionpack', '= 6.1.4'
-gem 'actionview', '= 6.1.4'
-gem 'activerecord', '= 6.1.4'
-gem 'activesupport', '= 6.1.4'
+gem 'actionpack', '6.1.4.1'
+gem 'actionview', '6.1.4.1'
+gem 'activerecord', '6.1.4.1'
+gem 'activesupport', '6.1.4.1'
 gem 'airbrussh', '~> 1.4'
 gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
 
