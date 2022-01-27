@@ -45,7 +45,7 @@ gem 'sassc', '~> 2.4'
 gem 'sass-rails', '>= 6'
 
 # Use sidekiq
-gem 'sidekiq', '~> 6.2', '>= 6.2.1'
+gem 'sidekiq', '~> 6.4'
 gem 'sidekiq-client-cli', '~> 0.1.7'
 
 gem 'sshkit', '~> 1.21', '>= 1.21.2'

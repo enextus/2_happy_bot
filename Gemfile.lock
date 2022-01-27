@@ -259,7 +259,7 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    sidekiq (6.3.1)
+    sidekiq (6.4.0)
       connection_pool (>= 2.2.2)
       rack (~> 2.0)
       redis (>= 4.2.0)
@@ -357,7 +357,7 @@ DEPENDENCIES
   rubygems-update (~> 3.2, >= 3.2.20)
   sass-rails (>= 6)
   sassc (~> 2.4)
-  sidekiq (~> 6.2, >= 6.2.1)
+  sidekiq (~> 6.4)
   sidekiq-client-cli (~> 0.1.7)
   sshkit (~> 1.21, >= 1.21.2)
   telegram-bot-ruby (~> 0.16.0)
