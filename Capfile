@@ -27,7 +27,7 @@ set :whenever_command, 'bundle exec whenever'
 
 # rbenv add these lines:
 set :rbenv_type, :user
-set :rbenv_ruby, '3.0.2'
+set :rbenv_ruby, '3.1.0'
 set :rbenv_path, '/home/enextus/.rbenv'
 set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rbenv_ruby)} #{fetch(:rbenv_path)}/bin/rbenv exec"
 

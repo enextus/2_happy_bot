@@ -4,13 +4,15 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
-gem 'rails', '~> 6.1.4'
-gem 'actionpack', '= 6.1.4'
-gem 'actionview', '= 6.1.4'
-gem 'activerecord', '= 6.1.4'
-gem 'activesupport', '= 6.1.4'
+gem 'rails', '~> 7.0', '>= 7.0.1'
+gem 'actionpack', '= 7.0.1'
+gem 'actionview', '= 7.0.1'
+gem 'activerecord', '= 7.0.1'
+gem 'activesupport', '= 7.0.1'
 gem 'airbrussh', '~> 1.4'
 gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
+
+gem 'sprockets-rails', '~> 3.4', '>= 3.4.2'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 5.0'
