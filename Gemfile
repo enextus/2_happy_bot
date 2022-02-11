@@ -34,7 +34,7 @@ gem 'pg', '~> 1.2', '>= 1.2.3'
 
 # Use Puma as the app server
 gem 'popper_js', '~> 2.9', '>= 2.9.2'
-gem 'puma', '~> 5.3', '>= 5.3.2'
+gem 'puma', '~> 5.6'
 gem 'rails-ujs', '~> 0.1.0'
 
 # Use Redis adapter to run Action Cable in production
