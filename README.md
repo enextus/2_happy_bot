@@ -8,7 +8,7 @@ Things you may want to cover:
     About application's environment
   
     Rails version             6.1.3.2
-    Ruby version              ruby 3.0.2p107 (2021-07-07 revision 0db68f0233) [x86_64-linux]
+    Ruby version              ruby 3.1.1
     RubyGems version          3.2.23
     Rack version              2.2.3
     JavaScript Runtime        Node.js (V8)
@@ -42,7 +42,7 @@ Things you may want to cover:
 
         Environment
         
-            Ruby     ruby 3.0.2p107 (2021-07-07 revision 0db68f0233) [x86_64-linux]
+            Ruby     ruby 3.1.1
             Rubygems 3.2.23
             Bundler  N/A
             Command  /home/enextus/.rbenv/versions/3.0.2/bin/cap production doctor
