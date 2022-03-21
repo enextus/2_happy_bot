@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+ENV.each { |k, v| env(k, v) }
+
 set :chronic_options, hours24: true
 # set :environment, 'development'
 log_dir = ::File.expand_path('../../log/', __FILE__)
