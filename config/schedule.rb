@@ -8,9 +8,8 @@ log_dir = ::File.expand_path('../../log/', __FILE__)
 
 # adds ">> cron.log 2> error.log" to all commands
 
-set :output, { error: File.join(log_dir, 'error.cron.log'),
-               standard: File.join(log_dir, 'cron.log')
-              }
+set :output, { error: File.join(log_dir, 'error.cron.log'), standard: File.join(log_dir, 'cron.log') }
+set :environment, ENV['RAILS_ENV']
 
 # every 1.day, at: '15:00' do
 #   runner "ReportingWorker.perform_async '11.05.2018 reporting worker', 5 ", :output => 'cron.log'
@@ -26,11 +25,18 @@ set :output, { error: File.join(log_dir, 'error.cron.log'),
 #   runner "AnotherModel.prune_old_records"
 # end
 
-# every 45.minute do
-#   runner "ReportingWorker.perform_async ' 11.06.2021 reporting worker', 2"
-# end
+every 45.minute do
+  runner "ReportingWorker.perform_async ' 11.06.2021 reporting worker', 2"
+end
 
 # every :hour do # Many shortcuts available: :hour, :day, :month, :year, :reboot
 #  runner "SomeModel.ladeeda"
 #  runner "HardWorker.perform_async "like a dog", 3"
 # end
+#
+
+=begin
+every 1.minutes do
+  command "cd #{path} && bin/rails r import/cron_import.rb folklife"
+end
+=end
