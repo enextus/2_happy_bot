@@ -114,7 +114,7 @@ Things you may want to cover:
         :rails_env                              :production
         :rbenv_path                             "/home/enextus/.rbenv"
         :rbenv_prefix                           "RBENV_ROOT=/home/enextus/.rbenv RBENV_VERSION=3.0.2 /home/enextus/.rbenv/bin/rbenv exec"
-        :rbenv_ruby                             "3.0.2"
+        :rbenv_ruby                             "3.1.1"
         :rbenv_type                             :user
         :repo_url                               "git@github.com:enextus/2_happy_bot.git"
         :stage                                  :production
