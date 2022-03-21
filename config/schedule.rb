@@ -24,9 +24,9 @@ set :output, { error: File.join(log_dir, 'error.cron.log'),
 #   runner "AnotherModel.prune_old_records"
 # end
 
-every 45.minute do
-  runner "ReportingWorker.perform_async ' 11.06.2021 reporting worker', 2"
-end
+# every 45.minute do
+#   runner "ReportingWorker.perform_async ' 11.06.2021 reporting worker', 2"
+# end
 
 # every :hour do # Many shortcuts available: :hour, :day, :month, :year, :reboot
 #  runner "SomeModel.ladeeda"
