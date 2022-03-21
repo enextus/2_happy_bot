@@ -49,7 +49,7 @@ Things you may want to cover:
         
         Gems
         
-            capistrano            3.16.0
+            capistrano            3.17
             airbrussh             1.4.0
             rake                  13.0.6
             sshkit                1.21.2

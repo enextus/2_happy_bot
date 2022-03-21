@@ -35,8 +35,3 @@ end
 # end
 #
 
-=begin
-every 1.minutes do
-  command "cd #{path} && bin/rails r import/cron_import.rb folklife"
-end
-=end
