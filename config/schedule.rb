@@ -7,7 +7,9 @@ set :chronic_options, hours24: true
 log_dir = ::File.expand_path('../../log/', __FILE__)
 
 # adds ">> cron.log 2> error.log" to all commands
-
+# In the beginning of your schedule.rb file
+set :bundle_command, 'bundle exec'
+job_type :runner,  "cd :path && :bundle_command rails runner -e :environment ':task' :output"
 set :output, { error: File.join(log_dir, 'error.cron.log'), standard: File.join(log_dir, 'cron.log') }
 set :environment, ENV['RAILS_ENV']
 
