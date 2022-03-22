@@ -44,7 +44,8 @@ gem 'rubygems-update', '~> 3.3', '>= 3.3.6'
 
 # Use SCSS for stylesheets
 gem 'sassc', '~> 2.4'
-gem 'sass-rails', '>= 6'
+gem 'sass-rails', '~> 6.0'
+gem 'sassc-rails', '~> 2.1', '>= 2.1.2'
 
 # Use sidekiq
 gem 'sidekiq', '~> 6.2', '>= 6.2.1'
