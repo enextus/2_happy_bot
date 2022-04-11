@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Table of Contents - cli 1.3.1</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+  var index_rel_prefix = "./";
+</script>
+
+<script src="./js/navigation.js" defer></script>
+<script src="./js/search.js" defer></script>
+<script src="./js/search_index.js" defer></script>
+<script src="./js/searcher.js" defer></script>
+<script src="./js/darkfish.js" defer></script>
+
+<link href="./css/fonts.css" rel="stylesheet">
+<link href="./css/rdoc.css" rel="stylesheet">
+
+
+<body id="top" class="table-of-contents">
+<main role="main">
+<h1 class="class">Table of Contents - cli 1.3.1</h1>
+
+<h2 id="pages">Pages</h2>
+<ul>
+  <li class="file">
+    <a href="README_md.html">README</a>
+
+    <ul>
+      <li><a href="README_md.html#label-CLI">CLI</a>
+      <li><a href="README_md.html#label-Installing">Installing</a>
+      <li><a href="README_md.html#label-Examples">Examples</a>
+      <li><a href="README_md.html#label-HTTPClient+example">HTTPClient example</a>
+      <li><a href="README_md.html#label-Sinatra+server+example">Sinatra server example</a>
+      <li><a href="README_md.html#label-Statistic+data+processor+example">Statistic data processor example</a>
+      <li><a href="README_md.html#label-Ls+like+utility">Ls like utility</a>
+      <li><a href="README_md.html#label-Usage">Usage</a>
+      <li><a href="README_md.html#label-23parse+method"><code>#parse</code> method</a>
+      <li><a href="README_md.html#label-23parse-21+method"><code>#parse!</code> method</a>
+      <li><a href="README_md.html#label-Parser+behavior+specifiers">Parser behavior specifiers</a>
+      <li><a href="README_md.html#label-description+-27string-27">description ‘string’</a>
+      <li><a href="README_md.html#label-version+-27string-27">version ‘string’</a>
+      <li><a href="README_md.html#label-switch+-3Aname+-5B-2C+options+hash-5D">switch :name [, options hash]</a>
+      <li><a href="README_md.html#label-option+-3Aname+-5B-2C+options+hash-5D">option :name [, options hash]</a>
+      <li><a href="README_md.html#label-options+-3Aname+-5B-2C+options+hash-5D">options :name [, options hash]</a>
+      <li><a href="README_md.html#label-argument+-3Aname+-5B-2Coptions+hash-5D">argument :name [,options hash]</a>
+      <li><a href="README_md.html#label-arguments+-3Aname+-5B-2Coptions+hash-5D">arguments :name [,options hash]</a>
+      <li><a href="README_md.html#label-stdin+-3Aname-2C+-5Boptions+hash-5D">stdin :name, [options hash]</a>
+      <li><a href="README_md.html#label-Contributing+to+CLI">Contributing to CLI</a>
+      <li><a href="README_md.html#label-Copyright">Copyright</a>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="classes">Classes and Modules</h2>
+<ul>
+  <li class="class">
+    <a href="CLI.html">CLI</a>
+  </li>
+  <li class="class">
+    <a href="CLI/Arguments.html">CLI::Arguments</a>
+  </li>
+  <li class="module">
+    <a href="CLI/DSL.html">CLI::DSL</a>
+  </li>
+  <li class="class">
+    <a href="CLI/DSL/Argument.html">CLI::DSL::Argument</a>
+  </li>
+  <li class="class">
+    <a href="CLI/DSL/Arguments.html">CLI::DSL::Arguments</a>
+  </li>
+  <li class="class">
+    <a href="CLI/DSL/Base.html">CLI::DSL::Base</a>
+  </li>
+  <li class="module">
+    <a href="CLI/DSL/Cast.html">CLI::DSL::Cast</a>
+  </li>
+  <li class="module">
+    <a href="CLI/DSL/Description.html">CLI::DSL::Description</a>
+  </li>
+  <li class="class">
+    <a href="CLI/DSL/Input.html">CLI::DSL::Input</a>
+  </li>
+  <li class="module">
+    <a href="CLI/DSL/MultiDefault.html">CLI::DSL::MultiDefault</a>
+  </li>
+  <li class="class">
+    <a href="CLI/DSL/Option.html">CLI::DSL::Option</a>
+  </li>
+  <li class="class">
+    <a href="CLI/DSL/Options.html">CLI::DSL::Options</a>
+  </li>
+  <li class="class">
+    <a href="CLI/DSL/Switch.html">CLI::DSL::Switch</a>
+  </li>
+  <li class="module">
+    <a href="CLI/DSL/Value.html">CLI::DSL::Value</a>
+  </li>
+  <li class="class">
+    <a href="CLI/Options.html">CLI::Options</a>
+  </li>
+  <li class="class">
+    <a href="CLI/ParserError.html">CLI::ParserError</a>
+  </li>
+  <li class="class">
+    <a href="CLI/ParserError/ArgumentNameSpecifiedTwice.html">CLI::ParserError::ArgumentNameSpecifiedTwice</a>
+  </li>
+  <li class="class">
+    <a href="CLI/ParserError/LongNameSpecifiedTwiceError.html">CLI::ParserError::LongNameSpecifiedTwiceError</a>
+  </li>
+  <li class="class">
+    <a href="CLI/ParserError/MultipleArgumentsSpecifierError.html">CLI::ParserError::MultipleArgumentsSpecifierError</a>
+  </li>
+  <li class="class">
+    <a href="CLI/ParserError/NameArgumetNotSymbolError.html">CLI::ParserError::NameArgumetNotSymbolError</a>
+  </li>
+  <li class="class">
+    <a href="CLI/ParserError/OptionsArgumentNotHashError.html">CLI::ParserError::OptionsArgumentNotHashError</a>
+  </li>
+  <li class="class">
+    <a href="CLI/ParserError/ShortNameIsInvalidError.html">CLI::ParserError::ShortNameIsInvalidError</a>
+  </li>
+  <li class="class">
+    <a href="CLI/ParserError/ShortNameNotSymbolError.html">CLI::ParserError::ShortNameNotSymbolError</a>
+  </li>
+  <li class="class">
+    <a href="CLI/ParserError/ShortNameSpecifiedTwiceError.html">CLI::ParserError::ShortNameSpecifiedTwiceError</a>
+  </li>
+  <li class="class">
+    <a href="CLI/ParsingError.html">CLI::ParsingError</a>
+  </li>
+  <li class="class">
+    <a href="CLI/ParsingError/CastError.html">CLI::ParsingError::CastError</a>
+  </li>
+  <li class="class">
+    <a href="CLI/ParsingError/MandatoryArgumentNotSpecifiedError.html">CLI::ParsingError::MandatoryArgumentNotSpecifiedError</a>
+  </li>
+  <li class="class">
+    <a href="CLI/ParsingError/MandatoryOptionsNotSpecifiedError.html">CLI::ParsingError::MandatoryOptionsNotSpecifiedError</a>
+  </li>
+  <li class="class">
+    <a href="CLI/ParsingError/MissingOptionValueError.html">CLI::ParsingError::MissingOptionValueError</a>
+  </li>
+  <li class="class">
+    <a href="CLI/ParsingError/UnknownSwitchError.html">CLI::ParsingError::UnknownSwitchError</a>
+  </li>
+  <li class="class">
+    <a href="CLI/ParsingError/UsageError.html">CLI::ParsingError::UsageError</a>
+  </li>
+  <li class="class">
+    <a href="CLI/Switches.html">CLI::Switches</a>
+  </li>
+  <li class="class">
+    <a href="CLI/Values.html">CLI::Values</a>
+  </li>
+</ul>
+
+<h2 id="methods">Methods</h2>
+<ul>
+
+  <li class="method">
+    <a href="CLI/Switches.html#method-c-is_switch-3F">::is_switch?</a>
+    &mdash;
+    <span class="container">CLI::Switches</span>
+
+  <li class="method">
+    <a href="CLI.html#method-c-name">::name</a>
+    &mdash;
+    <span class="container">CLI</span>
+
+  <li class="method">
+    <a href="CLI.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI</span>
+
+  <li class="method">
+    <a href="CLI/ParserError/NameArgumetNotSymbolError.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI::ParserError::NameArgumetNotSymbolError</span>
+
+  <li class="method">
+    <a href="CLI/ParserError/OptionsArgumentNotHashError.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI::ParserError::OptionsArgumentNotHashError</span>
+
+  <li class="method">
+    <a href="CLI/ParserError/ArgumentNameSpecifiedTwice.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI::ParserError::ArgumentNameSpecifiedTwice</span>
+
+  <li class="method">
+    <a href="CLI/ParserError/LongNameSpecifiedTwiceError.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI::ParserError::LongNameSpecifiedTwiceError</span>
+
+  <li class="method">
+    <a href="CLI/ParserError/ShortNameSpecifiedTwiceError.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI::ParserError::ShortNameSpecifiedTwiceError</span>
+
+  <li class="method">
+    <a href="CLI/ParserError/ShortNameNotSymbolError.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI::ParserError::ShortNameNotSymbolError</span>
+
+  <li class="method">
+    <a href="CLI/ParserError/ShortNameIsInvalidError.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI::ParserError::ShortNameIsInvalidError</span>
+
+  <li class="method">
+    <a href="CLI/ParserError/MultipleArgumentsSpecifierError.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI::ParserError::MultipleArgumentsSpecifierError</span>
+
+  <li class="method">
+    <a href="CLI/ParsingError/MissingOptionValueError.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI::ParsingError::MissingOptionValueError</span>
+
+  <li class="method">
+    <a href="CLI/ParsingError/UnknownSwitchError.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI::ParsingError::UnknownSwitchError</span>
+
+  <li class="method">
+    <a href="CLI/ParsingError/MandatoryOptionsNotSpecifiedError.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI::ParsingError::MandatoryOptionsNotSpecifiedError</span>
+
+  <li class="method">
+    <a href="CLI/ParsingError/MandatoryArgumentNotSpecifiedError.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI::ParsingError::MandatoryArgumentNotSpecifiedError</span>
+
+  <li class="method">
+    <a href="CLI/ParsingError/CastError.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI::ParsingError::CastError</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Base.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI::DSL::Base</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Argument.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI::DSL::Argument</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Switch.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI::DSL::Switch</span>
+
+  <li class="method">
+    <a href="CLI/Switches.html#method-c-new">::new</a>
+    &mdash;
+    <span class="container">CLI::Switches</span>
+
+  <li class="method">
+    <a href="CLI/Switches.html#method-i-3C-3C">#&lt;&lt;</a>
+    &mdash;
+    <span class="container">CLI::Switches</span>
+
+  <li class="method">
+    <a href="CLI/Values.html#method-i-append">#append</a>
+    &mdash;
+    <span class="container">CLI::Values</span>
+
+  <li class="method">
+    <a href="CLI.html#method-i-argument">#argument</a>
+    &mdash;
+    <span class="container">CLI</span>
+
+  <li class="method">
+    <a href="CLI.html#method-i-arguments">#arguments</a>
+    &mdash;
+    <span class="container">CLI</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Arguments.html#method-i-cast">#cast</a>
+    &mdash;
+    <span class="container">CLI::DSL::Arguments</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Cast.html#method-i-cast">#cast</a>
+    &mdash;
+    <span class="container">CLI::DSL::Cast</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Value.html#method-i-default">#default</a>
+    &mdash;
+    <span class="container">CLI::DSL::Value</span>
+
+  <li class="method">
+    <a href="CLI/DSL/MultiDefault.html#method-i-default">#default</a>
+    &mdash;
+    <span class="container">CLI::DSL::MultiDefault</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Value.html#method-i-default_cast">#default_cast</a>
+    &mdash;
+    <span class="container">CLI::DSL::Value</span>
+
+  <li class="method">
+    <a href="CLI/DSL/MultiDefault.html#method-i-default_cast">#default_cast</a>
+    &mdash;
+    <span class="container">CLI::DSL::MultiDefault</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Value.html#method-i-default_label">#default_label</a>
+    &mdash;
+    <span class="container">CLI::DSL::Value</span>
+
+  <li class="method">
+    <a href="CLI.html#method-i-description">#description</a>
+    &mdash;
+    <span class="container">CLI</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Description.html#method-i-description">#description</a>
+    &mdash;
+    <span class="container">CLI::DSL::Description</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Description.html#method-i-description-3F">#description?</a>
+    &mdash;
+    <span class="container">CLI::DSL::Description</span>
+
+  <li class="method">
+    <a href="CLI/Switches.html#method-i-find">#find</a>
+    &mdash;
+    <span class="container">CLI::Switches</span>
+
+  <li class="method">
+    <a href="CLI/Switches.html#method-i-find_long">#find_long</a>
+    &mdash;
+    <span class="container">CLI::Switches</span>
+
+  <li class="method">
+    <a href="CLI/Switches.html#method-i-find_short">#find_short</a>
+    &mdash;
+    <span class="container">CLI::Switches</span>
+
+  <li class="method">
+    <a href="CLI/Values.html#method-i-get">#get</a>
+    &mdash;
+    <span class="container">CLI::Values</span>
+
+  <li class="method">
+    <a href="CLI/Arguments.html#method-i-has-3F">#has?</a>
+    &mdash;
+    <span class="container">CLI::Arguments</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Value.html#method-i-has_default-3F">#has_default?</a>
+    &mdash;
+    <span class="container">CLI::DSL::Value</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Value.html#method-i-has_default_label-3F">#has_default_label?</a>
+    &mdash;
+    <span class="container">CLI::DSL::Value</span>
+
+  <li class="method">
+    <a href="CLI/Switches.html#method-i-has_long-3F">#has_long?</a>
+    &mdash;
+    <span class="container">CLI::Switches</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Switch.html#method-i-has_short-3F">#has_short?</a>
+    &mdash;
+    <span class="container">CLI::DSL::Switch</span>
+
+  <li class="method">
+    <a href="CLI/Switches.html#method-i-has_short-3F">#has_short?</a>
+    &mdash;
+    <span class="container">CLI::Switches</span>
+
+  <li class="method">
+    <a href="CLI/Arguments.html#method-i-mandatory">#mandatory</a>
+    &mdash;
+    <span class="container">CLI::Arguments</span>
+
+  <li class="method">
+    <a href="CLI/Options.html#method-i-mandatory">#mandatory</a>
+    &mdash;
+    <span class="container">CLI::Options</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Value.html#method-i-mandatory-3F">#mandatory?</a>
+    &mdash;
+    <span class="container">CLI::DSL::Value</span>
+
+  <li class="method">
+    <a href="CLI/Arguments.html#method-i-multiary">#multiary</a>
+    &mdash;
+    <span class="container">CLI::Arguments</span>
+
+  <li class="method">
+    <a href="CLI/Options.html#method-i-multiary">#multiary</a>
+    &mdash;
+    <span class="container">CLI::Options</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Argument.html#method-i-multiary-3F">#multiary?</a>
+    &mdash;
+    <span class="container">CLI::DSL::Argument</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Arguments.html#method-i-multiary-3F">#multiary?</a>
+    &mdash;
+    <span class="container">CLI::DSL::Arguments</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Option.html#method-i-multiary-3F">#multiary?</a>
+    &mdash;
+    <span class="container">CLI::DSL::Option</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Options.html#method-i-multiary-3F">#multiary?</a>
+    &mdash;
+    <span class="container">CLI::DSL::Options</span>
+
+  <li class="method">
+    <a href="CLI.html#method-i-option">#option</a>
+    &mdash;
+    <span class="container">CLI</span>
+
+  <li class="method">
+    <a href="CLI/Options.html#method-i-optional">#optional</a>
+    &mdash;
+    <span class="container">CLI::Options</span>
+
+  <li class="method">
+    <a href="CLI.html#method-i-options">#options</a>
+    &mdash;
+    <span class="container">CLI</span>
+
+  <li class="method">
+    <a href="CLI.html#method-i-parse">#parse</a>
+    &mdash;
+    <span class="container">CLI</span>
+
+  <li class="method">
+    <a href="CLI.html#method-i-parse-21">#parse!</a>
+    &mdash;
+    <span class="container">CLI</span>
+
+  <li class="method">
+    <a href="CLI/Values.html#method-i-set">#set</a>
+    &mdash;
+    <span class="container">CLI::Values</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Switch.html#method-i-short">#short</a>
+    &mdash;
+    <span class="container">CLI::DSL::Switch</span>
+
+  <li class="method">
+    <a href="CLI.html#method-i-stdin">#stdin</a>
+    &mdash;
+    <span class="container">CLI</span>
+
+  <li class="method">
+    <a href="CLI.html#method-i-switch">#switch</a>
+    &mdash;
+    <span class="container">CLI</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Switch.html#method-i-switch">#switch</a>
+    &mdash;
+    <span class="container">CLI::DSL::Switch</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Switch.html#method-i-switch_short">#switch_short</a>
+    &mdash;
+    <span class="container">CLI::DSL::Switch</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Input.html#method-i-to_s">#to_s</a>
+    &mdash;
+    <span class="container">CLI::DSL::Input</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Argument.html#method-i-to_s">#to_s</a>
+    &mdash;
+    <span class="container">CLI::DSL::Argument</span>
+
+  <li class="method">
+    <a href="CLI/DSL/Switch.html#method-i-to_s">#to_s</a>
+    &mdash;
+    <span class="container">CLI::DSL::Switch</span>
+
+  <li class="method">
+    <a href="CLI/Options.html#method-i-unarry">#unarry</a>
+    &mdash;
+    <span class="container">CLI::Options</span>
+
+  <li class="method">
+    <a href="CLI.html#method-i-usage">#usage</a>
+    &mdash;
+    <span class="container">CLI</span>
+
+  <li class="method">
+    <a href="CLI.html#method-i-usage-21">#usage!</a>
+    &mdash;
+    <span class="container">CLI</span>
+
+  <li class="method">
+    <a href="CLI/Values.html#method-i-value">#value</a>
+    &mdash;
+    <span class="container">CLI::Values</span>
+
+  <li class="method">
+    <a href="CLI.html#method-i-version">#version</a>
+    &mdash;
+    <span class="container">CLI</span>
+</ul>
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="https://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://ruby.github.io/rdoc/">RDoc</a> 6.4.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
