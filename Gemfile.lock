@@ -401,4 +401,4 @@ DEPENDENCIES
   whenever-test (~> 1.0, >= 1.0.1)
 
 BUNDLED WITH
-   2.4.0.dev
+   2.3.13
