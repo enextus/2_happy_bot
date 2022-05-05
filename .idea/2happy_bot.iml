@@ -335,18 +335,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="autoprefixer-rails (vbundled(10.4.2.0)) [path][gem]" type="rubylib">
+      <library name="autoprefixer-rails (vbundled(10.4.7.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/autoprefixer-rails-10.4.2.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/autoprefixer-rails-10.4.2.0/vendor" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/autoprefixer-rails-10.4.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/autoprefixer-rails-10.4.7.0/vendor" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/autoprefixer-rails-10.4.2.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/autoprefixer-rails-10.4.2.0/vendor" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/autoprefixer-rails-10.4.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/autoprefixer-rails-10.4.7.0/vendor" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -1171,16 +1171,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="loofah (vbundled(2.16.0)) [path][gem]" type="rubylib">
+      <library name="loofah (vbundled(2.17.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/loofah-2.16.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/loofah-2.17.0/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/loofah-2.16.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/loofah-2.17.0/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -1453,30 +1453,30 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="nokogiri (vbundled(1.13.4)) [path][gem]" type="rubylib">
+      <library name="nokogiri (vbundled(1.13.5)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.4/bin" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.4/ext" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.4/lib" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.4/patches" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.4/gumbo-parser" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.5/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.5/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.5/patches" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.5/gumbo-parser" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.4/bin" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.4/ext" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.4/lib" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.4/patches" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.4/gumbo-parser" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.5/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.5/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.5/patches" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.5/gumbo-parser" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.4/bin" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.4/ext" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.4/patches" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.4/gumbo-parser" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.5/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.5/ext" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.5/patches" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/nokogiri-1.13.5/gumbo-parser" />
         </excluded>
       </library>
     </orderEntry>
@@ -1858,16 +1858,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="regexp_parser (vbundled(2.3.0)) [path][gem]" type="rubylib">
+      <library name="regexp_parser (vbundled(2.3.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/regexp_parser-2.3.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/regexp_parser-2.3.1/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/regexp_parser-2.3.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/regexp_parser-2.3.1/lib" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -1891,26 +1891,26 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rubocop (vbundled(1.27.0)) [path][gem]" type="rubylib">
+      <library name="rubocop (vbundled(1.28.2)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.27.0/exe" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.27.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.27.0/assets" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.27.0/config" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.28.2/exe" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.28.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.28.2/assets" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.28.2/config" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.27.0/exe" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.27.0/lib" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.27.0/assets" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.27.0/config" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.28.2/exe" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.28.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.28.2/assets" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.28.2/config" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.27.0/exe" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.27.0/assets" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.28.2/exe" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubocop-1.28.2/assets" />
         </excluded>
       </library>
     </orderEntry>
@@ -1964,30 +1964,30 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="rubygems-update (vbundled(3.3.11)) [path][gem]" type="rubylib">
+      <library name="rubygems-update (vbundled(3.3.13)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.11/bin" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.11/lib" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.11/test" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.11/bundler" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.11/hide_lib_for_update" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.13/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.13/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.13/test" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.13/bundler" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.13/hide_lib_for_update" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.11/bin" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.11/lib" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.11/test" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.11/bundler" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.11/hide_lib_for_update" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.13/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.13/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.13/test" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.13/bundler" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.13/hide_lib_for_update" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.11/bin" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.11/test" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.11/bundler" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.11/hide_lib_for_update" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.13/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.13/test" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.13/bundler" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/rubygems-update-3.3.13/hide_lib_for_update" />
         </excluded>
       </library>
     </orderEntry>
@@ -2050,24 +2050,24 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="sidekiq (vbundled(6.4.1)) [path][gem]" type="rubylib">
+      <library name="sidekiq (vbundled(6.4.2)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/sidekiq-6.4.1/bin" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/sidekiq-6.4.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/sidekiq-6.4.1/web" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/sidekiq-6.4.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/sidekiq-6.4.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/sidekiq-6.4.2/web" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/sidekiq-6.4.1/bin" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/sidekiq-6.4.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/sidekiq-6.4.1/web" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/sidekiq-6.4.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/sidekiq-6.4.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/sidekiq-6.4.2/web" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/sidekiq-6.4.1/bin" />
-          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/sidekiq-6.4.1/web" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/sidekiq-6.4.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/cache/ruby/3.2.0+1/gems/sidekiq-6.4.2/web" />
         </excluded>
       </library>
     </orderEntry>

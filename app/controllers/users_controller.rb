@@ -27,7 +27,7 @@ class UsersController < ApplicationController
 
   # add worker to the queue
   def start_hardworker
-    HardWorker.perform_async('17-04-2018', '10-12-2018')
+    HardWorker.perform_async('05-05-2022', '10-12-2022')
   end
 
   # getting a message from telegram API .
@@ -69,8 +69,7 @@ class UsersController < ApplicationController
 
             # buttons array
             kb = getting_btn2.call.map do |button|
-              Telegram::Bot::Types::InlineKeyboardButton.new(text: button.description,
-                                                             callback_data: button.button_value)
+              Telegram::Bot::Types::InlineKeyboardButton.new(text: button.description, callback_data: button.button_value)
             end
 
             markup = Telegram::Bot::Types::InlineKeyboardMarkup.new(inline_keyboard: kb)
@@ -87,6 +86,7 @@ class UsersController < ApplicationController
   end
 
   # here are "strong params"
+
   private
 
   def user_reply(message)
