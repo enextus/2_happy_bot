@@ -1,0 +1,408 @@
+current directory: /home/enextus/projects/2happy_bot/vendor/bundle/ruby/3.2.0+1/gems/pg-1.3.5/ext
+/home/enextus/.rbenv/versions/3.2.0-preview1/bin/ruby -I /home/enextus/.rbenv/versions/3.2.0-preview1/lib/ruby/site_ruby/3.2.0+1 -r ./siteconf20220505-103600-2h3u3c.rb extconf.rb
+Calling libpq with GVL unlocked
+checking for pg_config... yes
+Using config values from /usr/bin/pg_config
+Using libpq from /usr/lib/x86_64-linux-gnu
+checking for libpq-fe.h... yes
+checking for libpq/libpq-fs.h... yes
+checking for pg_config_manual.h... yes
+checking for PQconnectdb() in -lpq... yes
+checking for PQconninfo() in libpq-fe.h... yes
+checking for PQsslAttribute() in libpq-fe.h... yes
+checking for PQresultVerboseErrorMessage() in libpq-fe.h... yes
+checking for PQencryptPasswordConn() in libpq-fe.h... yes
+checking for PQresultMemorySize() in libpq-fe.h... yes
+checking for PQenterPipelineMode() in libpq-fe.h... yes
+checking for timegm()... yes
+checking for rb_gc_adjust_memory_usage()... yes
+checking for rb_gc_mark_movable()... yes
+checking for rb_io_wait()... yes
+checking for unistd.h... yes
+checking for inttypes.h... yes
+checking for C99 variable length arrays... yes
+creating extconf.h
+creating Makefile
+
+current directory: /home/enextus/projects/2happy_bot/vendor/bundle/ruby/3.2.0+1/gems/pg-1.3.5/ext
+make DESTDIR\= clean
+
+current directory: /home/enextus/projects/2happy_bot/vendor/bundle/ruby/3.2.0+1/gems/pg-1.3.5/ext
+make DESTDIR\=
+compiling gvl_wrappers.c
+In file included from pg.h:62,
+                 from gvl_wrappers.c:6:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg.c
+In file included from pg.h:62,
+                 from pg.c:49:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg.c: In function ‘Init_pg_ext’:
+pg.c:380:1: warning: old-style function definition [-Wold-style-definition]
+  380 | Init_pg_ext()
+      | ^~~~~~~~~~~
+pg.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_binary_decoder.c
+In file included from pg.h:62,
+                 from pg_binary_decoder.c:8:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_binary_decoder.c: In function ‘init_pg_binary_decoder’:
+pg_binary_decoder.c:208:1: warning: old-style function definition [-Wold-style-definition]
+  208 | init_pg_binary_decoder()
+      | ^~~~~~~~~~~~~~~~~~~~~~
+pg_binary_decoder.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_binary_encoder.c
+In file included from pg.h:62,
+                 from pg_binary_encoder.c:7:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_binary_encoder.c: In function ‘init_pg_binary_encoder’:
+pg_binary_encoder.c:142:1: warning: old-style function definition [-Wold-style-definition]
+  142 | init_pg_binary_encoder()
+      | ^~~~~~~~~~~~~~~~~~~~~~
+pg_binary_encoder.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_coder.c
+In file included from pg.h:62,
+                 from pg_coder.c:6:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_coder.c: In function ‘init_pg_coder’:
+pg_coder.c:540:1: warning: old-style function definition [-Wold-style-definition]
+  540 | init_pg_coder()
+      | ^~~~~~~~~~~~~
+pg_coder.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_connection.c
+In file included from pg.h:62,
+                 from pg_connection.c:7:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_connection.c: In function ‘pgconn_sync_describe_portal’:
+pg_connection.c:1450:1: warning: old-style function definition [-Wold-style-definition]
+ 1450 | pgconn_sync_describe_portal(self, stmt_name)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+pg_connection.c: In function ‘pgconn_consume_input’:
+pg_connection.c:2072:1: warning: old-style function definition [-Wold-style-definition]
+ 2072 | pgconn_consume_input(self)
+      | ^~~~~~~~~~~~~~~~~~~~
+pg_connection.c: In function ‘pgconn_is_busy’:
+pg_connection.c:2095:1: warning: old-style function definition [-Wold-style-definition]
+ 2095 | pgconn_is_busy(self)
+      | ^~~~~~~~~~~~~~
+pg_connection.c: In function ‘pgconn_sync_setnonblocking’:
+pg_connection.c:2102:1: warning: old-style function definition [-Wold-style-definition]
+ 2102 | pgconn_sync_setnonblocking(self, state)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+pg_connection.c: In function ‘pgconn_sync_isnonblocking’:
+pg_connection.c:2125:1: warning: old-style function definition [-Wold-style-definition]
+ 2125 | pgconn_sync_isnonblocking(self)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~
+pg_connection.c: In function ‘init_pg_connection’:
+pg_connection.c:4304:1: warning: old-style function definition [-Wold-style-definition]
+ 4304 | init_pg_connection()
+      | ^~~~~~~~~~~~~~~~~~
+pg_connection.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_copy_coder.c
+In file included from pg.h:62,
+                 from pg_copy_coder.c:6:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_copy_coder.c: In function ‘init_pg_copycoder’:
+pg_copy_coder.c:595:1: warning: old-style function definition [-Wold-style-definition]
+  595 | init_pg_copycoder()
+      | ^~~~~~~~~~~~~~~~~
+pg_copy_coder.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_errors.c
+In file included from pg.h:62,
+                 from pg_errors.c:6:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_errors.c: In function ‘init_pg_errors’:
+pg_errors.c:73:1: warning: old-style function definition [-Wold-style-definition]
+   73 | init_pg_errors()
+      | ^~~~~~~~~~~~~~
+pg_errors.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_record_coder.c
+In file included from pg.h:62,
+                 from pg_record_coder.c:6:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_record_coder.c: In function ‘init_pg_recordcoder’:
+pg_record_coder.c:497:1: warning: old-style function definition [-Wold-style-definition]
+  497 | init_pg_recordcoder()
+      | ^~~~~~~~~~~~~~~~~~~
+pg_record_coder.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_result.c
+In file included from pg.h:62,
+                 from pg_result.c:7:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_result.c: In function ‘init_pg_result’:
+pg_result.c:1620:1: warning: old-style function definition [-Wold-style-definition]
+ 1620 | init_pg_result()
+      | ^~~~~~~~~~~~~~
+pg_result.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_text_decoder.c
+In file included from pg.h:62,
+                 from pg_text_decoder.c:32:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_text_decoder.c: In function ‘init_pg_text_decoder’:
+pg_text_decoder.c:926:1: warning: old-style function definition [-Wold-style-definition]
+  926 | init_pg_text_decoder()
+      | ^~~~~~~~~~~~~~~~~~~~
+pg_text_decoder.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_text_encoder.c
+In file included from pg.h:62,
+                 from pg_text_encoder.c:43:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_text_encoder.c: In function ‘init_pg_text_encoder’:
+pg_text_encoder.c:778:1: warning: old-style function definition [-Wold-style-definition]
+  778 | init_pg_text_encoder()
+      | ^~~~~~~~~~~~~~~~~~~~
+pg_text_encoder.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_tuple.c
+In file included from pg.h:62,
+                 from pg_tuple.c:1:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_tuple.c: In function ‘init_pg_tuple’:
+pg_tuple.c:548:1: warning: old-style function definition [-Wold-style-definition]
+  548 | init_pg_tuple()
+      | ^~~~~~~~~~~~~
+pg_tuple.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_type_map.c
+In file included from pg.h:62,
+                 from pg_type_map.c:7:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_type_map.c: In function ‘init_pg_type_map’:
+pg_type_map.c:179:1: warning: old-style function definition [-Wold-style-definition]
+  179 | init_pg_type_map()
+      | ^~~~~~~~~~~~~~~~
+pg_type_map.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_type_map_all_strings.c
+In file included from pg.h:62,
+                 from pg_type_map_all_strings.c:9:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_type_map_all_strings.c: In function ‘init_pg_type_map_all_strings’:
+pg_type_map_all_strings.c:108:1: warning: old-style function definition [-Wold-style-definition]
+  108 | init_pg_type_map_all_strings()
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pg_type_map_all_strings.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_type_map_by_class.c
+In file included from pg.h:62,
+                 from pg_type_map_by_class.c:10:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_type_map_by_class.c: In function ‘init_pg_type_map_by_class’:
+pg_type_map_by_class.c:250:1: warning: old-style function definition [-Wold-style-definition]
+  250 | init_pg_type_map_by_class()
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~
+pg_type_map_by_class.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_type_map_by_column.c
+In file included from pg.h:62,
+                 from pg_type_map_by_column.c:7:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_type_map_by_column.c: In function ‘pg_tmbc_allocate’:
+pg_type_map_by_column.c:246:1: warning: old-style function definition [-Wold-style-definition]
+  246 | pg_tmbc_allocate()
+      | ^~~~~~~~~~~~~~~~
+pg_type_map_by_column.c: In function ‘init_pg_type_map_by_column’:
+pg_type_map_by_column.c:323:1: warning: old-style function definition [-Wold-style-definition]
+  323 | init_pg_type_map_by_column()
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~
+pg_type_map_by_column.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_type_map_by_mri_type.c
+In file included from pg.h:62,
+                 from pg_type_map_by_mri_type.c:10:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_type_map_by_mri_type.c: In function ‘init_pg_type_map_by_mri_type’:
+pg_type_map_by_mri_type.c:289:1: warning: old-style function definition [-Wold-style-definition]
+  289 | init_pg_type_map_by_mri_type()
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pg_type_map_by_mri_type.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_type_map_by_oid.c
+In file included from pg.h:62,
+                 from pg_type_map_by_oid.c:7:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_type_map_by_oid.c: In function ‘init_pg_type_map_by_oid’:
+pg_type_map_by_oid.c:359:1: warning: old-style function definition [-Wold-style-definition]
+  359 | init_pg_type_map_by_oid()
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+pg_type_map_by_oid.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_type_map_in_ruby.c
+In file included from pg.h:62,
+                 from pg_type_map_in_ruby.c:7:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+pg_type_map_in_ruby.c: In function ‘init_pg_type_map_in_ruby’:
+pg_type_map_in_ruby.c:302:1: warning: old-style function definition [-Wold-style-definition]
+  302 | init_pg_type_map_in_ruby()
+      | ^~~~~~~~~~~~~~~~~~~~~~~~
+pg_type_map_in_ruby.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling pg_util.c
+In file included from pg.h:62,
+                 from pg_util.c:7:
+/usr/include/postgresql/pg_config_manual.h:68:5: warning: "SIZEOF_VOID_P" is not defined, evaluates to 0 [-Wundef]
+   68 | #if SIZEOF_VOID_P >= 8
+      |     ^~~~~~~~~~~~~
+/usr/include/postgresql/pg_config_manual.h:151:5: warning: "HAVE_DECL_POSIX_FADVISE" is not defined, evaluates to 0 [-Wundef]
+  151 | #if HAVE_DECL_POSIX_FADVISE && defined(HAVE_POSIX_FADVISE)
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+linking shared-object pg_ext.so
+
+current directory: /home/enextus/projects/2happy_bot/vendor/bundle/ruby/3.2.0+1/gems/pg-1.3.5/ext
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 pg_ext.so ./.gem.20220505-103600-town47
+installing pg_ext libraries

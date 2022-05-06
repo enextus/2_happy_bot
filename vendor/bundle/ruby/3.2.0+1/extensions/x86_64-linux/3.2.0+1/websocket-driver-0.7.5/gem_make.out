@@ -1,0 +1,23 @@
+current directory: /home/enextus/projects/2happy_bot/vendor/bundle/ruby/3.2.0+1/gems/websocket-driver-0.7.5/ext/websocket-driver
+/home/enextus/.rbenv/versions/3.2.0-preview1/bin/ruby -I /home/enextus/.rbenv/versions/3.2.0-preview1/lib/ruby/site_ruby/3.2.0+1 -r ./siteconf20220505-103600-t74d19.rb extconf.rb
+creating Makefile
+
+current directory: /home/enextus/projects/2happy_bot/vendor/bundle/ruby/3.2.0+1/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /home/enextus/projects/2happy_bot/vendor/bundle/ruby/3.2.0+1/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+websocket_mask.c: In function ‘Init_websocket_mask’:
+websocket_mask.c:26:6: warning: old-style function definition [-Wold-style-definition]
+   26 | void Init_websocket_mask()
+      |      ^~~~~~~~~~~~~~~~~~~
+websocket_mask.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+linking shared-object websocket_mask.so
+
+current directory: /home/enextus/projects/2happy_bot/vendor/bundle/ruby/3.2.0+1/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20220505-103600-4675l4

@@ -24,7 +24,7 @@
       <excludeFolder url="file://$MODULE_DIR$/public/system" />
       <excludeFolder url="file://$MODULE_DIR$/components" />
     </content>
-    <orderEntry type="jdk" jdkName="rbenv: 3.2.0-preview1" jdkType="RUBY_SDK" />
+    <orderEntry type="jdk" jdkName="rbenv: 3.1.1" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="bcrypt-3.1.161" />
     <orderEntry type="module" module-name="concurrent-ruby-1.1.91" />
