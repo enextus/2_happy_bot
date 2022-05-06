@@ -26,7 +26,7 @@ gem 'freeze', '~> 0.1.0'
 gem 'i18n', '~> 1.6', '>= 1.6'
 
 # gem 'executable-hooks', '= 1.4.2'
-gem 'net-ssh', '~> 6.1'
+gem 'net-ssh', '7.0.0.beta1'
 gem 'nokogiri', '~> 1.12', '>= 1.12.3'
 
 # Use postgresql as the database for Active Record
