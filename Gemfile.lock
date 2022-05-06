@@ -220,7 +220,7 @@ GEM
       digest
       net-protocol
       timeout
-    net-ssh (6.1.0)
+    net-ssh (7.0.0.beta1)
     nio4r (2.5.8)
     nokogiri (1.13.5)
       mini_portile2 (~> 2.8.0)
@@ -400,7 +400,7 @@ DEPENDENCIES
   i18n (~> 1.6, >= 1.6)
   jekyll (~> 3.6)
   listen (~> 3.5, >= 3.5.1)
-  net-ssh (~> 6.1)
+  net-ssh (= 7.0.0.beta1)
   nokogiri (~> 1.12, >= 1.12.3)
   pg (~> 1.2, >= 1.2.3)
   popper_js (~> 2.9, >= 2.9.2)
@@ -431,4 +431,4 @@ DEPENDENCIES
   whenever-test (~> 1.0, >= 1.0.1)
 
 BUNDLED WITH
-   2.3.7
+   2.3.13
