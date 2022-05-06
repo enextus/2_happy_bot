@@ -38,7 +38,7 @@ gem 'puma', '~> 5.3', '>= 5.3.2'
 gem 'rails-ujs', '~> 0.1.0'
 
 # Use Redis adapter to run Action Cable in production
-gem 'redis', '~> 4.3', '>= 4.3.1'
+gem 'redis', '~> 4.6'
 gem 'rexml', '~> 3.2', '>= 3.2.5'
 gem 'rubygems-update', '~> 3.3', '>= 3.3.13'
 
