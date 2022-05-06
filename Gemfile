@@ -21,7 +21,7 @@ gem 'dotenv', '~> 2.7', '>= 2.7.1'
 gem 'dotenv-rails', groups: %i[development test]
 gem 'dry-inflector', '~> 0.2.1'
 gem 'faraday', '~> 1.5'
-gem 'ffi', '~> 1.9', '>= 1.9.10'
+gem 'ffi', '~> 1.15', '>= 1.15.5'
 gem 'freeze', '~> 0.1.0'
 gem 'i18n', '~> 1.6', '>= 1.6'
 
