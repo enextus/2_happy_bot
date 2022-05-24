@@ -27,7 +27,7 @@ gem 'i18n', '~> 1.6', '>= 1.6'
 
 # gem 'executable-hooks', '= 1.4.2'
 gem 'net-ssh', '7.0.0.beta1'
-gem 'nokogiri', '~> 1.12', '>= 1.12.3'
+gem 'nokogiri', '~> 1.13'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.2', '>= 1.2.3'
