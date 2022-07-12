@@ -4,11 +4,11 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
-gem 'rails', '7.0.2.3'
-gem 'actionpack', '~> 7.0', '>= 7.0.2.3'
-gem 'actionview', '~> 7.0', '>= 7.0.2.3'
-gem 'activerecord', '~> 7.0', '>= 7.0.2.3'
-gem 'activesupport', '~> 7.0', '>= 7.0.2.3'
+gem 'rails', '7.0.3.1'
+gem 'actionpack', '~> 7.0'
+gem 'actionview', '~> 7.0'
+gem 'activerecord', '~> 7.0'
+gem 'activesupport', '~> 7.0'
 
 gem 'airbrussh', '~> 1.4'
 gem 'autoprefixer-rails', '~> 10.2', '>= 10.2.5.1'
@@ -70,7 +70,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 3.35', '>= 3.35.3'
   gem 'pry', '~> 0.14.1'
-  gem 'rubocop-rails', '~> 2.10', '>= 2.10.1'
+  gem 'rubocop-rails', '~> 2.15'
 end
 
 group :development do
